@@ -1,0 +1,43 @@
+CodeSystem: RevisionIndication
+Title: "Revision; indication"
+Description: "Revision; indication"
+
+* ^status = #active
+* ^publisher = "RKKP"
+* ^date = "2022-10-07T00:00:00+02:00"
+* ^contact[0].telecom[0].system = #url
+* ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
+* ^content = #complete
+* ^caseSensitive = false
+
+* #aseptic_solution "Aseptisk løsning" "Aseptisk løsning"
+  * #glenoid "Glenoid" "Glenoid"
+  * #humerus "Humerus" "Humerus"
+  * #acetabulum "Acetabulum" "Acetabulum"
+  * #acetabulum_osteolysis "Acetabulum med osteolyse" "Acetabulum med osteolyse"
+  * #femur "Femur" "Femur"
+  * #femur_osteolysis "Femur med osteolyse" "Femur med osteolyse"
+  * #femur_acetabulum "Femur og acetabulum" "Femur og acetabulum"
+  * #femur_acetabulum_osteolysis "Femur og acetabulum med osteolyse" "Femur og acetabulum med osteolyse"
+* #osteolysis "Osteolyse" "Osteolyse"
+* #suspected_infection "Mistænkt eller manifest infektion" "Mistænkt eller manifest infektion"
+* #infection "Infection" "Infection / Infektion"
+* #instability "Instabilitet" "Instabilitet"
+* #dislocation "Luksation" "Luksation"
+* #rotator_cuff "Rotator cuff ruptur / insufficiens" "Rotator cuff ruptur / insufficiens"
+* #cavitas_erosion "Cavitas erosion" "Cavitas erosion"
+* #prosthetic_joint_fracture "Protesenær fraktur" "Protesenær fraktur"
+* #periprosthetic_fracture "Periprostetisk fraktur" "Periprostetisk fraktur"
+* #malplaced_component "Malplaceret komponent" "Malplaceret komponent"
+* #component_failure "Komponentsvigt" "Komponentsvigt"
+* #implant_failure "Implantat failure" "Implantat failure"
+* #pain "Pain" "Pain / Smerter"
+* #constrained_mobility "Indskrænket bevægelighed" "Indskrænket bevægelighed"
+* #arthrosis_progression "Athrosis progression" "Athrosis progression / Artrose progression"
+* #second_part_two_stage_revision "2. del af 2-stadie revision" "2. del af 2-stadie revision"
+* #secondary_insertion "Sekundær isættelse" "Sekundær isættelse"
+* #polyethylene_wear "Polyethylenslitage" "Polyethylenslitage"
+* #polyethylene_failure "Polyethylen-svigt" "Polyethylen-svigt"
+  * #polyethylene_failure_tibia "Polyethylen-svigt (tibia)" "Polyethylen-svigt (tibia)"
+  * #polyethylene_failure_patella "Polyethylen-svigt (patella)" "Polyethylen-svigt (patella)"
+* #femur_fracture "Femurfraktur" "Femurfraktur"

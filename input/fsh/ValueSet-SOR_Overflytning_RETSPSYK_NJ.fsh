@@ -1,0 +1,43 @@
+ValueSet: SOROverflytningRETSPSYKNJ
+Title: "SOR: Overflytning Nordjylland (RETSPSYK)"
+Description: "SOR: Overflytning Nordjylland (RETSPSYK)"
+
+* ^status = #active
+* ^experimental = true
+* ^publisher = "RKKP"
+* ^date = "2024-03-13T00:00:00+02:00"
+
+//Nordjylland
+* SOR#278121000016009  "PS Almenpsykiatrisk Afdeling, Nord"
+* SOR#983051000016003  "Brø Amb Midtv. Brøn. Psykose"
+* SOR#983041000016001  "Brø Amb Midtv. Hjør. Psykose"
+* SOR#698861000016003  "Brø Amb Midtv. Affektiv "
+* SOR#278291000016004  "PS Almenpsykiatrisk Afdeling, Syd"
+* SOR#278321000016007  "PS Almenpsykiatrisk, Syd Ambulatorier  "
+* SOR#278231000016000  "PS Retspsykiatrisk Sengeafsnit"
+* SOR#278221000016002  "PS Retspsykiatrisk Afdeling"
+* SOR#278191000016007  "PS Ældrepsykiatrisk Afdeling"
+* SOR#625211000016002  "Brø Amb Angst og Tvangssygdom "
+* SOR#456481000016000  "Brø Amb Personlighedspsykiatri"
+* SOR#576481000016005  "Brø Amb Psyk Udviklingshæmmede"
+* SOR#1060741000016000 "TM Psyk Amb Thy-Mors Bosted"
+* SOR#1060711000016001 "TM Psyk Amb Thy-Mors Psykose"
+* SOR#495051000016001  "Thy Psyk Amb Thy-Mors"
+* SOR#366121000016007  "Frh Psyk Amb Frederikshavn" 
+* SOR#1066921000016005 "Frh Psyk Amb Frederikshavn Psykose"
+* SOR#278131000016006  "PS Almenpsykiatrisk, Nord Sengeafsnit"
+* SOR#278211000016006  "PS Ældrepsykiatrisk Ambulatorier"
+* SOR#278201000016009  "PS Ældrepsykiatrisk Sengeafsnit"
+* SOR#366391000016008  "Alb Amb Angst og Tvangssygdom"
+* SOR#366381000016006  "Alb Amb Personlighedsforstyrrelser"
+* SOR#983011000016002  "Alb Amb Psykose Aalborg Centrum "
+* SOR#983021000016006  "Alb Amb Psykose Aalborg SydØst"
+* SOR#983031000016008  "Alb Amb Psykose Himmerland"
+* SOR#366411000016008  "Alb Amb Psykose specialafsnit"
+* SOR#438091000016005  "Alb Amb Unge med Skizofreni"
+* SOR#508591000016003  "Alb Amb for ADHD Voksne"
+* SOR#685871000016000  "Alb Amb for Bipolar Lidelse"
+* SOR#366431000016002  "Alb Amb for Depression"
+* SOR#983001000016004  "Alm Amb Psykose Aalborg Nord"
+* SOR#278301000016000  "PS Almenpsykiatrisk, Syd Sengeafsnit"
+//* SOR#884331000016001  "PMI Klinik for retspsykiatri - Viborg-Skive" fjernet 21-06-24 GW

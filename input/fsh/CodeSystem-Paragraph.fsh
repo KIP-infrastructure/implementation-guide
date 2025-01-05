@@ -1,0 +1,71 @@
+CodeSystem: Paragraph
+Title: "Paragraph"
+Description: "Paragraph"
+
+* ^status = #active
+* ^publisher = "RKKP"
+* ^date = "2022-09-28T00:00:00+02:00"
+* ^contact[0].telecom[0].system = #url
+* ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
+* ^content = #complete
+* ^caseSensitive = false
+
+//Enkelte paragrafer
+* #§16 "§16" "§16"
+* #§69 "§69" "§69"
+* #§73 "§73" "§73"
+
+* #§119 "Vold og lign. mod nogen i offentlig tjeneste § 119" "Vold og lign. mod nogen i offentlig tjeneste § 119"
+  * #§119_§21 "Vold og lign. mod nogen i offentlig tjeneste, forsøg § 119, jf. § 21" "Vold og lign. mod nogen i offentlig tjeneste, forsøg § 119, jf. § 21"
+* #§123 "Trusler, vidnetrusler §123" "Trusler, vidnetrusler §123"
+* #§180 "Brandstiftelse, kvalificeret § 180" "Brandstiftelse, kvalificeret § 180"
+  * #§180_§21 "Brandstiftelse, kvalificeret, forsøg § 180, jf. § 21" "Brandstiftelse, kvalificeret, forsøg § 180, jf. § 21"
+* #§181 "Brandstiftelse, forsætlig § 181" "Brandstiftelse, forsætlig § 181"
+  * #§181_§21 "Brandstiftelse, forsætlig, forsøg § 181, jf. § 21" "Brandstiftelse, forsætlig, forsøg § 181, jf. § 21"
+* #§191 "Narkotikakriminalitet § 191" "Narkotikakriminalitet § 191"
+  * #§191_§21 "Narkotikakriminalitet, forsøg § 191, jf. § 21" "Narkotikakriminalitet, forsøg § 191, jf. § 21"
+* #§216 "Voldtægt § 216" "Voldtægt § 216"
+  * #§216_§21 "Voldtægt, forsøg § 216, jf. § 21" "Voldtægt, forsøg § 216, jf. § 21"
+* #§244 "Vold § 244" "Vold § 244"
+  * #§244_§21 "Vold, forsøg § 244, jf. § 21" "Vold, forsøg § 244, jf. § 21"
+* #§245 "Kvalificeret vold m/skade på legeme eller helbred § 245" "Kvalificeret vold m/skade på legeme eller helbred § 245"
+  * #§245_§21 "Kvalificeret vold m/skade på legeme eller helbred, forsøg § 245, jf. § 21" "Kvalificeret vold m/skade på legeme eller helbred, forsøg § 245, jf. § 21"
+* #§246 "Kvalificeret vold m/grov skade § 246" "Kvalificeret vold m/grov skade § 246"
+  * #§246_§21 "Kvalificeret vold m/grov skade, forsøg § 246, jf. § 21" "Kvalificeret vold m/grov skade, forsøg § 246, jf. § 21"
+* #§276 "Tyveri § 276" "Tyveri § 276"
+  * #§276_§21 "Tyveri, forsøg § 276, jf. § 21" "Tyveri, forsøg § 276, jf. § 21"
+* #§288 "Røveri §288" "Røveri §288"
+  * #§288_1 "Røveri § 288, stk. 1" "Røveri § 288, stk. 1"
+    * #§288_1_§21 "Røveri, forsøg § 288, stk. 1, jf. § 21" "Røveri, forsøg § 288, stk. 1, jf. § 21"
+  * #§288_2 "Røveri, særligt farligt, § 288, stk. 2" "Røveri, særligt farligt, § 288, stk. 2"
+    * #§288_2_§21 "Røveri, særligt farligt, forsøg § 288, stk. 2, jf. § 21" "Røveri, særligt farligt, forsøg § 288, stk. 2, jf. § 21"
+* #§291 "Hærværk § 291" "Hærværk § 291"
+  * #§291_§21 "Hærværk, forsøg § 291, jf. § 21" "Hærværk, forsøg § 291, jf. § 21"
+
+// Flere paragrafer
+* #§§210-236 "Anden sædelighed §§ 210-236 (- § 216)" "Anden sædelighed §§ 210-236 (- § 216)"
+  * #§§210-236_§21 "Anden sædelighed, forsøg §§ 210-236 (- § 216), jf. § 21" "Anden sædelighed, forsøg §§ 210-236 (- § 216), jf. § 21"
+* #§§237-241 "Manddrab §§ 237-241" "Manddrab §§ 237-241"
+  * #§§237-241_§21 "Manddrab, forsøg §§ 237-241, jf. § 21" "Manddrab, forsøg §§ 237-241, jf. § 21"
+* #§§249-255 "Anden personfarlig kriminalitet § 249-255" "Anden personfarlig kriminalitet § 249-255"
+  * #§§249-255_§21 "Anden personfarlig kriminalitet, forsøg § 249-255, jf. § 21" "Anden personfarlig kriminalitet, forsøg § 249-255, jf. § 21"
+* #§§260-262 "Ulovlig tvang §§ 260-262" "Ulovlig tvang §§ 260-262"
+  * #§§260-262_attempt "Ulovlig tvang, forsøg §§ 260-262" "Ulovlig tvang, forsøg §§ 260-262"
+* #§§265-266 "Trusler § 265-266" "Trusler § 265-266"
+  * #§§265-266_attempt "Trusler, forsøg § 265-266" "Trusler, forsøg § 265-266"
+* #§§278-280 "Bedrageri mv. §§ 278-280" "Bedrageri mv. §§ 278-280"
+  * #§§278-280_§21 "Bedrageri mv., forsøg §§ 278-280, jf. § 21" "Bedrageri mv., forsøg §§ 278-280, jf. § 21"
+
+// Øvrige paragrafer
+* #narcotics "Lov om euforiserende stoffer" "Lov om euforiserende stoffer"
+  * #narcotics_attempt "Lov om euforiserende stoffer, forsøg" "Lov om euforiserende stoffer, forsøg"
+* #criminal_law_other "Straffeloven, øvrige" "Straffeloven, øvrige"
+  * #criminal_law_other_attempt "Straffeloven, øvrige, forsøg" "Straffeloven, øvrige, forsøg"
+* #weapons_decree "Våbenbekendtgørelsen" "Våbenbekendtgørelsen"
+  * #weapons_decree_attempt "Våbenbekendtgørelsen, forsøg" "Våbenbekendtgørelsen, forsøg"
+* #traffic_law "Færdselsloven" "Færdselsloven"
+  * #traffic_law_attempt "Færdselsloven, forsøg" "Færdselsloven, forsøg"
+* #special_law "Særloven, øvrige" "Særloven, øvrige"
+  * #special_law_attempt "Særloven, øvrige, forsøg" "Særloven, øvrige, forsøg"
+* #pardon_petition "Benådningsandragende" "Benådningsandragende"
+* #asylum_seeker "Asylansøger" "Asylansøger"

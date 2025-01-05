@@ -1,0 +1,31 @@
+ValueSet: TreatmentScheduledDAMYDA
+Title: "Planlagt behandling (DAMYDA)"
+Description: "Planlagt behandling (DAMYDA)"
+
+* ^status = #active
+* ^experimental = true
+* ^publisher = "RKKP"
+* ^date = "2022-07-08T00:00:00+02:00"
+
+* ATC#L01AA01 "Cyklophosphamid"
+* ATC#L01AA03 "Melfalan"
+* ATC#L01AA09 "Bendamustin"
+* ATC#L01DB01 "Adriamycin (Doxorubicin)"
+* SKS#BWG "Strålebehandling"
+* ATC#M05BA08 "Zolendronat (Zoledronsyre)"
+* ATC#M05BA03 "Pamidronat (Pamidronsyre)"
+* ATC#M05BX04 "Denosumab"
+* SKS#BWHA309 "Højdosis melfalan med stamcellestøtte"
+* SKS#BOQF1 "Allogen KMT"
+* ATC#L01FX08 "Elotuzumab"
+* ATC#L01FC01 "Daratumumab"
+* ATC#L01FC02 "Isatuximab"
+* ATC#L01XH03 "Panobinostat"
+* ATC#L04AX02 "Thalidomid"
+* ATC#L04AX04 "Lenalidomid"
+* ATC#L04AX06 "Pomalidomid"
+* ATC#L01XG01 "Bortezomib"
+* ATC#L01XG02 "Carfilzomib"
+* ATC#L01XG03 "Ixazomib"
+* ATC#H02 "Steroid (kun steroid, givet som palliation)"
+* GenericValues#other "Øvrig"

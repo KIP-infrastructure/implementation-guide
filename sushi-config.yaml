@@ -1,0 +1,45 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/docs/sushi/                                  │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: dk.kip.sundk.fhir.ig.core
+canonical: https://kip.sundk.dk/fhir
+name: KIP Infracstructure
+title: KIP Infracstructure
+description: "The Danish Sundhedsvæsnets Kvalistetsinstitut defines a set of FHIR CodeSystems and ValueSets used for data collection."
+status: active
+version: 2.8.0
+fhirVersion: 4.0.1
+copyrightYear: 2022+
+releaseLabel: ci-build
+publisher:
+  name: Sundhedsvæsnets Kvalistetsinstitut with Trifork Public A/S
+  url: https://trifork.com
+  email: rbk@trifork.com
+dependencies:
+  hl7.fhir.dk.core: 2.0.0
+
+parameters:
+  path-resource:
+    - fsh-generated/resources
+
+  path-pages:
+    - input/includes
+    
+  show-inherited-invariants: false
+  usage-stats-opt-out: true
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Table of Contents: toc.html
+  Artifacts: 
+    Search Parameters: artifacts.html#1
+    Extension Definitions: artifacts.html#2
+    Value Sets: artifacts.html#3
+    Code Systems: artifacts.html#4
+  Support:
+    FHIR Spec: http://hl7.org/fhir/R4/index.html
+    Downloads: downloads.html

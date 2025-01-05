@@ -1,0 +1,11 @@
+{
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "files.eol": "\n",
+  "cSpell.words": [
+    "fjogeleit",
+    "transpiles"
+  ]
+}

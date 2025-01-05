@@ -1,0 +1,12 @@
+build/
+output/
+fsh-generated/
+*.fsh
+
+docker-compose.yaml
+Dockerfile
+.gitignore
+.gitkeep
+
+package.json
+README.md
