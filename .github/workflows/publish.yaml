@@ -85,7 +85,9 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: "$repo_website,$repo_registry"
+          repositories: |
+            $repo_website
+            $repo_registry
 
       - name: web repo
         uses: actions/checkout@v4
