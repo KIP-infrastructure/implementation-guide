@@ -1,24 +1,26 @@
 {
- "name": "rkkp-fhir-ig",
- "version" : "0.1.0",  
- "canonical" : "https://github.com/trifork/FHIR-Questions",
- "url" : "https://github.com/trifork/FHIR-Questions",
- "title" : "RKKP FHIR Implementation Guide",
- "description": "RRKP FHIR Implementation Guide.",
- "dependencies": {
+  "name": "kip-sundk-fhir-ig",
+  "version": "0.1.0",
+  "canonical": "https://github.com/KIP-infrastructure/implementation-guide",
+  "url": "https://github.com/KIP-infrastructure/implementation-guide",
+  "title": "Sundhedsvæsnets Kvalitetsinstituts FHIR Implementation Guide",
+  "description": "Sundhedsvæsnets Kvalitetsinstituts FHIR Implementation Guide.",
+  "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.dk.core": "1.1.0"
- },
- "keywords": [
-   "RKKP"
- ],
- "language": "en",
- "author": "RKKP",
- "maintainers": [
-   {
-     "name": "RKKP and Trifork",
-     "email": "rbk@trifork.com"
-   }
- ],
- "license": "CC0-1.0"
+  },
+  "keywords": [
+    "SundK",
+    "Sundhedsvæsnets Kvalitetsinstitut",
+    "KIP"
+  ],
+  "language": "en",
+  "author": "Sundhedsvæsnets Kvalitetsinstitut",
+  "maintainers": [
+    {
+      "name": "Sundhedsvæsnets Kvalitetsinstituts and Trifork",
+      "email": "rbk@trifork.com"
+    }
+  ],
+  "license": "CC0-1.0"
 }
