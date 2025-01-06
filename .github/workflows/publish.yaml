@@ -14,7 +14,7 @@ env:
   ig_cmd: java -Xmx4g -jar /input-cache/publisher.jar
   repo_template: fhir-ig-history-template
   repo_registry: ig-registry
-  repo_website: kip-ig-website
+  repo_website: KIP-ig-website
   repo_owner: ${{ github.repository_owner }}
 
 
@@ -86,8 +86,8 @@ jobs:
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: |
-            $repo_website
-            $repo_registry
+            ${{ env.repo_website }}
+            ${{ env.repo_registry }}
 
       - name: web repo
         uses: actions/checkout@v4
