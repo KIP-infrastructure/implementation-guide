@@ -2,7 +2,7 @@
   "package-id": "dk.kip.sundk.fhir.ig.core",
   "version": "2.8.0",
   "path": "https://kip.sundk.dk/fhir/2.8.0",
-  "status": "release",
+  "status": "draft",
   "sequence": "Releases",
   "mode": "milestone",
   "title": "KIP Infrastructure",
@@ -10,6 +10,6 @@
   "introduction": "A FHIR Implementation Guide for KIP Infrastructure",
   "desc": "KIP Infrastructure version 2.8.0",
   "descmd": "@release-notes.md",
-  "first": true,
+  "first": false,
   "ci-build": "https://build.fhir.org/ig/kip-infrastructure/implementation-guide/"
 }
