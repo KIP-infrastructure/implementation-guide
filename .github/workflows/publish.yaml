@@ -75,8 +75,8 @@ jobs:
           echo -n "\n\n======================== publication-request.json ========================\n"
           cat ig/publication-request.json
       
-      # - name: ig transpile
-      #   run: $ig_cmd -ig ig/
+      - name: ig transpile
+        run: $ig_cmd -ig ig/
 
       - name: Generate app token
         id: token
@@ -90,21 +90,21 @@ jobs:
       - name: web repo
         uses: actions/checkout@v4
         with:
-          repository: $repo_owner/$repo_website
+          repository: ${{ env.repo_owner }}/${{ env.repo_website }}
           token: ${{ steps.token.outputs.token }}
           path: web
 
       - name: registry repo
         uses: actions/checkout@v4
         with:
-          repository: $repo_owner/$repo_registry
+          repository: ${{ env.repo_owner }}/${{ env.repo_registry }}
           token: ${{ steps.token.outputs.token }}
           path: registry
 
       - name: history repo
         uses: actions/checkout@v4
         with:
-          repository: $repo_owner/$repo_template
+          repository: ${{ env.repo_owner }}/${{ env.repo_template }}
           path: history
 
       # https://confluence.hl7.org/display/FHIR/HL7+Process+for+Publishing+a+FHIR+IG
@@ -138,7 +138,7 @@ jobs:
           github_token: ${{ steps.token.outputs.token }}
           author_name: ig-publisher[bot]
           author_email: ig-publisher[bot]@users.noreply.github.com
-          repository: $repo_owner/$repo_website
+          repository: ${{ env.repo_owner }}/${{ env.repo_website }}
           directory: web
 
       - name: commit publication to registry
@@ -147,6 +147,6 @@ jobs:
           github_token: ${{ steps.token.outputs.token }}
           author_name: ig-publisher[bot]
           author_email: ig-publisher[bot]@users.noreply.github.com
-          repository: $repo_owner/$repo_registry
+          repository: ${{ env.repo_owner }}/${{ env.repo_registry }}
           branch: main
           directory: registry
