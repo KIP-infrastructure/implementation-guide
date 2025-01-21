@@ -34,22 +34,6 @@ jobs:
       - name: ig transpile
         run: $ig_cmd -ig .
 
-      - uses: wow-actions/add-badges@v1
-        env:
-          repo_url: ${{ github.event.repository.html_url }}
-          repo_name: ${{ github.event.repository.name }}
-          repo_owner: ${{ github.event.repository.owner.login }}
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          badges: |
-            [
-              {
-                "badge": "https://img.shields.io/github/workflow/status/${{ env.repo_owner }}/${{ env.repo_name }}/Release/master?logo=github&style=flat-square",
-                "alt": "build",
-                "link": "${{ env.repo_url }}/actions/workflows/publish.yml"
-              }
-            ]
-
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
     name: Transpile and publish to the IG release
@@ -168,19 +152,3 @@ jobs:
           repository: $repo_owner/$repo_registry
           branch: main
           directory: registry
-
-      - uses: wow-actions/add-badges@v1
-        env:
-          repo_url: ${{ github.event.repository.html_url }}
-          repo_name: ${{ github.event.repository.name }}
-          repo_owner: ${{ github.event.repository.owner.login }}
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          badges: |
-            [
-              {
-                "badge": "https://img.shields.io/github/workflow/status/${{ env.repo_owner }}/${{ env.repo_name }}/Release/master?logo=github&style=flat-square",
-                "alt": "build",
-                "link": "${{ env.repo_url }}/actions/workflows/publish.yml"
-              }
-            ]
