@@ -39,7 +39,7 @@ RUN mkdir ./temp/pages/.jekyll-cache -p
 
 # Make it skip installation process, because it's always the same
 FROM build AS worker
-ARG FSH_SUSHI_VERSION=3.11.0
+ARG FSH_SUSHI_VERSION=3.14.0
 
 # add the sushi tool
 RUN npm install -g fsh-sushi@${FSH_SUSHI_VERSION}
