@@ -1,5 +1,8 @@
 # RKKP FHIR Implementation Guide
 
+<!-- [START BADGES] -->
+<!-- [END BADGES] -->
+
 ## Create a new release
 
 1. Run `sushi` locally to ensure the build is successful
