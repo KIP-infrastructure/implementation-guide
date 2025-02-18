@@ -1,6 +1,6 @@
 {
   "name": "kip-sundk-fhir-ig",
-  "version": "2.8.2",
+  "version": "2.8.2-rc0",
   "canonical": "https://github.com/KIP-infrastructure/implementation-guide",
   "url": "https://github.com/KIP-infrastructure/implementation-guide",
   "title": "Sundhedsvæsnets Kvalitetsinstituts FHIR Implementation Guide",
