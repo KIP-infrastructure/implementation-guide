@@ -8,7 +8,7 @@ Description: "ATC koder DMPN behandling. Valueset erstatter tidligere fra okt. 2
 * ^date = "2024-10-02T00:00:00+02:00"
 
 * ATC#B01AC06 "Acetylsalicylsyre (ASA)"
-* TreatmentUnspecified#incision_vein "Venesection"
+* TreatmentUnspecified#incision_vein "Venesectio"
 * ATC#L01XX35 "Anagrelid"
 * ATC#L01AB01 "Busulfan (Myleran)"
 * ATC#L01XX05 "Hydroxcarbamid"
