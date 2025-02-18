@@ -15,6 +15,7 @@ env:
   repo_template: fhir-ig-history-template
   repo_registry: ig-registry
   repo_website: kip-ig-website
+  repo_ig: implementation-guide
   repo_owner: ${{ github.repository_owner }}
 
 
@@ -87,7 +88,7 @@ jobs:
           owner: ${{ github.repository_owner }}
           repositories: |
             ${{ env.repo_website }}
-            ${{ env.repo_registry }}
+            ${{ env.repo_ig }}
 
       - name: web repo
         uses: actions/checkout@v4
