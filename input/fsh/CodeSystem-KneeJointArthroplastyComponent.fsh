@@ -4,7 +4,7 @@ Description: "Knee joint arthroplasty - components"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-10-17T00:00:00+02:00"
+* ^date = "2025-03-04T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -118,6 +118,8 @@ Description: "Knee joint arthroplasty - components"
 * #persona_mc "Zimmer Biomet: Persona MC" "Zimmer Biomet: Persona MC (Tibia)"
 * #persona_ps "Zimmer Biomet: Persona PS" "Zimmer Biomet: Persona PS (Femur + Tibia)"
 * #persona_uc "Zimmer Biomet: Persona UC" "Zimmer Biomet: Persona UC (Tibia)"
+* #persona_ppk "Zimmer Biomet: Persona Partial Knee" "Zimmer Biomet: Persona Partial Knee"  //Tilføjet d.25.03.04
+
 // PFC Sigma
 * #pfc_sigma_offset_tibial_tray "PFC Sigma Offset Tibial Tray" "PFC Sigma Offset Tibial Tray (Tibia)"
 // Physica
