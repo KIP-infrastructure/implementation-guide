@@ -2,13 +2,13 @@
 # │  The properties below are used to create the ImplementationGuide resource. For a list of       │
 # │  supported properties, see: https://fshschool.org/docs/sushi/                                  │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: dk.kip.sundk.fhir.ig.core
+id: dk.kip.rkkp.fhir.ig.core
 canonical: https://kip.rkkp.dk/fhir
 name: KIP Infracstructure
 title: KIP Infracstructure
 description: "The Danish Sundhedsvæsnets Kvalistetsinstitut defines a set of FHIR CodeSystems and ValueSets used for data collection."
 status: active
-version: 0.1.4
+version: 0.1.5
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
