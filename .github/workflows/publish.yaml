@@ -12,6 +12,7 @@ on:
 env:
   APP_AUTHOR_NAME: "KIP-ig-publisher[bot]"
   APP_AUTHOR_EMAIL: "kip-ig-publisher[bot]@users.noreply.github.com"
+  IG_REPO: implementation-guide
   REGISTRY_REPO: ig-registry
   WEB_REPO: kip-ig-website
   WEB_APP_LOCATION: "web/"
@@ -79,7 +80,7 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
+          repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }},${{ env.IG_REPO }}
 
       - name: Publish the implementation guide
         uses: trifork/ig-publisher/.github/actions/ig-publish@v1
