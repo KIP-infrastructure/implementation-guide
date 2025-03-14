@@ -4,8 +4,8 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: dk.kip.sundk.fhir.ig.core
 canonical: https://kip.rkkp.dk/fhir
-name: KIP Infracstructure
-title: KIP Infracstructure
+name: KIP Infrastructure
+title: KIP Infrastructure
 description: "The Danish Sundhedsvæsnets Kvalistetsinstitut defines a set of FHIR CodeSystems and ValueSets used for data collection."
 status: active
 version: 2.8.2
