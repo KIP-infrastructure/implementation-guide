@@ -33,7 +33,7 @@ Description: "Sygdomsområder i KIP"
 * #hofter "HOFTER" "Dansk Tværfagligt Register for Hoftenære Lårbensbrud"
 * #kar "KAR" "Landsregistret Karbase"
 * #lyfo "LYFO" "Dansk Lymfom Database"
-* #mds "MDS" "Myelodysplastisk Syndrom Database"
+* #mds "MDS" "Myelodysplastisk Neoplasi Database"
 * #retspsyk "RETSPSYK" "Dansk Retspsykiatrisk Database"
 
 // Amgros
