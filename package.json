@@ -1,5 +1,5 @@
 {
-  "name": "kip-sundk-fhir-ig",
+  "name": "kip-rkkp-fhir-ig",
   "version": "2.8.2-rc0",
   "canonical": "https://github.com/KIP-infrastructure/implementation-guide",
   "url": "https://github.com/KIP-infrastructure/implementation-guide",
@@ -12,7 +12,8 @@
   "keywords": [
     "SundK",
     "Sundhedsvæsnets Kvalitetsinstitut",
-    "KIP"
+    "KIP",
+    "RKKP"
   ],
   "language": "en",
   "author": "Sundhedsvæsnets Kvalitetsinstitut",

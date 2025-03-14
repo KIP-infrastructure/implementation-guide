@@ -4,7 +4,7 @@ Description: "Alloplasty operation types"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-07-04T00:00:00+02:00"
+* ^date = "2025-03-04T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -28,5 +28,6 @@ Description: "Alloplasty operation types"
 * #partial_resurfacing "Partiel resurfacing" "Partiel resurfacing"
 * #cement_spacer_articulated "Cementspacer, artikuleret" "Cementspacer, artikuleret"
 * #cement_spacer_fixated "Cementspacer, fikseret" "Cementspacer, fikseret"
+* #spacer_insertion "Fjernelse af komponent og isættelse af spacer" "Fjernelse af komponent og isættelse af spacer"   //Tilføjet d.25.03.04
 * #artrodesis "Artrodese" "Artrodese"
 * #femoral_amputation "Femuramputation" "Femuramputation"

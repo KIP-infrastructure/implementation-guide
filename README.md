@@ -7,7 +7,7 @@
 
 1. Run `sushi` locally to ensure the build is successful
 1. Bump the `version` field in `sushi-config.yaml`
-1. Create a tag using git e.g. `IG_X.Y.Z` and push or go to [Github](https://github.com/trifork/FHIR-Questions/actions/workflows/fhirImplementationGuide-CI.yml) and run the workflow manually with tag `IG_X.Y.Z`
+1. Create a tag using git `git tag -a X.Y.Z -m "Update something"` and push with `git push --tags`.
 1. When the release has been created [check here](https://github.com/trifork/FHIR-Questions/releases) you are ready to deploy the new IG
 1. Go to [netic flux](https://github.com/neticdk-k8s/rkkp-indberetning-flux/tree/main/deploy) and update the `implementationGuide.yaml` file with the new version in the environments you wish the new version to become available.
 1. Do the same in [trifork flux](https://github.com/trifork/rkkp-indberetning-flux/tree/main/dev)

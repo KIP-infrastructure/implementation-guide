@@ -10,14 +10,12 @@ on:
     branches: [ main ]
 
 env:
-  # https://confluence.hl7.org/display/FHIR/IG+Publisher+CLI
-  ig_cmd: java -Xmx4g -jar /input-cache/publisher.jar
-  repo_template: fhir-ig-history-template
-  repo_registry: ig-registry
-  repo_website: kip-ig-website
-  repo_ig: implementation-guide
-  repo_owner: ${{ github.repository_owner }}
-
+  APP_AUTHOR_NAME: "KIP-ig-publisher[bot]"
+  APP_AUTHOR_EMAIL: "kip-ig-publisher[bot]@users.noreply.github.com"
+  IG_REPO: implementation-guide
+  REGISTRY_REPO: ig-registry
+  WEB_REPO: kip-ig-website
+  WEB_APP_LOCATION: "web/"
 
 jobs:
   # Check if the IG transpiles without errors
@@ -25,15 +23,14 @@ jobs:
     name: Transpile IG
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/trifork/ig-publisher:latest
+    container: ghcr.io/trifork/ig-publisher:latest
+
     steps:
       # Checkout the repos needed
       - uses: actions/checkout@v4
 
-        # https://confluence.hl7.org/display/FHIR/IG+Publisher+CLI
-      - name: ig transpile
-        run: $ig_cmd -ig .
+      - name: IG transpile check
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@v1
 
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
@@ -41,8 +38,8 @@ jobs:
     # A release is defined as a tag pushed to main
     if: ${{ github.event_name == 'push' && github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/trifork/ig-publisher:latest
+    container: ghcr.io/trifork/ig-publisher:latest
+
     steps:
       # Checkout the repos needed
       - uses: actions/checkout@v4
@@ -75,9 +72,6 @@ jobs:
           cat ig/sushi-config.yaml
           echo -n "\n\n======================== publication-request.json ========================\n"
           cat ig/publication-request.json
-      
-      - name: ig transpile
-        run: $ig_cmd -ig ig/
 
       - name: Generate app token
         id: token
@@ -86,70 +80,16 @@ jobs:
           app-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: |
-            ${{ env.repo_website }}
-            ${{ env.repo_ig }}
+          repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
+          # ,${{ env.IG_REPO }}
 
-      - name: web repo
-        uses: actions/checkout@v4
+      - name: Publish the implementation guide
+        uses: trifork/ig-publisher/.github/actions/ig-publish@v1
+        # uses: ../../trifork/ig-publisher/.github/actions/ig-publish # Test local action
         with:
-          repository: $repo_owner/$repo_website
-          token: ${{ steps.token.outputs.token }}
-          path: web
-
-      - name: registry repo
-        uses: actions/checkout@v4
-        with:
-          repository: $repo_owner/$repo_registry
-          token: ${{ steps.token.outputs.token }}
-          path: registry
-
-      - name: history repo
-        uses: actions/checkout@v4
-        with:
-          repository: $repo_owner/$repo_template
-          path: history
-
-      # https://confluence.hl7.org/display/FHIR/HL7+Process+for+Publishing+a+FHIR+IG
-      # https://confluence.hl7.org/pages/viewpage.action?pageId=81027536#MaintainingaFHIRIGPublication-CanonicalURLs
-      - name: ig publish
-        run: >-
-          $ig_cmd -go-publish
-          -source ig/ -web web/ -registry registry/fhir-ig-list.json -history history/ -templates web/templates
-
-      - name: remove large unnecessary files
-        run: |
-          rm -rf web/ig-build-zips/*.zip
-          rm -rf web/fhir/full-ig.zip
-          rm -rf web/fhir/*/full-ig.zip
-      
-      - name: configure publication registry
-        run: |
-          export PROJECT_DESC=$(yq -r .description ig/sushi-config.yaml)
-          export PROJECT_AUTHORITY=$(yq -r .publisher.name ig/sushi-config.yaml)
-          echo $PROJECT_DESC
-          echo $PROJECT_AUTHORITY
-          echo "$(jq '
-            .guides[-1].description = env.PROJECT_DESC |
-            .guides[-1].authority = env.PROJECT_AUTHORITY |
-            .guides[-1].country = "dk"
-          ' registry/fhir-ig-list.json)" > registry/fhir-ig-list.json
-
-      - name: commit web publication
-        uses: actions-js/push@v1.5
-        with:
-          github_token: ${{ steps.token.outputs.token }}
-          author_name: ig-publisher[bot]
-          author_email: ig-publisher[bot]@users.noreply.github.com
-          repository: $repo_owner/$repo_website
-          directory: web
-
-      - name: commit publication to registry
-        uses: actions-js/push@v1.5
-        with:
-          github_token: ${{ steps.token.outputs.token }}
-          author_name: ig-publisher[bot]
-          author_email: ig-publisher[bot]@users.noreply.github.com
-          repository: $repo_owner/$repo_registry
-          branch: main
-          directory: registry
+          app-token: ${{ steps.token.outputs.token }}
+          app-author-name: ${{ env.APP_AUTHOR_NAME }}
+          app-author-email: ${{ env.APP_AUTHOR_EMAIL }}
+          registry-repo: ${{ github.repository_owner }}/${{ env.REGISTRY_REPO }}
+          web-repo: ${{ github.repository_owner }}/${{ env.WEB_REPO }}
+          web-source: ${{ env.WEB_APP_LOCATION }}

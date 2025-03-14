@@ -4,7 +4,7 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-09-19T00:00:00+02:00"
+* ^date = "2025-03-04T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -86,6 +86,7 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 * #stryker_crossscrew_ha/plla "Stryker Crossscrew (HA/PLLA)" "Stryker Crossscrew (HA/PLLA) [Femur + Tibia]"
 * #stryker_crossscrew_titanium "Stryker Crossscrew (Titanium)" "Stryker Crossscrew (Titanium) [Femur + Tibia]"
 * #stryker_plla "Stryker PLLA skrue" "Stryker PLLA skrue [Femur + Tibia]"
+* #stryker_procinch "Stryker ProCinch" "Stryker ProCinch [Femur]"   // Tilføjet d.25.03.04
 * #stryker_titanium "Stryker titanium skrue" "Stryker titanium skrue [Femur + Tibia]"
 * #stryker_versitomic_g-lok "Stryker VersiTomic G-lok" "Stryker VersiTomic G-lok [Femur]"
 //Other

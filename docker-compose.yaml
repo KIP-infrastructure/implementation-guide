@@ -22,7 +22,6 @@ services:
   ig-nginx:
     container_name: "site"
     image: nginx:1.27.3-alpine
-    # image: ghcr.io/trifork/fhir-questions.fhir-ig:IG2.0.5
     restart: unless-stopped
     volumes:
       - ig-output:/usr/share/nginx/html:rw
