@@ -13,9 +13,6 @@ services:
       - ./package.json:/src/package.json:ro
     networks:
       - fhir
-    command: >
-        bash -c "
-        ./_genonce.sh"
     environment:
       - TZ=Europe/Copenhagen
 

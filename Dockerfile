@@ -59,4 +59,4 @@ COPY ./nginx/security-headers.conf /etc/nginx/security-headers.conf
 RUN chmod u+x ./_downloadPublisher.sh ./_genonce.sh
 
 # Update the publisher to the newest version, so it is ready to run on command
-CMD ["./_downloadPublisher.sh"]
+ENTRYPOINT ["./_genonce.sh"]
