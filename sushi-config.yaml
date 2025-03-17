@@ -6,7 +6,7 @@ id: dk.kip.rkkp.fhir.ig.core
 canonical: https://kip.rkkp.dk/fhir
 name: KIP Infrastructure
 title: KIP Infrastructure
-description: "The Danish Sundhedsvæsenets Kvalitetsinstitutg d defines a set of FHIR CodeSystems and ValueSets used for data collection."
+description: "The Danish Sundhedsvæsenets Kvalitetsinstitut defines a set of FHIR CodeSystems and ValueSets used for data collection."
 status: active
 version: 2.9.2
 fhirVersion: 4.0.1
