@@ -12,6 +12,7 @@
 1. Go to [netic flux](https://github.com/neticdk-k8s/rkkp-indberetning-flux/tree/main/deploy) and update the `implementationGuide.yaml` file with the new version in the environments you wish the new version to become available.
 1. Do the same in [trifork flux](https://github.com/trifork/rkkp-indberetning-flux/tree/main/dev)
 1. When the new version has been deployed to the environments, you'll need to update HAPI to use the new version. This is done by creating a POST request to HAPI in the relevant environments:
+    
    * `dev`: <https://rkkp-hapi.tcs.trifork.dev/update-ig>
    * `test`: <https://rkkp-hapi.test.tcs.trifork.cloud/update-ig>
    * `prod`: <https://rkkp-internal-prod.tcs.trifork.cloud/hapi/update-ig>
@@ -89,3 +90,7 @@ docker compose run --rm ig-server ./_updatePublisher.sh
 To use it, `FSH-Sushi` must be installed: `npm install -g fsh-sushi`.
 
 To run it, step into this directory, and run `sushi`.
+
+
+### CI builds
+   * See https://build.fhir.org/ig/kip-infrastructure
