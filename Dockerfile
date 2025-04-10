@@ -47,7 +47,13 @@ RUN npm install -g fsh-sushi@${FSH_SUSHI_VERSION}
 EXPOSE 8080 8087
 
 # Copy all allowed content to the root directory
-COPY . .
+COPY --link ["input-cache", "input-cache"]
+COPY --link ["ig.ini", "ig.ini"]
+COPY --link ["package.json", "package.json"]
+COPY --link ["publication-request.json", "publication-request.json"]
+COPY --link ["_downloadPublisher.sh", "_downloadPublisher.sh"]
+COPY --link ["_genonce.sh", "_genonce.sh"]
+COPY --link ["sushi-config.yaml", "sushi-config.yaml"]
 
 # Create a template to overrider variables in
 COPY ./nginx/nginx-template.conf /etc/nginx/conf.d/default.conf
