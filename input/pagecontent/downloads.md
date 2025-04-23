@@ -1,12 +1,10 @@
 ### Downloads
 
-Download the IG and other content
-
-Possible TODO: Incorporate an archival system so we can provide older versions at some point
+Download the Implementation Guide and other content.
 
 #### Full IG Download
 
-[Full IG](full-ig.zip)
+[Full IG](package.tgz)
 
 #### Definitions
 
