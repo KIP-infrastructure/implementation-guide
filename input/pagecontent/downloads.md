@@ -4,7 +4,8 @@ Download the Implementation Guide and other content.
 
 #### Full IG Download
 
-[Full IG](package.tgz)
+* [Full IG](package.tgz)
+* [History](/history.html)
 
 #### Definitions
 
