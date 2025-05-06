@@ -39,12 +39,18 @@ RUN mkdir ./temp/pages/.jekyll-cache -p
 
 # Make it skip installation process, because it's always the same
 FROM build AS worker
-ARG FSH_SUSHI_VERSION=3.14.0
+ARG FSH_SUSHI_VERSION
 
 # add the sushi tool
 RUN npm install -g fsh-sushi@${FSH_SUSHI_VERSION}
 
 EXPOSE 8080 8087
+
+# Create a template to overrider variables in
+COPY ./nginx/nginx-template.conf /etc/nginx/conf.d/default.conf
+COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx/stub-status.conf /etc/nginx/conf.d/stub-status.conf
+COPY ./nginx/security-headers.conf /etc/nginx/security-headers.conf
 
 # Copy all allowed content to the root directory
 COPY --link ["input-cache", "input-cache"]
@@ -54,12 +60,6 @@ COPY --link ["publication-request.json", "publication-request.json"]
 COPY --link ["_downloadPublisher.sh", "_downloadPublisher.sh"]
 COPY --link ["_genonce.sh", "_genonce.sh"]
 COPY --link ["sushi-config.yaml", "sushi-config.yaml"]
-
-# Create a template to overrider variables in
-COPY ./nginx/nginx-template.conf /etc/nginx/conf.d/default.conf
-COPY ./nginx/nginx.conf /etc/nginx/nginx.conf
-COPY ./nginx/stub-status.conf /etc/nginx/conf.d/stub-status.conf
-COPY ./nginx/security-headers.conf /etc/nginx/security-headers.conf
 
 # Allow the following .sh files to be executed
 RUN chmod u+x ./_downloadPublisher.sh ./_genonce.sh

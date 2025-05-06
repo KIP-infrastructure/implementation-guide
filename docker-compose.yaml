@@ -5,6 +5,8 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile
+      args:
+        FSH_SUSHI_VERSION: 3.15.1
     volumes:
       - ig-output:/src/output:rw
       - ig-cache:/src/input-cache:rw
@@ -18,7 +20,7 @@ services:
 
   ig-nginx:
     container_name: "site"
-    image: nginx:1.27.3-alpine
+    image: nginx:1.27.5-alpine
     restart: unless-stopped
     volumes:
       - ig-output:/usr/share/nginx/html:rw
