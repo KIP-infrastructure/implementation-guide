@@ -3,23 +3,23 @@
   "version": "2.8.2-rc0",
   "canonical": "https://github.com/KIP-infrastructure/implementation-guide",
   "url": "https://github.com/KIP-infrastructure/implementation-guide",
-  "title": "Sundhedsvæsnets Kvalitetsinstituts FHIR Implementation Guide",
-  "description": "Sundhedsvæsnets Kvalitetsinstitut's FHIR Implementation Guide.",
+  "title": "Sundhedsvæsenets Kvalitetsinstituts FHIR Implementation Guide",
+  "description": "Sundhedsvæsenets Kvalitetsinstitut's FHIR Implementation Guide.",
   "dependencies": {
     "hl7.fhir.r4.core": "4.0.1",
     "hl7.fhir.dk.core": "1.1.0"
   },
   "keywords": [
     "SundK",
-    "Sundhedsvæsnets Kvalitetsinstitut",
+    "Sundhedsvæsenets Kvalitetsinstitut",
     "KIP",
     "RKKP"
   ],
   "language": "en",
-  "author": "Sundhedsvæsnets Kvalitetsinstitut",
+  "author": "Sundhedsvæsenets Kvalitetsinstitut",
   "maintainers": [
     {
-      "name": "Sundhedsvæsnets Kvalitetsinstitut and Trifork Digital Health A/S",
+      "name": "Sundhedsvæsenets Kvalitetsinstitut and Trifork Digital Health A/S",
       "email": "rbk@trifork.com"
     }
   ],
