@@ -18,7 +18,7 @@ fi
 echo "$txoption"
 
 if test -f "$publisher"; then
-	java -jar $publisher -no-narrative -generation-off -ig ig.ini $txoption $*
+	java -jar $publisher -ig ig.ini $txoption $*
 else
 	echo "IG Publisher NOT FOUND in input-cache or parent folder. Please run _downloadPublisher again. Aborting..."
 	exit 1;
