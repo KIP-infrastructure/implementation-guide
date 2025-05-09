@@ -3,7 +3,7 @@ Id: VarighedPostOPTrombDKR2
 Title: "Varighed PostOP trombolyseprofylakse (DKR)2"
 Description: "Planlagt varighed Postoperativ trombolyseprofylakse (DKR)2"
 
-* ^status = #active
+* ^status = #retired
 * ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-05-13T00:00:00+02:00"
