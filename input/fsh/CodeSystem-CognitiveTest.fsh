@@ -1,10 +1,10 @@
 CodeSystem: CognitiveTest
 Title: "Cognitive test"
-Description: "Cognitive test"
+Description: "Cognitive test 2025. Tilføjet nyt udfald til eksisterende CS"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-07-19T00:00:00+02:00"
+* ^date = "2025-05-09T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -17,3 +17,4 @@ Description: "Cognitive test"
 * #moca "MoCa" "MoCa"
 * #rudas "RUDAS" "RUDAS"
 * #trinvold/dsqiid "Trinvold/DSQIID" "Trinvold/DSQIID"
+* #MCE "MCE" "MCE"
