@@ -2,11 +2,11 @@ build/
 output/
 fsh-generated/
 *.fsh
+input/
 
 docker-compose.yaml
 Dockerfile
 .gitignore
 .gitkeep
 
-package.json
 README.md

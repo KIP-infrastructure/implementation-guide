@@ -1,4 +1,4 @@
-# RKKP FHIR Implementation Guide
+# Sundhedsvæsenets Kvalitetsinstitut's FHIR Implementation Guide
 
 <!-- [START BADGES] -->
 <!-- [END BADGES] -->
@@ -12,7 +12,7 @@
 1. Go to [netic flux](https://github.com/neticdk-k8s/rkkp-indberetning-flux/tree/main/deploy) and update the `implementationGuide.yaml` file with the new version in the environments you wish the new version to become available.
 1. Do the same in [trifork flux](https://github.com/trifork/rkkp-indberetning-flux/tree/main/dev)
 1. When the new version has been deployed to the environments, you'll need to update HAPI to use the new version. This is done by creating a POST request to HAPI in the relevant environments:
-    
+
    * `dev`: <https://rkkp-hapi.tcs.trifork.dev/update-ig>
    * `test`: <https://rkkp-hapi.test.tcs.trifork.cloud/update-ig>
    * `prod`: <https://rkkp-internal-prod.tcs.trifork.cloud/hapi/update-ig>
@@ -33,7 +33,7 @@ Use [the operators](https://build.fhir.org/ig/HL7/FHIRPath/).
 To get it up and running, type the following command, and wait for the container `fhir-implementationguide-builder` to exit:
 
 ``` powershell
-docker compose up -d
+docker compose up -d --build
 ```
 
 This will start up two containers:
@@ -58,7 +58,7 @@ If Sushi gets an update, this needs to be reflected into the dockerfile.
 By default, Docker will cache the build, so you need to run the following command before:
 
 ```bash
-docker compose build --no-cache
+docker build --no-cache
 ```
 
 If you want to build a docker image, run the following commands from this folder:
@@ -91,6 +91,6 @@ To use it, `FSH-Sushi` must be installed: `npm install -g fsh-sushi`.
 
 To run it, step into this directory, and run `sushi`.
 
-
 ### CI builds
-   * See https://build.fhir.org/ig/kip-infrastructure
+
+* See <https://build.fhir.org/ig/kip-infrastructure>

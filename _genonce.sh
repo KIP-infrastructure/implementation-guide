@@ -18,7 +18,10 @@ fi
 echo "$txoption"
 
 if test -f "$publisher"; then
-	java -jar $publisher -no-narrative -generation-off -ig ig.ini $txoption $*
+	java -jar $publisher -ig ig.ini $txoption $* 
+	# https://confluence.hl7.org/spaces/FHIR/pages/175618322/IG+Publisher+CLI#IGPublisherCLI--no-narrative{resource1,resource2,...}
+	# To get faster build times, you can use the following command instead, beware it doesn't generate the output website
+	# java -jar $publisher -ig ig.ini $txoption $* -generation-off -no-narrative .
 else
 	echo "IG Publisher NOT FOUND in input-cache or parent folder. Please run _downloadPublisher again. Aborting..."
 	exit 1;

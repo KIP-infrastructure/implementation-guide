@@ -1,1 +1,1 @@
-* See detailed changes in [the changelog](https://kip.sundk.dk/fhir/changelog.html#replace-me)
+* See detailed changes in [the changelog](https://kip-ig.sundk.dk/fhir/changelog.html#replace-me)
