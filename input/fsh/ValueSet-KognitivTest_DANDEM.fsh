@@ -1,6 +1,6 @@
 ValueSet: KognitivTestDANDEM
 Title: "Kognitiv test (DANDEM)"
-Description: "Kognitiv test (DANDEM) 2025. Tilføjet nyt udfald til eksisterende CS"
+Description: "Kognitiv test (DANDEM)"
 
 * ^status = #active
 * ^experimental = true
