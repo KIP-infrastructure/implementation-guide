@@ -2,7 +2,7 @@ ValueSet: KomponentTibiaDKRrevision202503
 Title: "Komponent - tibia (DKR) revision 2025"
 Description: "Komponent - tibia (DKR) revision - Rettelse 2025"
 
-* ^status = #active
+* ^status = #retired
 * ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"

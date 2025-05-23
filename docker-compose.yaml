@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        FSH_SUSHI_VERSION: 3.15.1
+        FSH_SUSHI_VERSION: 3.16.0
     volumes:
       - ig-output:/src/output:rw
       - ig-cache:/src/input-cache:rw

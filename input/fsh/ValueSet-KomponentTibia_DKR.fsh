@@ -5,7 +5,7 @@ Description: "Komponent - tibia (DKR)"
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2023-01-17T00:00:00+02:00"
+* ^date = "2025-03-04T00:00:00+02:00"
 
 // Johnson & Johnson
 * KneeJointArthroplastyComponent#johnson&johnson_attune_fb "Johnson & Johnson: Attune FB"
@@ -24,18 +24,23 @@ Description: "Komponent - tibia (DKR)"
 * KneeJointArthroplastyComponent#depuy_sigma_hp_partiel_knee "Johnson & Johnson: DePuy Sigma HP partial knee"
 * KneeJointArthroplastyComponent#sigma_hp_partiel_knee_modular "Johnson & Johnson: Sigma HP Partial Knee modular"
 * KneeJointArthroplastyComponent#johnson&johnson_s_rom_noiles "Johnson & Johnson: S-ROM Noiles"
+
 // Lima
 * KneeJointArthroplastyComponent#physica_cr "Lima: Physica CR"
 * KneeJointArthroplastyComponent#physica_kr "Lima: Physica KR"
 * KneeJointArthroplastyComponent#physica_ps "Lima: Physica PS"
+
 // Link
 * KneeJointArthroplastyComponent#link_endo_model_rotational "LINK: Endo-Model Rotational"
 * KneeJointArthroplastyComponent#link_endo_model_total_hinge "LINK: Endo-Model Total Hinge"
 * KneeJointArthroplastyComponent#link_tack_cementless "LINK: TACK Cementless"
+
 // Osteonics
 * KneeJointArthroplastyComponent#osteonics_7000_all_poly "Osteonics: All Poly"
+
 // Smith & Nephew
 * KneeJointArthroplastyComponent#smith&nephew_genesis_all_poly "Smith & Nephew: Genesis II All-Poly"
+
 // Stryker
 * KneeJointArthroplastyComponent#stryker_gmrs "Stryker: GMRS"
 * KneeJointArthroplastyComponent#stryker_modular_rotating_hinge "Stryker: Modular Rotation Hinge"
@@ -47,6 +52,7 @@ Description: "Komponent - tibia (DKR)"
 * KneeJointArthroplastyComponent#stryker_thriathlon_pkr "Stryker: Triathlon PKR"
 * KneeJointArthroplastyComponent#stryker_thriathlon_ts "Stryker: Triathlon TS"
 * KneeJointArthroplastyComponent#stryker_triathlon_universal "Stryker: Triathlon Universal"
+
 // Zimmer Biomet
 * KneeJointArthroplastyComponent#biomet_agc_v2 "Zimmer Biomet: AGC V2"
 * KneeJointArthroplastyComponent#biomet_tibia_offset_tray "Zimmer Biomet: Tibia Offset Tray"
@@ -68,9 +74,11 @@ Description: "Komponent - tibia (DKR)"
 * KneeJointArthroplastyComponent#persona_mc "Zimmer Biomet: Persona MC"
 * KneeJointArthroplastyComponent#persona_ps "Zimmer Biomet: Persona PS"
 * KneeJointArthroplastyComponent#persona_uc "Zimmer Biomet: Persona UC"
+* KneeJointArthroplastyComponent#persona_ppk "Zimmer Biomet: Persona Partial Knee" // Tilføjet d. 25.03.04
 * KneeJointArthroplastyComponent#biomet_rhk_rotating_hinge_knee "Zimmer Biomet: RHK Rotating Hinge Knee"
 * KneeJointArthroplastyComponent#biomet_vanguard_cr "Zimmer Biomet: Vanguard CR"
 * KneeJointArthroplastyComponent#biomet_vanguard_rocc_interlok_tibia "Zimmer Biomet: Vanguard ROCC - Interlok Tibia"
 * KneeJointArthroplastyComponent#biomet_vanguard_unicompartmental "Zimmer Biomet: Vanguard Unicompartmental"
+
 // Generic
 * GenericValues#other "Andet"
