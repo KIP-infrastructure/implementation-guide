@@ -10,10 +10,31 @@ Description: "Knee joint arthroplasty - components"
 * ^content = #complete
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 // Arthrosurface
 * #arthrosurface_hemicap "Arthrosurface: HemiCAP" "Arthrosurface: HemiCAP (Femur)"
 * #arthrosurface_hemicap_pf "Arthrosurface: Hemicap PF" "Arthrosurface: Hemicap PF (Femur)"
 * #arthrosurface_unicap "Arthrosurface: Unicap" "Arthrosurface: Unicap (Femur + Tibia)"
+
 // Biomet
 * #biomet_agc_hp_posterior_stabilizer "Biomet: AGC HP Posterior Stabilizer" "Biomet: AGC HP Posterior Stabilizer (Femur)"
 * #biomet_agc_v2 "Zimmer Biomet: AGC V2" "Zimmer Biomet: AGC V2 (Tibia)"
@@ -34,18 +55,22 @@ Description: "Knee joint arthroplasty - components"
 * #biomet_vanguard_rocc_interlok_tibia_pps_ha "Biomet: Vanguard ROCC - Tibia PPS + HA" "Biomet: Vanguard ROCC - Tibia PPS + HA (Tibia)"
 * #biomet_vanguard_ssk "Biomet: Vanguard SSK" "Biomet: Vanguard SSK (Femur)"
 * #biomet_vanguard_unicompartmental "Zimmer Biomet: Vanguard Unicompartmental" "Zimmer Biomet: Vanguard Unicompartmental (Tibia)"
+
 // Corin
 * #corin_rotaglide "Corin: Rotaglide" "Corin: Rotaglide (Tibia)"
 * #corin_rotaglide_pegged "Corin: Rotaglide Pegged" "Corin: Rotaglide Pegged (Femur)"
 * #corin_rotaglide_posterior_stabilizer "Corin: Rotaglide Posterior Stabilizer" "Corin: Rotaglide Posterior Stabilizer (Femur)"
 * #corin_rotaglide_stemless "Corin: Rotaglide Stemless" "Corin: Rotaglide Stemless (Femur)"
 * #corin_rotaglide_stemmed "Corin: Rotaglide Stemmed" "Corin: Rotaglide Stemmed (Femur)"
+
 // Depuy
 * #depuy_attune_cr "Johnson & Johnson: Attune CR" "Johnson & Johnson: Attune CR (Femur)"
 * #depuy_limb_preservation_system "Johnson & Johnson: Limb Preservation System" "Johnson & Johnson: Limb Preservation System (Femur)"
 * #depuy_sigma_hp_partiel_knee "DePuy: Sigma HP partial knee" "DePuy: Sigma HP partial knee (Femur + Tibia)"
+
 // Episealer
 * #episealer_condyle_solo "Episurf Medical: Episealer Condyle Solo" "Episurf Medical: Episealer Condyle Solo (Femur)"
+
 // Howmedica
 * #howmedica_duracon_all_plastic "Howmedica: Duracon All-Plastic" "Howmedica: Duracon All-Plastic (Tibia)"
 * #howmedica_duracon_cruciform "Howmedica: Duracon Cruciform" "Howmedica: Duracon Cruciform (Tibia)"
@@ -59,13 +84,16 @@ Description: "Knee joint arthroplasty - components"
 * #howmedica_kinemax_plus_stabilizer "Howmedica: Kinemax Plus Stabilizer" "Howmedica: Kinemax Plus Stabilizer (Femur)"
 * #howmedica_kinemax_plus_standard "Howmedica: Kinemax Plus Standard" "Howmedica: Kinemax Plus Standard (Femur + Tibia)"
 * #howmedica_kinemax_plus_superstabilizer "Howmedica: Kinemax Plus Superstabilizer" "Howmedica: Kinemax Plus Superstabilizer (Femur + Tibia)"
+
 // Implex
 * #implex_cks_all_poly "Implex: CKS All Poly" "Implex: CKS All Poly (Tibia)"
 * #implex_cks_continuum_posterior_stabilized "Implex: CKS Continuum Posterior Stabilized" "Implex: CKS Continuum Posterior Stabilized (Femur)"
 * #implex_cks_modular "Implex: CKS Modular" "Implex: CKS Modular (Tibia)"
 * #implex_cks_primary "Implex: CKS Primary" "Implex: CKS Primary (Femur)"
+
 // Insall-Burstein
 * #insall_burstein "Insall-Burstein" "Insall-Burstein (Tibia)"
+
 // Johnson & Johnson
 * #johnson&johnson_attune_crs "Johnson & Johnson: Attune CRS (Constrained Revision System)" "Johnson & Johnson: Attune CRS (Constrained Revision System) (Femur)"
 * #johnson&johnson_attune_fb "Johnson & Johnson: Attune FB" "Johnson & Johnson: Attune FB (Tibia)"
@@ -86,10 +114,13 @@ Description: "Knee joint arthroplasty - components"
 * #johnson&johnson_preservation_uni_all_poly "Johnson & Johnson: Preservation uni all poly" "Johnson & Johnson: Preservation uni all poly (Tibia)"
 * #johnson&johnson_preservation_uni_tray "Johnson & Johnson: Preservation uni tray" "Johnson & Johnson: Preservation uni tray (Tibia)"
 * #johnson&johnson_s_rom_noiles "Johnson & Johnson: S-ROM Noiles" "Johnson & Johnson: S-ROM Noiles (Femur + Tibia)"
+
 // Legion
 * #legion_oxinium_cr "Legion: Oxinium CR" "Legion: Oxinium CR (Femur)"
+
 // Limb Preservation
 * #limb_preservation_system_distal_femur "Limb Preservation System Distal Femur" "Limb Preservation System Distal Femur (Femur)"
+
 // LINK
 * #link_endo_model_rotational "LINK: Endo-Model Rotational" "LINK: Endo-Model Rotational (Femur + Tibia)"
 * #link_endo_model_sled_hemi "LINK: Endo-Model Sled Hemi" "LINK: Endo-Model Sled Hemi (Femur + Tibia)"
@@ -97,41 +128,59 @@ Description: "Knee joint arthroplasty - components"
 * #link_lubinus_patella_femoral "LINK: Lubinus Patella-Femoral" "LINK: Lubinus Patella-Femoral (Femur + Tibia)"
 * #link_st_georg "LINK: St. Georg" "LINK: St. Georg (Femur + Tibia)"
 * #link_tack_cementless "LINK: TACK Cementless" "LINK: TACK Cementless (Femur + Tibia)"
+
 // Maxim
 * #maxim_constrained "Maxim Constrained" "Maxim Constrained (Tibia)"
 * #maxim_ps "Maxim PS" "Maxim PS (Tibia)"
+
 // Megasystem
 * #megasystem_c "LINK: Megasystem C" "LINK: Megasystem C (Femur + Tibia)"
+
 // NexGen
 * #nexgen_zuk "Zimmer Biomet: NexGen Zuk" "Zimmer Biomet: NexGen Zuk (Femur + Tibia)"
+
 // Osteonics
 * #osteonics_7000_all_poly "Osteonics: All Poly" "Osteonics: All Poly (Tibia)"
 * #osteonics_7000_modular "Osteonics: 7000 Modular" "Osteonics: 7000 Modular (Femur + Tibia)"
 * #osteonics_7000_posterior_stabilized "Osteonics: 7000 Posterior Stabilized" "Osteonics: 7000 Posterior Stabilized (Femur)"
 * #osteonics_7000_standard "Osteonics: 7000 Standard" "Osteonics: 7000 Standard (Femur + Tibia)"
+
 // Oxford
 * #oxford_domed_lateral_pkr "Zimmer Biomet: Oxford domed lateral PKR" "Zimmer Biomet: Oxford domed lateral PKR (Femur)"
 * #oxford_phase_iii_alpha "Zimmer Biomet: Oxford Phase III alpha" "Zimmer Biomet: Oxford Phase III alpha (Tibia)"
 * #oxford_2_peg "Zimmer Biomet: Oxford 2-peg" "Zimmer Biomet: Oxford 2-peg (Femur)"
+
 // Persona
 * #persona_cr "Zimmer Biomet: Persona CR" "Zimmer Biomet: Persona CR (Femur + Tibia)"
 * #persona_mc "Zimmer Biomet: Persona MC" "Zimmer Biomet: Persona MC (Tibia)"
 * #persona_ps "Zimmer Biomet: Persona PS" "Zimmer Biomet: Persona PS (Femur + Tibia)"
 * #persona_uc "Zimmer Biomet: Persona UC" "Zimmer Biomet: Persona UC (Tibia)"
-* #persona_ppk "Zimmer Biomet: Persona Partial Knee" "Zimmer Biomet: Persona Partial Knee"  //Tilføjet d.25.03.04
+* #persona_ppk "Zimmer Biomet: Persona Partial Knee" "Zimmer Biomet: Persona Partial Knee"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-04-03T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 
 // PFC Sigma
 * #pfc_sigma_offset_tibial_tray "PFC Sigma Offset Tibial Tray" "PFC Sigma Offset Tibial Tray (Tibia)"
+
 // Physica
 * #physica_cr "Lima: Physica CR" "Lima: Physica CR (Femur + Tibia)"
 * #physica_kr "Lima: Physica KR" "Lima: Physica KR (Femur + Tibia)"
 * #physica_ps "Lima: Physica PS" "Lima: Physica PS (Femur + Tibia)"
+
 // Preservation
 * #preservation "Preservation" "Preservation (Femur + Tibia)"
+
 // Sigma
 * #sigma_hp_partiel_knee "Johnson & Johnson: Sigma HP Partial Knee" "Johnson & Johnson: Sigma HP Partial Knee (Femur)"
 * #sigma_hp_partiel_knee_all_poly "Sigma HP Partial Knee all-poly" "Sigma HP Partial Knee all-poly (Tibia)"
 * #sigma_hp_partiel_knee_modular "Johnson & Johnson: Sigma HP Partial Knee modular" "Johnson & Johnson: Sigma HP Partial Knee modular (Tibia)"
+
 // Smith & Nephew
 * #smith&nephew_competitor_pfj "Smith & Nephew: Competitor PFJ" "Smith & Nephew: Competitor PFJ (Femur)"
 * #smith&nephew_genesis "Smith & Nephew: Genesis" "Smith & Nephew: Genesis (Tibia)"
@@ -159,6 +208,7 @@ Description: "Knee joint arthroplasty - components"
 * #smith&nephew_genesis_profix_posterior_stabilized "Smith & Nephew: Profix Posterior Stabilized" "Smith & Nephew: Profix Posterior Stabilized (Femur)"
 * #smith&nephew_genesis_profix_ps_taper "Smith & Nephew: Profix PS Taper" "Smith & Nephew: Profix PS Taper (Femur)"
 * #smith&nephew_genesis_profix_revision "Smith & Nephew: Profix Revision" "Smith & Nephew: Profix Revision (Femur + Tibia)"
+
 // Stryker
 * #stryker_howmetica_avon "Stryker/Howmetica: Avon" "Stryker/Howmetica: Avon (Femur)"
 * #stryker_gmrs "Stryker: GMRS" "Stryker: GMRS (Femur + Tibia)"
@@ -179,6 +229,7 @@ Description: "Knee joint arthroplasty - components"
 * #stryker_thriathlon_ps "Stryker: Triathlon PS" "Stryker: Triathlon PS (Femur)"
 * #stryker_thriathlon_ts "Stryker: Triathlon TS" "Stryker: Triathlon TS (Femur + Tibia)"
 * #stryker_triathlon_universal "Stryker: Triathlon Universal" "Stryker: Triathlon Universal (Tibia)"
+
 // Vanguard
 * #vanguard_da_360 "Vanguard: DA 360" "Vanguard: DA 360 (Femur)"
 * #vanguard_da_360_tibia_tray "Vanguard DA 360 tibia tray" "Vanguard DA 360 tibia tray (Tibia)"
@@ -187,6 +238,7 @@ Description: "Knee joint arthroplasty - components"
 * #vanguard_ssk_360_tibia_tray "Vanguard: SSK 360 tibia tray" "Vanguard SSK 360 tibia tray (Tibia)"
 * #vanguard_xp "Vanguard: XP" "Vanguard: XP (Femur + Tibia)"
 * #vanguard_xp_cr "Vanguard: XP CR" "Vanguard XP CR (Tibia)"
+
 // Wright
 * #wright_advance_medial_pivot "Wright: Advance Medial Pivot" "Wright: Advance Medial Pivot (Femur + Tibia)"
 * #wright_advance_revision "Wright: Advance Revision" "Wright: Advance Revision (Femur)"
@@ -194,6 +246,7 @@ Description: "Knee joint arthroplasty - components"
 * #wright_advance_revision_ps "Wright: Advance Revision, PS" "Wright: Advance Revision, PS (Tibia)"
 * #wright_advance_statures "Wright: Advance Stature" "Wright: Advance Stature (Femur)"
 * #wright_advance_stemmet "Wright: Advance Stemmet" "Wright: Advance Stemmet (Femur)"
+
 // Zimmer
 * #zimmer_biomet_oxford_lateral_fixed_bearing "Zimmer-Biomet: Oxford Lateral Fixed Bearing" "Zimmer-Biomet: Oxford Lateral Fixed Bearing (Tibia)"
 * #zimmer_insall_burstein "Zimmer: Insall-Burstein" "Zimmer: Insall-Burstein (Femur)"

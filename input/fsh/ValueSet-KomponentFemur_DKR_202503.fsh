@@ -2,7 +2,7 @@ ValueSet: KomponentFemurDKR202503
 Title: "Komponent - femur (DKR) 2025"
 Description: "Komponent - femur (DKR) - Rettelser 2025"
 
-* ^status = #active
+* ^status = #retired
 * ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
@@ -11,8 +11,10 @@ Description: "Komponent - femur (DKR) - Rettelser 2025"
 * KneeJointArthroplastyComponent#arthrosurface_hemicap "Arthrosurface: HemiCAP"
 * KneeJointArthroplastyComponent#arthrosurface_hemicap_pf "Arthrosurface: Hemicap PF"
 * KneeJointArthroplastyComponent#arthrosurface_unicap "Arthrosurface: Unicap"
+
 // Episurf Medical
 * KneeJointArthroplastyComponent#episealer_condyle_solo "Episurf Medical: Episealer Condyle Solo"
+
 // Johnson & Johnson
 * KneeJointArthroplastyComponent#depuy_attune_cr "Johnson & Johnson: Attune CR"
 * KneeJointArthroplastyComponent#johnson&johnson_attune_crs "Johnson & Johnson: Attune CRS (Constrained Revision System)"
@@ -23,21 +25,25 @@ Description: "Komponent - femur (DKR) - Rettelser 2025"
 * KneeJointArthroplastyComponent#johnson&johnson_pfc_sigma_tc3 "Johnson & Johnson: PFC Sigma TC3 "
 * KneeJointArthroplastyComponent#depuy_sigma_hp_partiel_knee "Johnson & Johnson: Sigma HP Partial Knee"
 * KneeJointArthroplastyComponent#johnson&johnson_s_rom_noiles "Johnson & Johnson: S-ROM Noiles"
+
 // Lima
 * KneeJointArthroplastyComponent#physica_cr "Lima: Physica CR"
 * KneeJointArthroplastyComponent#physica_kr "Lima: Physica KR"
 * KneeJointArthroplastyComponent#physica_ps "Lima: Physica PS"
+
 //Link
 * KneeJointArthroplastyComponent#link_endo_model_rotational "Link: Endo-Model Rotational"
 * KneeJointArthroplastyComponent#link_endo_model_total_hinge "Link: Endo-Model Total Hinge"
 * KneeJointArthroplastyComponent#megasystem_c "Link: Megasystem C"
 * KneeJointArthroplastyComponent#link_st_georg "Link: St. Georg "
+
 // Smith & Nephew
 * KneeJointArthroplastyComponent#smith&nephew_competitor_pfj "Smith & Nephew: Competitor PFJ"
 * KneeJointArthroplastyComponent#smith&nephew_genesis_cruciate_retaining "Smith & Nephew: Genesis Cruciate-Retaining"
 * KneeJointArthroplastyComponent#smith&nephew_genesis_legion_cr_oxinium "Smith & Nephew: Legion CR Oxinium "
 * KneeJointArthroplastyComponent#smith&nephew_genesis_profix_posterior_stabilized "Smith & Nephew: Profix Posterior Stabilized"
 * KneeJointArthroplastyComponent#smith&nephew_genesis_profix_revision "Smith & Nephew: Profix Revision"
+
 // Stryker
 * KneeJointArthroplastyComponent#stryker_howmetica_avon "Stryker/Howmetica: Avon"
 * KneeJointArthroplastyComponent#stryker_gmrs "Stryker: GMRS"
@@ -52,8 +58,10 @@ Description: "Komponent - femur (DKR) - Rettelser 2025"
 * KneeJointArthroplastyComponent#stryker_thriathlon_pkr "Stryker: Triathlon PKR"
 * KneeJointArthroplastyComponent#stryker_thriathlon_ps "Stryker: Triathlon PS "
 * KneeJointArthroplastyComponent#stryker_thriathlon_ts "Stryker: Triathlon TS"
+
 // Vanguard
 * KneeJointArthroplastyComponent#vanguard_da_360 "Vanguard: DA 360"
+
 // Zimmer & Biomet
 * KneeJointArthroplastyComponent#biomet_agc_v2_universal "Zimmer Biomet: AGC V2 Universal"
 * KneeJointArthroplastyComponent#zimmer_nexgen_cr "Zimmer Biomet: NexGen CR"
@@ -76,5 +84,6 @@ Description: "Komponent - femur (DKR) - Rettelser 2025"
 * KneeJointArthroplastyComponent#biomet_vanguard_rocc_interlok_femur "Zimmer Biomet: Vanguard ROCC - Interlok Femur"
 * KneeJointArthroplastyComponent#biomet_vanguard_ssk "Zimmer Biomet: Vanguard SSK 360"
 * KneeJointArthroplastyComponent#zimmer_segmental_system "Zimmer Biomet: Zimmer Segmental System"
+
 // Generic
 * GenericValues#other "Andet"
