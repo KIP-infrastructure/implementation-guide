@@ -14,3 +14,5 @@ Description: "Kontakttype til patient - Undersøgelse, interview, mv."
 * #spoergeskema "Selvudfyldt spørgeskema" "Selvudfyldt spørgeskema"
 * #samtale "Personlig samtale" "Personlig samtale"
 * #ikke-etableret "Ikke etableret" "Forsøgt, men ikke opnået"
+* #PRO_spg "PRO-spørgeskema sendt til patienten via Digital Post" "PRO-spørgeskema sendt til patienten via Digital Post"
+
