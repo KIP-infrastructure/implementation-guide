@@ -164,7 +164,15 @@ Description: "Knee joint arthroplasty - components"
   * ^property[=].valueCode = #active
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
-
+* #persona_prk "Zimmer Biomet: Persona Revision Knee" "Zimmer Biomet: Persona Revision Knee"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2025-05-30T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 // PFC Sigma
 * #pfc_sigma_offset_tibial_tray "PFC Sigma Offset Tibial Tray" "PFC Sigma Offset Tibial Tray (Tibia)"
 
