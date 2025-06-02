@@ -7,11 +7,11 @@ Description: "Fiksation, Tibia (DKRR)"
 * ^publisher = "RKKP"
 * ^date = "2022-09-21T00:00:00+02:00"
 
-// Arthrek
-* FixationCruciateLigaments#arthrek_biotenodesis_plla "Arthrek Biotenodesis PLLA skrue"
-* FixationCruciateLigaments#arthrek_plla_retro "Arthrek PLLA retro-skrue"
-* FixationCruciateLigaments#arthrek_plla "Arthrek PLLA skrue"
-* FixationCruciateLigaments#arthrek_titanium "Arthrek Titanium skrue"
+// Arthrex
+* FixationCruciateLigaments#arthrex_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue"
+* FixationCruciateLigaments#arthrex_plla_retro "Arthrex PLLA retro-skrue"
+* FixationCruciateLigaments#arthrex_plla "Arthrex PLLA skrue"
+* FixationCruciateLigaments#arthrex_titanium "Arthrex Titanium skrue"
 // Arthrex
 * FixationCruciateLigaments#arthrex_delta "Arthrex Deltaskrue"
 * FixationCruciateLigaments#arthrex_graftbolt "Arthrex GraftBolt"
@@ -61,6 +61,7 @@ Description: "Fiksation, Tibia (DKRR)"
 * FixationCruciateLigaments#stryker_crossscrew_ha/plla "Stryker Crossscrew (HA/PLLA)"
 * FixationCruciateLigaments#stryker_crossscrew_titanium "Stryker Crossscrew (Titanium)"
 * FixationCruciateLigaments#stryker_plla "Stryker PLLA skrue"
+* FixationCruciateLigaments#stryker_procinch "Stryker ProCinch"
 * FixationCruciateLigaments#stryker_titanium "Stryker titanium skrue"
 //Other
 * FixationCruciateLigaments#bona_canal "Knoglekanal"
