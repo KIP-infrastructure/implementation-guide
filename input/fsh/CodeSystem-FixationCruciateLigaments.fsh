@@ -30,11 +30,11 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 * ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
 * ^property[=].code = #inactive
 
-// Arthrek
-* #arthrek_biotenodesis_plla "Arthrek Biotenodesis PLLA skrue" "Arthrek Biotenodesis PLLA skrue [Tibia]"
-* #arthrek_plla_retro "Arthrek PLLA retro-skrue" "Arthrek PLLA retro-skrue [Tibia]"
-* #arthrek_plla "Arthrek PLLA skrue" "Arthrek PLLA skrue [Tibia]"
-* #arthrek_titanium "Arthrek Titanium skrue" "Arthrek Titanium skrue [Tibia]"
+// Arthrex
+* #arthrex_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue" "Arthrex Biotenodesis PLLA skrue [Tibia]"
+* #arthrex_plla_retro "Arthrex PLLA retro-skrue" "Arthrex PLLA retro-skrue [Tibia]"
+* #arthrex_plla "Arthrex PLLA skrue" "Arthrex PLLA skrue [Tibia]"
+* #arthrex_titanium "Arthrex Titanium skrue" "Arthrex Titanium skrue [Tibia]"
 
 // Arthrex
 * #arthrex_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue" "Arthrex Biotenodesis PLLA skrue [Femur]"
@@ -67,8 +67,8 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 // Cayenne
 * #cayenne_aperfix "Cayenne Aperfix" "Cayenne Aperfix [Femur + Tibia]"
 
-// Conmed
-* #conmed_guardsman "Conmed Guardsman metal" "Conmed Guardsman metal [Femur]"
+// ConMed
+* #conmed_guardsman "ConMed Guardsman metal" "ConMed Guardsman metal [Femur]"
 * #conmed_martryx "ConMed Martryx" "ConMed Martryx [Tibia]"
 * #conmed_metal_propel "ConMed Metal skrue (Propel)" "ConMed Metal skrue (Propel) [Femur + Tibia]"
 * #conmed_plla_bioscrew "ConMed PLLA skrue (Bioscrew)" "ConMed PLLA skrue (Bioscrew) [Femur + Tibia]"
@@ -120,7 +120,7 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 * #stryker_crossscrew_ha/plla "Stryker Crossscrew (HA/PLLA)" "Stryker Crossscrew (HA/PLLA) [Femur + Tibia]"
 * #stryker_crossscrew_titanium "Stryker Crossscrew (Titanium)" "Stryker Crossscrew (Titanium) [Femur + Tibia]"
 * #stryker_plla "Stryker PLLA skrue" "Stryker PLLA skrue [Femur + Tibia]"
-* #stryker_procinch "Stryker ProCinch" "Stryker ProCinch [Femur]"
+* #stryker_procinch "Stryker ProCinch" "Stryker ProCinch [Femur + Tibia]"
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
