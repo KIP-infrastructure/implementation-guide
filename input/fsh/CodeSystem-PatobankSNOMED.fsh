@@ -17,7 +17,7 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 * #M96533 "Hodgkin lymfom, klassisk type, lymfocytdepleteret" "Hodgkin lymfom, klassisk type, lymfocytdepleteret"
 * #M96593 "Hodgkin lymfom, nodulær, lymfocyt dominans" "Hodgkin lymfom, nodulær, lymfocyt dominans"
 * #M96633 "Hodgkin lymfom, klassisk type, nodulær sklerose" "Hodgkin lymfom, klassisk type, nodulær sklerose"
-* #M96703 "Småcellet lymfocytært lymfom" "Småcellet lymfocytært lymfom" //udgået kode
+* #M96703 "Småcellet lymfocytært lymfom" "Småcellet lymfocytært lymfom" 
 //* #M96713 "Lymfoplasmacytært lymfom" "Lymfoplasmacytært lymfom"
 //* #M96733 "Mantlecellelymfom" "Mantlecellelymfom"
 * #M96783 "primært effusionslymfom" "primært effusionslymfom"
@@ -51,7 +51,6 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 // * #M96903 "nodulært malignt lymfom (UDGÅET)" "nodulært malignt lymfom (UDGÅET)"
 // * #M96913 "blandet histiocytært,lymfocytært malignt lymfom,nodulær væks (UDGÅET)" "blandet histiocytært,lymfocytært malignt lymfom,nodulær væks (UDGÅET)"
 * #M97283 "Precursor B-lymfoblastisk lymfom" "Precursor B-lymfoblastisk lymfom"
-
 * #M98013 "akut udifferentieret leukæmi" "akut udifferentieret leukæmi"
 * #M98053 "akut leukæmi af ubestemmelig celletype" "akut leukæmi af ubestemmelig celletype"
 * #M98063 "bl. fænotype akut leukæmi m. t(9;22); BCR-ABL1" "bl. fænotype akut leukæmi m. t(9;22); BCR-ABL1"
@@ -60,6 +59,7 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 * #M98153 "B-lymfobl. leukæmi/lymfom med hyperdiploidi" "B-lymfobl. leukæmi/lymfom med hyperdiploidi"
 * #M98173 "B-lymfobl. leukæmi/lymfom m. t(5;14); IgH/IL3" "B-lymfobl. leukæmi/lymfom m. t(5;14); IgH/IL3"
 * #M98183 "B-lymfobl. leukæmi/lymfom m. t(1;19); TCF3-PBX1" "B-lymfobl. leukæmi/lymfom m. t(1;19); TCF3-PBX1"
+* #M98233 "kronisk lymfocytær leukæmi" "kronisk lymfocytær leukæmi"
 * #M98273 "adult T-cellelymfom/leukæmi" "adult T-cellelymfom/leukæmi"
 * #M98353 "precursor B-lymfoblastisk leukæmi" "precursor B-lymfoblastisk leukæmi"
 * #M98373 "precursor T-lymfoblastisk leukæmi" "precursor T-lymfoblastisk leukæmi"
