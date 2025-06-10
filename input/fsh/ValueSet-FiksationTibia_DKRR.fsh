@@ -7,7 +7,7 @@ Description: "Fiksation, Tibia (DKRR)"
 * ^publisher = "RKKP"
 * ^date = "2022-09-21T00:00:00+02:00"
 
-// Arthrek - vi har behold koden med arthrek. Kun ændret navnet i displayet til Arthrex. 
+// Arthrek - Kode stavet forkert, men vises korrekt.
 * FixationCruciateLigaments#arthrek_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue"
 * FixationCruciateLigaments#arthrek_plla_retro "Arthrex PLLA retro-skrue"
 * FixationCruciateLigaments#arthrek_plla "Arthrex PLLA skrue"
