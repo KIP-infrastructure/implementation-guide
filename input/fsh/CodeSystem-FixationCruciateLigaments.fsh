@@ -30,11 +30,11 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 * ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
 * ^property[=].code = #inactive
 
-// Arthrex
-* #arthrex_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue" "Arthrex Biotenodesis PLLA skrue [Tibia]"
-* #arthrex_plla_retro "Arthrex PLLA retro-skrue" "Arthrex PLLA retro-skrue [Tibia]"
-* #arthrex_plla "Arthrex PLLA skrue" "Arthrex PLLA skrue [Tibia]"
-* #arthrex_titanium "Arthrex Titanium skrue" "Arthrex Titanium skrue [Tibia]"
+// Arthrek - kun displayet ændres. 
+* #arthrek_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue" "Arthrex Biotenodesis PLLA skrue [Tibia]"
+* #arthrek_plla_retro "Arthrex PLLA retro-skrue" "Arthrex PLLA retro-skrue [Tibia]"
+* #arthrek_plla "Arthrex PLLA skrue" "Arthrex PLLA skrue [Tibia]"
+* #arthrek_titanium "Arthrex Titanium skrue" "Arthrex Titanium skrue [Tibia]"
 
 // Arthrex
 * #arthrex_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue" "Arthrex Biotenodesis PLLA skrue [Femur]"
