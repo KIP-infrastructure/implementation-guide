@@ -28,7 +28,7 @@ Description: "Fiksation, Femur (DKRR)"
 // Cayenne
 * FixationCruciateLigaments#cayenne_aperfix "Cayenne Aperfix"
 // Conmed
-* FixationCruciateLigaments#conmed_guardsman "Conmed Guardsman metal"
+* FixationCruciateLigaments#conmed_guardsman "ConMed Guardsman metal"
 * FixationCruciateLigaments#conmed_metal_propel "ConMed Metal skrue (Propel)"
 * FixationCruciateLigaments#conmed_plla_bioscrew "ConMed PLLA skrue (Bioscrew)"
 * FixationCruciateLigaments#conmed_xo_button "ConMed XO Button"
@@ -60,6 +60,7 @@ Description: "Fiksation, Femur (DKRR)"
 * FixationCruciateLigaments#stryker_crossscrew_ha/plla "Stryker Crossscrew (HA/PLLA)"
 * FixationCruciateLigaments#stryker_crossscrew_titanium "Stryker Crossscrew (Titanium)"
 * FixationCruciateLigaments#stryker_plla "Stryker PLLA skrue"
+* FixationCruciateLigaments#stryker_procinch "Stryker ProCinch"
 * FixationCruciateLigaments#stryker_titanium "Stryker titanium skrue"
 * FixationCruciateLigaments#stryker_versitomic_g-lok "Stryker VersiTomic G-lok"
 //Other
