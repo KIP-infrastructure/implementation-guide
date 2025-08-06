@@ -7,6 +7,6 @@ Description: "Diagnose (CLL)"
 * ^publisher = "RKKP"
 * ^date = "2025-04-06T00:00:00+02:00"
 
-* PatobankSNOMED#M982333 "CLL (M98233)"
-* PatobankSNOMED#M96703 "SLL (M96703)"
+* PatobankSNOMED#M982333 "CLL"
+* PatobankSNOMED#M96703 "SLL"
 
