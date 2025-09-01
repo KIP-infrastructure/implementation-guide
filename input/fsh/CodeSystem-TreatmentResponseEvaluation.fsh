@@ -4,7 +4,7 @@ Description: "Treatment response evaluation"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-07-12T00:00:00+02:00"
+* ^date = "2025-07-10T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -16,7 +16,11 @@ Description: "Treatment response evaluation"
   * #uncertain_complete_remission "Uncertain complete remission (CRu)" "Uncertain complete remission (CRu)"
   * #complete_remission_metabolic_structurally "Metabolic and strukturally CR" "Metabolic and strukturally CR / CR (metabolisk og skrukturelt CR, bedømt med PET/CT)"
   * #complete_remission_metabolic "Metabolic CR" "Metabolic CR / CR (metabolisk CR, men med strukturel restsygdom, bedømt med PET/CT)"
-* #partial_remission "Partial remission (PR)" "Partial remission (PR)"
+  * #partial_remission "Partial remission (PR)" "Partial remission (PR)"
+  * #metabolic_cr "CMR (metabolisk CR, deauville 1-3)" "CMR (metabolisk CR, deauville 1-3)"
+  * #metabolic_pmr_4 "PMR (metabolisk PR, deauville 4)" "PMR (metabolisk PR, deauville 4)"
+  * #metabolic_pmr_5 "PMR (metabolisk PR, deauville 5)" "PMR (metabolisk PR, deauville 5)"
+
 
 // Response section
 * #complete_response "Complete Response" "Complete Response"

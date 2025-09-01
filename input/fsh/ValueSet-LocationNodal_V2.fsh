@@ -1,5 +1,5 @@
-ValueSet: LocationNodal
-Title: "Sygdomslokalisation er kun nodalt (LYFO)"
+ValueSet: LocationNodal_V2
+Title: "Sygdomslokalisation er kun nodalt (LYFO) version 2"
 Description: "Sygdomslokalisation i lymfe områder er kun nodalt (LYFO)"
 //Title: "Disease location in Lymphomas area"
 //Description: Disease location in Lymphomas area"
@@ -7,7 +7,7 @@ Description: "Sygdomslokalisation i lymfe områder er kun nodalt (LYFO)"
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2025-07-10T00:00:00+02:00"
+* ^date = "2025-09-01T00:00:00+02:00"
 
 * SKS#T000647 "Rhinopharynx"
 * SKS#T000653 "Waldeyers svælgring inkl. tonsiller"

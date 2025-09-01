@@ -1,13 +1,13 @@
-ValueSet: LocationExtranodalFemale
-Title: "Sygdomslokalisation er kun ekstranodalt, kvinder (LYFO)"
-Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en kvinde (LYFO)"
+ValueSet: LocationExtranodalMale_V2
+Title: "Sygdomslokalisation er kun ekstranodalt, mænd (LYFO) version 2"
+Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en mand (LYFO)"
 //Title: "Disease location in Lymphomas area"
 //Description: Disease location in Lymphomas area"
 
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2023-03-15T00:00:00+02:00"
+* ^date = "2025-01-09T00:00:00+02:00"
 
 * SKS#T001182 "Orbital incl tårekirtlen"
 * SKS#T001127 "Øjeæble inklusiv nervus opticus og corpus vitreum"
@@ -25,7 +25,7 @@ Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patie
 * SKS#T000773 "Nyrer og binyrer"
 * SKS#T000607 "Lever"
 * SKS#T000812 "Urinblære"
-* SKS#T000909 "Genitalia interna"
+* SKS#T000842 "Testis"
 * SKS#T000010 "Hud"
 * SKS#T000298 "Muskulatur"
 * SKS#T000224 "Knogler"
