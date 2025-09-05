@@ -1,14 +1,14 @@
 {
   "package-id": "dk.kip.rkkp.fhir.ig.core",
-  "version": "2.8.2",
-  "path": "https://kip.rkkp.dk/fhir/2.8.2",
+  "version": "2.12.1",
+  "path": "https://kip.rkkp.dk/fhir/2.12.1",
   "status": "release",
   "sequence": "Releases",
   "mode": "milestone",
   "title": "KIP Infrastructure",
   "category": "Core",
   "introduction": "A FHIR Implementation Guide for KIP Infrastructure",
-  "desc": "KIP Infrastructure version 2.8.2",
+  "desc": "KIP Infrastructure version 2.12.1",
   "descmd": "@release-notes.md",
   "first": false,
   "ci-build": "https://build.fhir.org/ig/kip-infrastructure/implementation-guide/"
