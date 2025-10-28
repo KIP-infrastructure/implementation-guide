@@ -1,7 +1,7 @@
 #!/bin/bash
 publisher_jar=publisher.jar
 publisher=./input-cache/${publisher_jar}
-version=1.8.25 #https://github.com/HL7/fhir-ig-publisher/releases
+version=2.0.16 # https://github.com/HL7/fhir-ig-publisher/releases
 
 # If publisher.jar is not found in cache folder, download it
 if [ ! -f "$publisher" ]; then

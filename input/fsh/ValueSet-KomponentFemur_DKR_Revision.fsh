@@ -77,7 +77,7 @@ Description: "Komponent - femur (DKR) revision"
 * KneeJointArthroplastyComponent#biomet_oxford_phase_iii_alpha "Zimmer Biomet: Oxford Phase III alpha"
 * KneeJointArthroplastyComponent#persona_cr "Zimmer Biomet: Persona CR"
 * KneeJointArthroplastyComponent#persona_ps "Zimmer Biomet: Persona PS"
-* KneeJointArthroplastyComponent#persona_ppk "Zimmer Biomet: Persona Partial Knee" //Tilføjet 25.03.04
+* KneeJointArthroplastyComponent#persona_prk "Zimmer Biomet: Persona Revision Knee" //Tilføjet 25.03.04
 * KneeJointArthroplastyComponent#zimmer_nexgen_pfj "Zimmer Biomet: PFJ"
 * KneeJointArthroplastyComponent#biomet_rhk_rotating_hinge_knee "Zimmer Biomet: RHK Rotating Hinge Knee"
 * KneeJointArthroplastyComponent#biomet_vanguard_cr "Zimmer Biomet: Vanguard CR"

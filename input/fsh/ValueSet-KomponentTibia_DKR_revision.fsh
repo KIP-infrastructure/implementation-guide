@@ -74,7 +74,7 @@ Description: "Komponent - tibia (DKR) revision"
 * KneeJointArthroplastyComponent#persona_mc "Zimmer Biomet: Persona MC"
 * KneeJointArthroplastyComponent#persona_ps "Zimmer Biomet: Persona PS"
 * KneeJointArthroplastyComponent#persona_uc "Zimmer Biomet: Persona UC"
-* KneeJointArthroplastyComponent#persona_ppk "Zimmer Biomet: Persona Partial Knee" //Tilføjet d.25.03.04
+* KneeJointArthroplastyComponent#persona_prk "Zimmer Biomet: Persona Revision Knee" //Tilføjet d.25.05.30
 * KneeJointArthroplastyComponent#biomet_rhk_rotating_hinge_knee "Zimmer Biomet: RHK Rotating Hinge Knee"
 * KneeJointArthroplastyComponent#biomet_vanguard_cr "Zimmer Biomet: Vanguard CR"
 * KneeJointArthroplastyComponent#biomet_vanguard_rocc_interlok_tibia "Zimmer Biomet: Vanguard ROCC - Interlok Tibia"
@@ -84,5 +84,5 @@ Description: "Komponent - tibia (DKR) revision"
 * AlloplastyTypes#spacer_insertion "Fjernelse af komponent og isættelse af spacer" //Tilføjet d. 25.03.04
 
 // Generic
-* GenericValues#other "Andet"
 * GenericValues#not_replaced "Ikke udskiftet (ved revision)"
+* GenericValues#other "Andet"
