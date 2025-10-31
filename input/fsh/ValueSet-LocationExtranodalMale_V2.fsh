@@ -1,8 +1,7 @@
 ValueSet: LocationExtranodalMale_V2
+Id: locationExtranodalMale-V2
 Title: "Sygdomslokalisation er kun ekstranodalt, mænd (LYFO) version 2"
 Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en mand (LYFO)"
-//Title: "Disease location in Lymphomas area"
-//Description: Disease location in Lymphomas area"
 
 * ^status = #active
 * ^experimental = true
