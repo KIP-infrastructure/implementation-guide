@@ -1,8 +1,7 @@
 ValueSet: LocationNodal_V2
+Id: locationNodal-V2
 Title: "Sygdomslokalisation er kun nodalt (LYFO) version 2"
 Description: "Sygdomslokalisation i lymfe områder er kun nodalt (LYFO)"
-//Title: "Disease location in Lymphomas area"
-//Description: Disease location in Lymphomas area"
 
 * ^status = #active
 * ^experimental = true
