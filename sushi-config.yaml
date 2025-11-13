@@ -8,7 +8,7 @@ name: KIP Infrastructure
 title: KIP Infrastructure
 description: "The Danish Sundhedsvæsenets Kvalitetsinstitut defines a set of FHIR CodeSystems and ValueSets used for data collection."
 status: active
-version: 2.13.1
+version: 2.14.0
 fhirVersion: 4.0.1
 copyrightYear: 2022+
 releaseLabel: ci-build
