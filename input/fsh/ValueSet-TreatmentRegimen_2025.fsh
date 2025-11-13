@@ -1,5 +1,6 @@
 ValueSet: TreatmentRegimen2025
 Title: "Behandlingsplan (2025)"
+Id: TreatmentRegimen-2025
 Description: "Behandlingsplan som beskriver specifikke codsering og planlægningen af behandling"
 //Title_eng: "Treatment plan"
 //Description_eng: "A treatment plan that specifies the dosage, the schedule, and the duration of treatment."
