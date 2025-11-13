@@ -1,17 +1,16 @@
-ValueSet: LocationExtranodalFemale
-Title: "Sygdomslokalisation er kun ekstranodalt, kvinder (LYFO)"
-Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en kvinde (LYFO)"
+ValueSet: LocationExtranodalMale_V2
+Title: "Sygdomslokalisation er kun ekstranodalt, mænd (LYFO) version 2"
+Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en mand (LYFO)"
 //Title: "Disease location in Lymphomas area"
 //Description: Disease location in Lymphomas area"
 
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2023-03-15T00:00:00+02:00"
+* ^date = "2025-01-09T00:00:00+02:00"
 
 * SKS#T001182 "Orbital incl tårekirtlen"
 * SKS#T001127 "Øjeæble inklusiv nervus opticus og corpus vitreum"
-* SKS#T001145 "Tårekirtel"
 * SKS#T000352 "Bihuler"
 * SKS#T000347 "Cavum nasi"
 * SKS#T000569 "Mundhule"
@@ -21,17 +20,12 @@ Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patie
 * SKS#T000094 "Mamma"
 * SKS#T000398 "Lunger"
 * SKS#T000670 "Ventrikel"
-* SKS#T000695 "Tyndtarm"
-* SKS#T000725 "Tyktarm"
 * SKS#T000706 "Tarm"
 * SKS#T000638 "Pankreas"
 * SKS#T000773 "Nyrer og binyrer"
 * SKS#T000607 "Lever"
 * SKS#T000812 "Urinblære"
-* SKS#T000948 "Ovarier"
-* SKS#T000892 "Vagina"
-* SKS#T000898 "Uterus"
-* SKS#T000909 "Genitalia interna"
+* SKS#T000842 "Testis"
 * SKS#T000010 "Hud"
 * SKS#T000298 "Muskulatur"
 * SKS#T000224 "Knogler"
@@ -41,4 +35,3 @@ Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patie
 * SKS#T000492 "Intravaskulært"
 * DiseasesUnspecified#ascites_lymfom "Ascites med lymfomceller"
 * DiseasesUnspecified#perikardieeksudat_lymfom "Exudater med lymfom celler"
-* DiseasesUnspecified#pleuraeksudat_lymfom "Pleuraeksudat med lymfomceller"
