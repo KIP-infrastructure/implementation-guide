@@ -27,7 +27,7 @@ jobs:
 
     steps:
       # Checkout the repos needed
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
 
       - name: IG transpile check
         uses: trifork/ig-publisher/.github/actions/ig-transpile@090b4bbeece46da5cbfdc9e599a55d63db1f1d85 # v.1.8.24
@@ -42,7 +42,7 @@ jobs:
 
     steps:
       # Checkout the repos needed
-      - uses: actions/checkout@93cb6efe18208431cddfb8368fd83d5badbf9bfd # v5.0.1
+      - uses: actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3 # v6.0.0
         with:
           path: ig
 
