@@ -9,6 +9,7 @@ Description: "Bulking materiale - Urogynækologi (DUGA)"
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
 
-* #Bulkamid  "Bulkamid" "Bulkamid" 
-* #Deflux "Deflux" "Deflux"
-* #Macroplastik "Macroplastik" "Macroplastik"
+* #4  "Bulkamid" "Bulkamid" 
+* #2 "Deflux" "Deflux"
+* #1 "Macroplastik" "Macroplastik"
+

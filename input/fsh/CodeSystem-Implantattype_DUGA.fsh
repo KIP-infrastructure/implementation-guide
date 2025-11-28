@@ -9,8 +9,9 @@ Description: "Implantattype - Urogynækologi (DUGA)"
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
 
-* #mesh_resorberbar "Syntetisk mesh, resorberbar" "Syntetisk mesh, resorberbar"
-* #mesh_non_resorberbar "Syntetisk mesh, non-resorberbar" "Syntetisk mesh, non-resorberbar"
-* #bio_autolog_graft "Biologisk implantat, autolog graft" "Biologisk implantat, autolog graft"
-* #bio_allograft "Biologisk implantat, allograft" "Biologisk implantat, allograft"
-* #bio_xenograft "Biologisk implantat, xenograft" "Biologisk implantat, xenograft"
+* #1 "Syntetisk mesh, resorberbar" "Syntetisk mesh, resorberbar"
+* #2 "Syntetisk mesh, non-resorberbar" "Syntetisk mesh, non-resorberbar"
+* #3 "Biologisk implantat, autolog graft" "Biologisk implantat, autolog graft"
+* #4 "Biologisk implantat, allograft" "Biologisk implantat, allograft"
+* #5 "Biologisk implantat, xenograft" "Biologisk implantat, xenograft"
+

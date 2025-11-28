@@ -10,11 +10,12 @@ Description: "I hvilken sammenhæng sker en given hændelse"
 * ^content = #complete
 
 // Uspecificeret
-* #aldrig "Aldrig" "Aldrig"
-* #altid "Hele tiden" "Hele tiden"
-* #aktiv "Fysisk aktiv" "Fysisk aktiv"
-* #efter-toilet "Efter toilet" "Efter toilet"
-* #inden-toilet "Inden toilet" "Inden toilet"
-* #hoste "Ved hoste" "Ved hoste"
-* #sover "Sover" "Sover"
-* #uden-grund "Uden grund" "Uden grund"
+* #0 "Aldrig" "Aldrig"
+* #7 "Hele tiden" "Hele tiden"
+* #4 "Fysisk aktiv" "Fysisk aktiv"
+* #5 "Efter toilet" "Efter toilet"
+* #1 "Inden toilet" "Inden toilet"
+* #2 "Ved hoste" "Ved hoste"
+* #3 "Sover" "Sover"
+* #6 "Uden grund" "Uden grund"
+
