@@ -14,6 +14,7 @@ Description: "Medicine"
 * #beh-vitamin_k "Vitamin-K-antagonist" "Behandling med vitamin-K-antagonist"
 * #noak_a "NOAK halv dosis" "NOAK halv dosis"
 * #noak_b "NOAK fuld dosis" "NOAK fuld dosis"
+* #noak_c "NOAK fuld dosis postop" "NOAK fuld dosis postop"
 
 //DSR:
 * #antibiotics "Antibiotics" "Antibiotics / Antibiotika"
