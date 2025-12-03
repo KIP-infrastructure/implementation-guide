@@ -9,7 +9,7 @@ Description: "Slynge - Urogynækologi (DUGA)"
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
 
-* #Bard  "Bard" "Bard" 
-* #BostonScientific "Boston Scientific" "Boston Scientific"
-* #Cousin "Cousin" "Cousin"
-* #johnson&johnson "Johnson & Johnson" "Johnson & Johnson"
+* #7  "Bard" "Bard" 
+* #8 "Boston Scientific" "Boston Scientific"
+* #9 "Cousin" "Cousin"
+* #10 "Johnson & Johnson" "Johnson & Johnson"
