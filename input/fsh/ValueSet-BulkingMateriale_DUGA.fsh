@@ -9,5 +9,5 @@ Description: "BulkingMateriale (DUGA)"
 
 * BulkingMaterialeDUGA#1 "Macroplastik"
 * BulkingMaterialeDUGA#2 "Deflux"
-* BulkingMaterialeDUGA#4 "Bulkamid" 
+* BulkingMaterialeDUGA#4 "Bulkamid"
 * GenericValues#other "Andet"

@@ -14,4 +14,3 @@ Description: "Operationserfaring for operatører og assistenter"
 * Operationserfaring#5 "E (76-100)"
 * Operationserfaring#6 "F (>100)"
 
-

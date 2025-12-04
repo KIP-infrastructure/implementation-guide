@@ -16,4 +16,3 @@ Description: "Hvornår lækker urin (DUGA)"
 * HaendelseIndtraeffer#6 "Lækker uden nogen grund"
 * HaendelseIndtraeffer#7 "Lækker hele tiden"
 
-
