@@ -10,7 +10,7 @@ Description: "Angivelse af mængder"
 * ^content = #complete
 
 // Uspecificeret
-* #0 "Ingen" "Ingen"
-* #2 "Lille" "Lille mængde"
-* #4 "Moderat" "Moderat mængde"
-* #6 "Stor" "Stor mængde"
+* #ingen "Ingen" "Ingen"
+* #lille "Lille" "Lille mængde"
+* #moderat "Moderat" "Moderat mængde"
+* #stor "Stor" "Stor mængde"
