@@ -1,4 +1,4 @@
-FROM ruby:3.2.10 AS build
+FROM ruby:3.4.8 AS build
 
 # https://github.com/inadarei/alpine-jekyll/blob/master/Dockerfile
 RUN gem install --no-document \
