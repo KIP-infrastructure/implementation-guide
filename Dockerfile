@@ -1,4 +1,4 @@
-FROM ruby:3.2 AS build
+FROM ruby:3.4.8 AS build
 
 # https://github.com/inadarei/alpine-jekyll/blob/master/Dockerfile
 RUN gem install --no-document \
@@ -22,8 +22,8 @@ RUN apt-get update && apt-get install nodejs npm --no-install-recommends -y --fi
 
 # add java
 RUN apt-get install -y openjdk-21-jdk --no-install-recommends
-ENV JAVA_HOME /usr/lib/jvm/java-1.21-openjdk
-ENV PATH $PATH:/usr/lib/jvm/java-1.21-openjdk/jre/bin:/usr/lib/jvm/java-1.21-openjdk/bin
+ENV JAVA_HOME=/usr/lib/jvm/java-1.21-openjdk
+ENV PATH=$PATH:/usr/lib/jvm/java-1.21-openjdk/jre/bin:/usr/lib/jvm/java-1.21-openjdk/bin
 
 # add misc
 RUN apt-get install -y curl jq --no-install-recommends
@@ -45,7 +45,7 @@ ARG FSH_SUSHI_VERSION
 # add the sushi tool
 RUN npm install -g fsh-sushi@${FSH_SUSHI_VERSION}
 
-# Create a template to overrider variables in
+# Create a template to override variables in
 COPY --link ./nginx/nginx-template.conf /etc/nginx/conf.d/default.conf
 COPY --link ./nginx/nginx.conf /etc/nginx/nginx.conf
 COPY --link ./nginx/stub-status.conf /etc/nginx/conf.d/stub-status.conf
