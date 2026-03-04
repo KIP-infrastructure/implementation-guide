@@ -10,6 +10,26 @@ Description: "Complications - several procedures"
 * ^content = #complete
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #ami "AMI" "AMI - Myocardieinfarkt" //MPDS
 * #chylothorax "Chylothorax" "Chylothorax"
 * #fascierupture "Fascieruptur" "Fascieruptur"
@@ -26,12 +46,28 @@ Description: "Complications - several procedures"
 * #anafylSchock "Anafylaktisk reaktion/shock" "Anafylaktisk reaktion/shock"
 * #anInterrupt "Anæstesi afbrudt" "Anæstesi afbrudt"
 * #appFailure "Apparaturfejl" "Apparaturfejl"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Removed"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-04T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #retired
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = true
 * #aspiration "Aspiration" "Aspiration"
 * #duraptAcc "Durapunktur accidentel" "Durapunktur accidentel"
 * #heartFail "Hjertestop" "Hjertestop"
 * #huskeAN "Huskeanæstesi" "Huskeanæstesi"
 * #malignHyp "Malign Hypertermi mistanke" "Malign Hypertermi mistanke"
 * #medFail "Medicineringsfejl" "Medicineringsfejl"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Removed"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-04T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #retired
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = true
 * #neuMuscBlock "Neuromuskulær blokade, forlænget virkning" "Neuromuskulær blokade, forlænget virkning"
 * #dentInj "Tandskade" "Tandskade"
 * #mors "Mors, uventet" "Mors, uventet"
