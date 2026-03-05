@@ -176,9 +176,9 @@ Description: "Diseases - Unspecified without a code"
 
 //LYFO 
 * #High_grade_B_lymfom_NOS  "High-grade B-lymfom NOS" "High-grade B-lymfom NOS " //denne kode findes ikke
-* #Primært_kutant_CD4_positivt_små_medium_T_celle_lymfom "Primært kutant CD4-positivt små/medium T-celle lymfom" "Primært kutant CD4-positivt små/medium T-celle lymfom"
-* #Malignt_lymfom "Malignt lymfom" "Malignt lymfom"
-* #non-Hodgkin_malignt_lymfom "non-Hodgkin malignt lymfom" "non-Hodgkin malignt lymfom"
+* #M97063 "Primært kutant CD4-positivt små/medium T-celle lymfom" "Primært kutant CD4-positivt små/medium T-celle lymfom"
+* #M95903 "Malignt lymfom" "Malignt lymfom"
+* #M95913 "non-Hodgkin malignt lymfom" "non-Hodgkin malignt lymfom"
 * #ascites_lymfom "Ascites med lymfomceller" "Ascites med lymfomceller"
 * #perikardieeksudat_lymfom "Perikardieeksudat med lymfomceller" "Perikardieeksudat med lymfomceller"
 * #pleuraeksudat_lymfom "Pleuraeksudat med lymfomceller"
