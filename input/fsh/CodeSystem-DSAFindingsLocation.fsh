@@ -20,7 +20,7 @@ Description: "Findings with digital subtraction angiography (DSA); location of c
 * #ba "BA" "BA"
 * #pca/other "PCA/Other" "PCA/Other"
 * #cervical_dissection "Cervical dissection" "Cervical dissection"
-* #Extracranial "Extracranial (CCA,ICA)" "Extracranial (CCA,ICA)"
+* #Extracranial "Extracranial (CCA, ICA)" "Extracranial (CCA, ICA)"
 * #Large_vessel_occlusion "Large vessel occlusion, LVO (ICA, M1, Proksimal M2)" "Large vessel occlusion, LVO (ICA, M1, Proksimal M2)"
 * #Medium_vessel_occlusion "Medium vessel occlusion, MEVO (Distal M2, ACA, PCA)" "Medium vessel occlusion, MEVO (Distal M2, ACA, PCA)"
 * #Posterior_circulation "Posterior circulation" "Posterior circulation"
