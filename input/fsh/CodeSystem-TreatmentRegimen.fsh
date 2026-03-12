@@ -1,4 +1,5 @@
-CodeSystem: TreatmentRegimen
+CodeSystem: TreatmentRegimenCS
+Id: TreatmentRegimen
 Title: "Treatment regimen"
 Description: "Treatment regimen"
 

@@ -1,4 +1,5 @@
-CodeSystem: LaryngoskopiDegree
+CodeSystem: LaryngoskopiDegreeCS
+Id: LaryngoskopiDegree
 Title: "Laryngoskopi grad"
 Description: "Bedst opnåede laryngoskopigrad ved  direkte laryngoskopi efter Cormack & Lehane"
 

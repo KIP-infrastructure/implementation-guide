@@ -1,4 +1,5 @@
-CodeSystem: UndersoegelsesTypeDUGA
+CodeSystem: UndersoegelsesTypeDUGACS
+Id: UndersoegelsesTypeDUGA
 Title: "Undersøgelsestype (DUGA)"
 Description: "Undersøgelsestype (DUGA)"
 

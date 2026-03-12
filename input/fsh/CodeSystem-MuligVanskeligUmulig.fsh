@@ -1,4 +1,5 @@
-CodeSystem: MuligVanskeligUmulig
+CodeSystem: MuligVanskeligUmuligCS
+Id: MuligVanskeligUmulig
 Title: "Mulig-Vanskelig-Umulig"
 Description: "Vurdering af behandling"
 

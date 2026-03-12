@@ -11,9 +11,9 @@ Description: "Forskellige skannings metoder"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 
-* MedicalScanningTypes#scintigraphy "Knoglescintigrafi" 
-* MedicalScanningTypes#dexa "DEXA scanning" 
-* MedicalScanningTypes#mri "MR scanning"
-* MedicalScanningTypes#pet "PET-scanning"
+* MedicalScanningTypesCS#scintigraphy "Knoglescintigrafi" 
+* MedicalScanningTypesCS#dexa "DEXA scanning" 
+* MedicalScanningTypesCS#mri "MR scanning"
+* MedicalScanningTypesCS#pet "PET-scanning"
 * GenericValues#other "Anden us"
 

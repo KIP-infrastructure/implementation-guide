@@ -7,5 +7,5 @@ Description: "Status ved udskrivelse"
 * ^publisher = "RKKP"
 * ^date = "2022-06-22T00:00:00+02:00"
 
-* LifeStatus#alive "Levende"
-* LifeStatus#dead "Død"
+* LifeStatusCS#alive "Levende"
+* LifeStatusCS#dead "Død"

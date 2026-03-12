@@ -1,4 +1,5 @@
-CodeSystem: ReferredForTraining
+CodeSystem: ReferredForTrainingCS
+Id: ReferredForTraining
 Title: "Specifikation of where the paitent is referred to for physical training"
 Description: "Uddybning af hvor patienten er henvist til fysisk træning"
 

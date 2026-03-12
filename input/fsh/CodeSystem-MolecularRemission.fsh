@@ -1,4 +1,5 @@
-CodeSystem: MolecularRemission
+CodeSystem: MolecularRemissionCS
+Id: MolecularRemission
 Title: "Molecular remission (MR)"
 Description: "Molecular remission (MR)"
 

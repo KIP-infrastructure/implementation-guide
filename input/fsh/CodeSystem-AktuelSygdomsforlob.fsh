@@ -1,4 +1,5 @@
-CodeSystem: AktuelSygdomsforlob
+CodeSystem: AktuelSygdomsforlobCS
+Id: AktuelSygdomsforlob
 Title: "Aktuel Sygdomsforløb"
 Description: "Er patienten i det aktuelle sygdomsforløb"
 

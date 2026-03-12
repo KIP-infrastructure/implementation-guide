@@ -9,41 +9,41 @@ Description: "Behandlingsplan som beskriver specifikke codsering og planlægning
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 
-* TreatmentRegimen#hydrea "Hydrea"
-* TreatmentRegimen#hdara_c "HdAraC"
-//* TreatmentRegimen#ade "ADE +- supplement" fjernet den 10/apr/2024
-//* TreatmentRegimen#da "DA +- supplement" fjernet den 10/apr/2024
-* TreatmentRegimen#da31087 "DA inkl. 3+10, 3+8, 3+7"
-* TreatmentRegimen#da31087my "DA inkl. 3+10, 3+8, 3+7 + mylotarg"
-* TreatmentRegimen#da31087mi "DA inkl. 3+10, 3+8, 3+7 + midostaurin"
-//* TreatmentRegimen#flag "FLAG +- supplement" fjernet den 10/apr/2024
-* TreatmentRegimen#flagmito "FLAG-Ida eller lign inkl FLAG, Mito-FLAG"
-* TreatmentRegimen#flagmitovene "FLAG-Ida eller lign inkl FLAG, Mito-FLAG + venetoclax"
-* TreatmentRegimen#idarac "IdAraC"
-* TreatmentRegimen#apl_mt "APL vedligehold"
-* TreatmentRegimen#azacitidinmono "Azacitidin monoterapi"
-* TreatmentRegimen#blinatumomab "Blinatumunab"
-* TreatmentRegimen#vyxeos "Vyxeos"
-* TreatmentRegimen#nopho_2008 "NOPHO 2008"
-* TreatmentRegimen#atoatra "ATO+ATRA"
-* TreatmentRegimen#aida "AIDA"
-* TreatmentRegimen#azacitidinvene "Azacitidin-venetoclax"
-* TreatmentRegimen#toplusfem "2+5 eller lign, eks. CT"
-* TreatmentRegimen#gilteritinib "Gilteritinib"
-* TreatmentRegimen#midostaurin_ved "Midostaurin vedligehold"
-* TreatmentRegimen#inotuzumab "Inotuzumab ozogamicin"
-* TreatmentRegimen#all_ved "ALL vedligehold"
-* TreatmentRegimen#hyper_cvad "Hyper-CVAD"
-* TreatmentRegimen#alltogether_mt "ALLtogether"
-* TreatmentRegimen#other_ikke "Anden ikke-intensiv"
-* TreatmentRegimen#other_eks "Anden eksperimentel"
-* TreatmentRegimen#other_semi "Anden semiintensiv (f.eks. Plan B)"
-* TreatmentRegimen#other_int "Anden intensiv (f.eks. BISHOP, Plan A)"
-//* TreatmentRegimen#mace "MACE +- supplement" fjernet den 10/apr/2024
-//* TreatmentRegimen#midac "MidAC" fjernet den 10/apr/2024
-//* TreatmentRegimen#ldara "LdARA-C +- supplement" fjernet den 10/apr/2024
-//* TreatmentRegimen#atra "ATRA" fjernet den 10/apr/2024
-//* TreatmentRegimen#azacytidin_supplement "5-Azacytidin +- supplement" fjernet den 10/apr/2024
-//* TreatmentRegimen#all_mt "ALL vedligeholdelsesbehandling" fjernet den 10/apr/2024
+* TreatmentRegimenCS#hydrea "Hydrea"
+* TreatmentRegimenCS#hdara_c "HdAraC"
+//* TreatmentRegimenCS#ade "ADE +- supplement" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#da "DA +- supplement" fjernet den 10/apr/2024
+* TreatmentRegimenCS#da31087 "DA inkl. 3+10, 3+8, 3+7"
+* TreatmentRegimenCS#da31087my "DA inkl. 3+10, 3+8, 3+7 + mylotarg"
+* TreatmentRegimenCS#da31087mi "DA inkl. 3+10, 3+8, 3+7 + midostaurin"
+//* TreatmentRegimenCS#flag "FLAG +- supplement" fjernet den 10/apr/2024
+* TreatmentRegimenCS#flagmito "FLAG-Ida eller lign inkl FLAG, Mito-FLAG"
+* TreatmentRegimenCS#flagmitovene "FLAG-Ida eller lign inkl FLAG, Mito-FLAG + venetoclax"
+* TreatmentRegimenCS#idarac "IdAraC"
+* TreatmentRegimenCS#apl_mt "APL vedligehold"
+* TreatmentRegimenCS#azacitidinmono "Azacitidin monoterapi"
+* TreatmentRegimenCS#blinatumomab "Blinatumunab"
+* TreatmentRegimenCS#vyxeos "Vyxeos"
+* TreatmentRegimenCS#nopho_2008 "NOPHO 2008"
+* TreatmentRegimenCS#atoatra "ATO+ATRA"
+* TreatmentRegimenCS#aida "AIDA"
+* TreatmentRegimenCS#azacitidinvene "Azacitidin-venetoclax"
+* TreatmentRegimenCS#toplusfem "2+5 eller lign, eks. CT"
+* TreatmentRegimenCS#gilteritinib "Gilteritinib"
+* TreatmentRegimenCS#midostaurin_ved "Midostaurin vedligehold"
+* TreatmentRegimenCS#inotuzumab "Inotuzumab ozogamicin"
+* TreatmentRegimenCS#all_ved "ALL vedligehold"
+* TreatmentRegimenCS#hyper_cvad "Hyper-CVAD"
+* TreatmentRegimenCS#alltogether_mt "ALLtogether"
+* TreatmentRegimenCS#other_ikke "Anden ikke-intensiv"
+* TreatmentRegimenCS#other_eks "Anden eksperimentel"
+* TreatmentRegimenCS#other_semi "Anden semiintensiv (f.eks. Plan B)"
+* TreatmentRegimenCS#other_int "Anden intensiv (f.eks. BISHOP, Plan A)"
+//* TreatmentRegimenCS#mace "MACE +- supplement" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#midac "MidAC" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#ldara "LdARA-C +- supplement" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#atra "ATRA" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#azacytidin_supplement "5-Azacytidin +- supplement" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#all_mt "ALL vedligeholdelsesbehandling" fjernet den 10/apr/2024
 //* GenericValues#other "anden pall beh" fjernet den 10/apr/2024
-//* TreatmentRegimen#experimental "anden behl incl anden experimentel" fjernet den 10/apr/2024
+//* TreatmentRegimenCS#experimental "anden behl incl anden experimentel" fjernet den 10/apr/2024
