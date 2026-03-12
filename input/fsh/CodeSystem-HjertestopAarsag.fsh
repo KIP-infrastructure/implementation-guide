@@ -1,4 +1,5 @@
-CodeSystem: HjertestopAarsag
+CodeSystem: HjertestopAarsagCS
+Id: HjertestopAarsag
 Title: "Hjertestop Årsag"
 Description: "Årsag til hjertestop"
 

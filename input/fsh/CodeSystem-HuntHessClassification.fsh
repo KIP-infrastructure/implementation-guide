@@ -1,4 +1,5 @@
-CodeSystem: HuntHessClassification
+CodeSystem: HuntHessClassificationCS
+Id: HuntHessClassification
 Title: "Hunt and Hess scale"
 Description: "Hunt and Hess scale; Link: https://radiopaedia.org/articles/hunt-and-hess-grading-system"
 

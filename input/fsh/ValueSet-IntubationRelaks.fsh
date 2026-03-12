@@ -7,5 +7,5 @@ Description: "Relaksation til intubation"
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 
-* IntubationRelaks#depolar "Depolariserende"
-* IntubationRelaks#non_depolar "Non-depolariserende"
+* IntubationRelaksCS#depolar "Depolariserende"
+* IntubationRelaksCS#non_depolar "Non-depolariserende"

@@ -1,4 +1,5 @@
-CodeSystem: SmerteKvalme
+CodeSystem: SmerteKvalmeCS
+Id: SmerteKvalme
 Title: "Smerter og kvalme"
 Description: "Smerter og kvalme målt i forskellige situationer"
 

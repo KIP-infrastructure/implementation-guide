@@ -1,4 +1,5 @@
-CodeSystem: GenoplivStoppet
+CodeSystem: GenoplivStoppetCS
+Id: GenoplivStoppet
 Title: "Genoplivning indstillet - årsag"
 Description: "Årsager til indstilling af genoplivningsforsøg"
 

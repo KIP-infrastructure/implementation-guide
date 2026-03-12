@@ -1,4 +1,5 @@
-CodeSystem: TreatmentMethodMRD
+CodeSystem: TreatmentMethodMRDCS
+Id: TreatmentMethodMRD
 Title: "Treatment method - Minimal Residual Disease (MRD)"
 Description: "Treatment method - Minimal Residual Disease (MRD)"
 

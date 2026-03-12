@@ -1,4 +1,5 @@
-CodeSystem: AnnArborStagingClassification
+CodeSystem: AnnArborStagingClassificationCS
+Id: AnnArborStagingClassification
 Title: "Ann Arbor staging system"
 Description: "Ann Arbor staging system; Link: https://radiopaedia.org/articles/ann-arbor-staging-system"
 

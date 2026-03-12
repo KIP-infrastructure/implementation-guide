@@ -1,4 +1,5 @@
-CodeSystem: StopTeam
+CodeSystem: StopTeamCS
+Id: StopTeam
 Title: "Teammedlemmer på stopholdet"
 Description: "Teammedlemmer/personale på stopholdet"
 

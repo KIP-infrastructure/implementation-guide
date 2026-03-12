@@ -1,4 +1,5 @@
-CodeSystem: CentralBlock
+CodeSystem: CentralBlockCS
+Id: CentralBlock
 Title: "Central blokade"
 Description: "Tidspunkt for central blokade"
 
