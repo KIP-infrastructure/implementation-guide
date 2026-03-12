@@ -1,4 +1,5 @@
-CodeSystem: MedicalScanningTypes
+CodeSystem: MedicalScanningTypesCS
+Id: MedicalScanningTypes
 Title: "Medical scanning types"
 Description: "Medical scanning types"
 

@@ -1,4 +1,5 @@
-CodeSystem: GynUndersoegDUGA
+CodeSystem: GynUndersoegDUGACS
+Id: GynUndersoegDUGA
 Title: "Gynækologisk undersøgelsesmetode (DUGA)"
 Description: "Gynækologisk undersøgelsesmetode (DUGA)"
 

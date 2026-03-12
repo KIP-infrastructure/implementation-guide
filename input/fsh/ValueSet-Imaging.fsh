@@ -7,5 +7,5 @@ Description: "Imaging"
 * ^publisher = "RKKP"
 * ^date = "2024-04-29T00:00:00+02:00"
 
-* MedicalScanningTypes#ct "CT"
-* MedicalScanningTypes#mri "MR"
+* MedicalScanningTypesCS#ct "CT"
+* MedicalScanningTypesCS#mri "MR"

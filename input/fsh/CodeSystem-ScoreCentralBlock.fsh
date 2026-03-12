@@ -1,4 +1,5 @@
-CodeSystem: ScoreCentralBlock
+CodeSystem: ScoreCentralBlockCS
+Id: ScoreCentralBlock
 Title: "Score ved central blokade"
 Description: "Regional score ved anlæg af central nerveblokade"
 

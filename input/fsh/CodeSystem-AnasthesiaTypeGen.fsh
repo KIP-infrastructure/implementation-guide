@@ -1,4 +1,5 @@
-CodeSystem: AnasthesiaTypeGen
+CodeSystem: AnasthesiaTypeGenCS
+Id: AnasthesiaTypeGen
 Title: "Anæstesi Type Generel"
 Description: "Generel Anæstesiydelse - Tillæg"
 

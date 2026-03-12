@@ -1,4 +1,5 @@
-CodeSystem: LifeStatus
+CodeSystem: LifeStatusCS
+Id: LifeStatus
 Title: "Liv Status"
 Description: "Patientens status ved udskrivelse"
 

@@ -1,4 +1,4 @@
-Instance: CarePlanReadOrWriteAccess
+Instance: CarePlanReadOrWriteAccessSP
 InstanceOf: SearchParameter
 Usage: #definition
 * url = "https://kip.rkkp.dk/fhir/SearchParameter/CarePlanReadOrWriteAccess"

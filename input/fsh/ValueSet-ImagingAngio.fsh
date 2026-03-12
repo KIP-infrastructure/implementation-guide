@@ -7,5 +7,5 @@ Description: "Imaging Angio"
 * ^publisher = "RKKP"
 * ^date = "2024-04-29T00:00:00+02:00"
 
-* MedicalScanningTypes#ct_angio "CT angio"
-* MedicalScanningTypes#mri_angio "MR angio"
+* MedicalScanningTypesCS#ct_angio "CT angio"
+* MedicalScanningTypesCS#mri_angio "MR angio"

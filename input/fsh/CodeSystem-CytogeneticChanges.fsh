@@ -1,4 +1,5 @@
-CodeSystem: CytogeneticChanges
+CodeSystem: CytogeneticChangesCS
+Id: CytogeneticChanges
 Title: "Cytogenetic changes"
 Description: "Cytogenetic changes"
 
