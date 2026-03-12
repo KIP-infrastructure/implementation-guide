@@ -1,8 +1,8 @@
-ValueSet: PatobankSNOMEDDiagnoserLYFO
-Title: "PatobankSNOMED - Diagnoser (LYFO) (retired)"
+ValueSet: PatobankSNOMEDDiagnoserLYFO2026
+Title: "PatobankSNOMED - Diagnoser (LYFO)"
 Description: "PatobankSNOMED - Diagnoser (LYFO)"
 
-* ^status = #active // Should have status 'retired', but the ValueSet is in use in production
+* ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-18T00:00:00+02:00"
@@ -47,6 +47,6 @@ Description: "PatobankSNOMED - Diagnoser (LYFO)"
 * DiseasesUnspecified#M96913 "9691 - Follicular lymphoma grade I"
 * DiseasesUnspecified#M96953 "9695 - Follicular lymphoma grade II"
 * DiseasesUnspecified#M96983 "9698 - Follicular lymphoma grade III"
-* DiseasesUnspecified#Primært_kutant_CD4_positivt_små_medium_T_celle_lymfom "9706 - Primært kutant CD4-positivt små/medium T-celle lymfom "
-* DiseasesUnspecified#Malignt_lymfom "9590 - Malignant lymphoma, NOS "
-* DiseasesUnspecified#non-Hodgkin_malignt_lymfom "9591 - Malignant non-Hodgkin lymphoma, NOS "
+* PatobankSNOMED#M97063 "9706 - Primært kutant CD4-positivt små/medium T-celle lymfom "
+* PatobankSNOMED#M95903 "9590 - Malignant lymphoma, NOS "
+* PatobankSNOMED#M95913 "9591 - Malignant non-Hodgkin lymphoma, NOS "
