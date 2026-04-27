@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       args:
         # https://github.com/FHIR/sushi/releases
-        FSH_SUSHI_VERSION: 3.18.0
+        FSH_SUSHI_VERSION: 3.19.0
     volumes:
       - ./output:/src/output:rw
       - ./input-cache:/src/input-cache:rw
@@ -22,7 +22,7 @@ services:
   ig-nginx:
     container_name: "site"
     # https://hub.docker.com/_/nginx
-    image: nginx:1.29.5-alpine-slim
+    image: nginx:1.30.0-alpine-slim
     restart: unless-stopped
     volumes:
       - ./output:/usr/share/nginx/html:rw
