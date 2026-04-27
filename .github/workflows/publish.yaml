@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
 
       - name: IG transpile check
-        uses: trifork/ig-publisher/.github/actions/ig-transpile@4654e18723716297e73f8fd6145cbba58bc4eb93 # v2.2.5
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@e7e9914853ef17681337a7db8fe1eb3d9951354c # v2.2.7
 
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
@@ -83,7 +83,7 @@ jobs:
           repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
 
       - name: Publish the implementation guide
-        uses: trifork/ig-publisher/.github/actions/ig-publish@4654e18723716297e73f8fd6145cbba58bc4eb93 # v2.2.5
+        uses: trifork/ig-publisher/.github/actions/ig-publish@e7e9914853ef17681337a7db8fe1eb3d9951354c # v2.2.7
         # uses: ../../trifork/ig-publisher/.github/actions/ig-publish # Test local action
         with:
           app-token: ${{ steps.token.outputs.token }}
