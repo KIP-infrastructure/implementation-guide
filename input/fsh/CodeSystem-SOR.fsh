@@ -10,6 +10,26 @@ Description: "Sundhedsvæsenets OrganisationsregisterR (SOR) - Udvalgte koder i 
 * ^content = #fragment
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #223601000016004 "ROS Neurologisk Afd." "Region Sjællands Sygehusvæsen - ROS Neurologisk Afd. (Shak: 3800A80)"
 * #239081000016004 "OUH Hæmatologisk Afsnit X (Odense)" "Odense Universitetshospital - Svendborg - OUH Hæmatologisk Afsnit X (Odense) (Shak: 4202560)"
 * #239981000016003 "OUH Neurokirurgisk Afsnit U (Odense)" "Odense Universitetshospital - Svendborg - OUH Neurokirurgisk Afsnit U (Odense) (Shak: 4202150)"
