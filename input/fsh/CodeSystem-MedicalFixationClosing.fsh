@@ -74,3 +74,12 @@ Description: "Medical fixation and closing"
   * #tack_sutur "Tack + suture" "Tack + sutur"
   * #glue_sutur "Glue + suture" "Lim + sutur"
   * #glue_tack_clip "Glue + tack/clip" "Lim + Tack/clips"
+  * #Suturmesh "Suturmesh (eks. Duramesh)" "Suturmesh (eks. Duramesh)"
+    * ^property[0].code = #comment
+    * ^property[=].valueString = "Added"
+    * ^property[+].code = #effectiveDate
+    * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+    * ^property[+].code = #status
+    * ^property[=].valueCode = #active
+    * ^property[+].code = #inactive
+    * ^property[=].valueBoolean = false
