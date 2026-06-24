@@ -7,5 +7,5 @@ Description: "Gynækologisk undersøgelsesmetode (DUGA)"
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 
-* GynUndersoegDUGA#popq "POPQ"
-* GynUndersoegDUGA#hymscore "Undersøg score (i forhold til hymenal plan)"
+* GynUndersoegDUGACS#popq "POPQ"
+* GynUndersoegDUGACS#hymscore "Undersøg score (i forhold til hymenal plan)"

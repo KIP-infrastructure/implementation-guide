@@ -1,4 +1,5 @@
-CodeSystem: CytogeneticExamination
+CodeSystem: CytogeneticExaminationCS
+Id: CytogeneticExamination
 Title: "Cytogenetic examination"
 Description: "Examination; cytogenetic examination"
 

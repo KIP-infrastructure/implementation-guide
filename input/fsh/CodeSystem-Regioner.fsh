@@ -1,4 +1,5 @@
-CodeSystem: Regioner
+CodeSystem: RegionerCS
+Id: Regioner
 Title: "Regioner"
 Description: "Danske regioner"
 

@@ -1,4 +1,5 @@
-CodeSystem: IkkeBesvaret
+CodeSystem: IkkeBesvaretCS
+Id: IkkeBesvaret
 Title: "Ikke besvaret"
 Description: "Årsager til ikke-besvaret spørgsmål"
 

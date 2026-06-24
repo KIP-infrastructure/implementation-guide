@@ -1,4 +1,5 @@
-CodeSystem: ClinicalProtocolNotParticipated
+CodeSystem: ClinicalProtocolNotParticipatedCS
+Id: ClinicalProtocolNotParticipated
 Title: "Clinical protocol - patient did not participated; cause"
 Description: "Clinical protocol -  patient did not participated; cause"
 

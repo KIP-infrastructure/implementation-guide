@@ -1,4 +1,5 @@
-CodeSystem: Faggruppe
+CodeSystem: FaggruppeCS
+Id: Faggruppe
 Title: "Faggruppe"
 Description: "Faggruppe involveret i hændelser"
 

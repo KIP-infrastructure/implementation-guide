@@ -1,4 +1,5 @@
-CodeSystem: PRDcodes
+CodeSystem: PRDcodesCS
+Id: PRDcodes
 Title: "ERA PRD Codes"
 Description: "European Renal Association (ERA)  Primary Renal Disease (PRD)"
 

@@ -1,4 +1,5 @@
-CodeSystem: MedicinDANARREST
+CodeSystem: MedicinDANARRESTCS
+Id: MedicinDANARREST
 Title: "Medicin givet ved hjertestop"
 Description: "Mediciin givet ved behandling i DANARREST specialet"
 

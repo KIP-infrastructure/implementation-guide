@@ -1,4 +1,5 @@
-CodeSystem: RadiologicalBoneChanges
+CodeSystem: RadiologicalBoneChangesCS
+Id: RadiologicalBoneChanges
 Title: "Radiological bone changes - Indication of changes in bones"
 Description: "Radiological bone changes - Indication of changes in bones"
 

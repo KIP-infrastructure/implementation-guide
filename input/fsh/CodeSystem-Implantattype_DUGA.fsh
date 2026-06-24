@@ -1,4 +1,5 @@
-CodeSystem: ImplantattypeDUGA
+CodeSystem: ImplantattypeDUGACS
+Id: ImplantattypeDUGA
 Title: "Implantattype - Urogynækologi (DUGA)"
 Description: "Implantattype - Urogynækologi (DUGA)"
 

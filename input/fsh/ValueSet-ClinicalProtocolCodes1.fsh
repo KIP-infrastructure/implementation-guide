@@ -9,5 +9,5 @@ Description: "Kode til en klinisk protokolleret undersøgelse"
 * ^publisher = "RKKP"
 * ^date = "2024-04-10T00:00:00+02:00"
 
-* ClinicalProtocolCodes#mrc_18 "MRC-18"
+* ClinicalProtocolCodesCS#mrc_18 "MRC-18"
 * GenericValues#other "Anden"

@@ -1,4 +1,5 @@
-CodeSystem: BinetStagingSystem
+CodeSystem: BinetStagingSystemCS
+Id: BinetStagingSystem
 Title: "Binet staging system for Chroniz Lymphocytic Leukemia"
 Description: "Stages chronic lymphocytic leukemia, similar to Rai Staging System. *Nodal areas: cervical, axillary, inguinal (one side or both), spleen, and liver. Link: https://www.mdcalc.com/calc/10053/binet-staging-system-chronic-lymphocytic-leukemia-cll"
 

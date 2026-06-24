@@ -1,4 +1,5 @@
-CodeSystem: SlyngeDUGA
+CodeSystem: SlyngeDUGACS
+Id: SlyngeDUGA
 Title: "Slynge - Urogynækologi (DUGA)"
 Description: "Slynge - Urogynækologi (DUGA)"
 

@@ -1,4 +1,5 @@
-CodeSystem: NYHA
+CodeSystem: NYHACS
+Id: NYHA
 Title: "NYHA klasser - hjertesvigt"
 Description: "The New York Heart Association (NYHA) Functional Classification link:https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure"
 

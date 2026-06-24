@@ -1,4 +1,5 @@
-CodeSystem: TrombektomiPerfusion
+CodeSystem: TrombektomiPerfusionCS
+Id: TrombektomiPerfusion
 Title: "Trombektomi-Perfusion (Danstroke)"
 Description: "Perfusion opnået under trombektomi"
 

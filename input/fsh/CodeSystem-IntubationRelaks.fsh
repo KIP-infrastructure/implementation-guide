@@ -1,4 +1,5 @@
-CodeSystem: IntubationRelaks
+CodeSystem: IntubationRelaksCS
+Id: IntubationRelaks
 Title: "Relaksation til intubation"
 Description: "Relaksation til intubation"
 

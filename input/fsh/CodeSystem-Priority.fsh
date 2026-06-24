@@ -1,4 +1,5 @@
-CodeSystem: Priority
+CodeSystem: PriorityCS
+Id: Priority
 Title: "Prioritering"
 Description: "Patientens prioriteringsbehov"
 

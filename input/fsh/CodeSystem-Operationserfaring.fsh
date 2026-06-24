@@ -1,4 +1,5 @@
-CodeSystem: Operationserfaring
+CodeSystem: OperationserfaringCS
+Id: Operationserfaring
 Title: "Operationserfaring"
 Description: "Operationserfaring for operatører og assistenter"
 

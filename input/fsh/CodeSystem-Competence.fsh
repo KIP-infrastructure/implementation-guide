@@ -1,4 +1,5 @@
-CodeSystem: Competence
+CodeSystem: CompetenceCS
+Id: Competence
 Title: "Fagligt niveau"
 Description: "Udførende personales faglighed"
 

@@ -11,5 +11,5 @@ Description: "Radiologiske knogleforandringer"
 * ^date = "2024-11-29T00:00:00+02:00"
 
 * GenericValues#none "Ingen knogleforandringer"
-* RadiologicalBoneChanges#few "Enkelte knogleforandr. i én/enkelte region(er)"
-* RadiologicalBoneChanges#multiple "Multiple knogleforandr. i én/flere regioner"
+* RadiologicalBoneChangesCS#few "Enkelte knogleforandr. i én/enkelte region(er)"
+* RadiologicalBoneChangesCS#multiple "Multiple knogleforandr. i én/flere regioner"

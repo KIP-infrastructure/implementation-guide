@@ -1,4 +1,5 @@
-CodeSystem: AnasthesiaService
+CodeSystem: AnasthesiaServiceCS
+Id: AnasthesiaService
 Title: "Anæstesiydelse"
 Description: "Anæstesiydelse"
 

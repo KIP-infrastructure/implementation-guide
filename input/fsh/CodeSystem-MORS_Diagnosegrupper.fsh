@@ -1,4 +1,5 @@
-CodeSystem: MorsDiagnosegrupper
+CodeSystem: MorsDiagnosegrupperCS
+Id: MorsDiagnosegrupper
 Title: "Mors Diagnosegrupper (DNSL)"
 Description: "Mors Diagnosegrupper (DNSL)"
 

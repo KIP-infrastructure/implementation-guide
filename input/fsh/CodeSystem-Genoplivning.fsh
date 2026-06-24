@@ -1,4 +1,5 @@
-CodeSystem: Genoplivning
+CodeSystem: GenoplivningCS
+Id: Genoplivning
 Title: "Genoplivning"
 Description: "Aktivitet ifm genoplivning"
 

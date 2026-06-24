@@ -1,4 +1,5 @@
-CodeSystem: HeartRhythm
+CodeSystem: HeartRhythmCS
+Id: HeartRhythm
 Title: "Hjerterytme"
 Description: "Patientens hjerterytme"
 

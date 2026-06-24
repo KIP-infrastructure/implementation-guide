@@ -1,4 +1,5 @@
-CodeSystem: CoronaryArteryGraph
+CodeSystem: CoronaryArteryGraphCS
+Id: CoronaryArteryGraph
 Title: "KAG risk assesment"
 Description: "Should the patient get a KAG"
 

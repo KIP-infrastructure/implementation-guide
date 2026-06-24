@@ -1,4 +1,5 @@
-CodeSystem: Cyclus
+CodeSystem: CyclusCS
+Id: Cyclus
 Title: "Cyclus"
 Description: "Cyclus længde"
 

@@ -10,6 +10,26 @@ Description: "Diseases - Unspecified without a code"
 * ^content = #complete
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 // Overordnede sygdomme
 * #diabetes "Diabetes" "Diabetes / Diabetes"
 * #heart_disease "Heart disease" "Heart disease / Hjertesygdom"
@@ -177,8 +197,32 @@ Description: "Diseases - Unspecified without a code"
 //LYFO 
 * #High_grade_B_lymfom_NOS  "High-grade B-lymfom NOS" "High-grade B-lymfom NOS " //denne kode findes ikke
 * #Primært_kutant_CD4_positivt_små_medium_T_celle_lymfom "Primært kutant CD4-positivt små/medium T-celle lymfom" "Primært kutant CD4-positivt små/medium T-celle lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Removed"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #retired
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = true
 * #Malignt_lymfom "Malignt lymfom" "Malignt lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Removed"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #retired
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = true
 * #non-Hodgkin_malignt_lymfom "non-Hodgkin malignt lymfom" "non-Hodgkin malignt lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Removed"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #retired
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = true
 * #ascites_lymfom "Ascites med lymfomceller" "Ascites med lymfomceller"
 * #perikardieeksudat_lymfom "Perikardieeksudat med lymfomceller" "Perikardieeksudat med lymfomceller"
 * #pleuraeksudat_lymfom "Pleuraeksudat med lymfomceller"

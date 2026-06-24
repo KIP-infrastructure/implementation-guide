@@ -1,4 +1,5 @@
-CodeSystem: ClinicalProtocolCodes
+CodeSystem: ClinicalProtocolCodesCS
+Id: ClinicalProtocolCodes
 Title: "Clinical protocol; name"
 Description: "Clinical protocol; name"
 

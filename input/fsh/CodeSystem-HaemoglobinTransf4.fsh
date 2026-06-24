@@ -1,4 +1,5 @@
-CodeSystem: HaemoglobinTransf4
+CodeSystem: HaemoglobinTransf4CS
+Id: HaemoglobinTransf4
 Title: "HGBTransfusion4"
 Description: "Hæmoglobinværdi før blodtransfusion"
 

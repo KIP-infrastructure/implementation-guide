@@ -7,5 +7,5 @@ Description: "Er patienten i det aktuelle sygdomsforløb"
 * ^publisher = "RKKP"
 * ^date = "2022-06-22T00:00:00+02:00"
 
-* AktuelSygdomsforlob#indlagt "Indlagt (stationær)"
-* AktuelSygdomsforlob#ambulant "Ambulant"
+* AktuelSygdomsforlobCS#indlagt "Indlagt (stationær)"
+* AktuelSygdomsforlobCS#ambulant "Ambulant"

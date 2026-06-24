@@ -7,5 +7,5 @@ Description: "Mediciin givet ved behandling i DANARREST specialet"
 * ^publisher = "RKKP"
 * ^date = "2022-06-29T00:00:00+02:00"
 
-* MedicinDANARREST#adrenalin "Adrenalin"
-* MedicinDANARREST#amiodaron "Amiodaron"
+* MedicinDANARRESTCS#adrenalin "Adrenalin"
+* MedicinDANARRESTCS#amiodaron "Amiodaron"

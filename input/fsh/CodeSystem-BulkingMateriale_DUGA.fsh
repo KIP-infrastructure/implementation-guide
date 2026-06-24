@@ -1,4 +1,5 @@
-CodeSystem: BulkingMaterialeDUGA
+CodeSystem: BulkingMaterialeDUGACS
+Id: BulkingMaterialeDUGA
 Title: "Bulking materiale - Urogynækologi (DUGA)"
 Description: "Bulking materiale - Urogynækologi (DUGA)"
 

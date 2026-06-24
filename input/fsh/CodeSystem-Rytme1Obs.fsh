@@ -1,4 +1,5 @@
-CodeSystem: Rytme1Obs
+CodeSystem: Rytme1ObsCS
+Id: Rytme1Obs
 Title: "Hjerterytme - første obs"
 Description: "Første observerede hjerterytme"
 

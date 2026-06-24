@@ -1,4 +1,5 @@
-CodeSystem: Interventionsforloeb
+CodeSystem: InterventionsforloebCS
+Id: Interventionsforloeb
 Title: "Interventionsforløb"
 Description: "Interventionsforløb"
 

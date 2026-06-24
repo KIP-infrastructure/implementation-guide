@@ -10,6 +10,44 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 * ^content = #fragment
 * ^caseSensitive = true
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
+* #M95903 "Malignt lymfom" "Malignt lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+* #M95913 "Non-Hodgkin malignt lymfom" "Non-Hodgkin malignt lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 * #M96103 "B-cellelymfom" "B-cellelymfom"
 * #M96503 "Hodgkin lymfom, klassisk type" "Hodgkin lymfom, klassisk type"
 * #M96513 "Hodgkin lymfom, klassisk type, lymfocytrig" "Hodgkin lymfom, klassisk type, lymfocytrig"
@@ -50,6 +88,15 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 * #M96893 "Splenisk marginalzone B-cellelymfom" "Splenisk marginalzone B-cellelymfom"
 // * #M96903 "nodulært malignt lymfom (UDGÅET)" "nodulært malignt lymfom (UDGÅET)"
 // * #M96913 "blandet histiocytært,lymfocytært malignt lymfom,nodulær væks (UDGÅET)" "blandet histiocytært,lymfocytært malignt lymfom,nodulær væks (UDGÅET)"
+* #M97063 "Primært kutant CD4-positivt små/medium T-celle lymfom" "Primært kutant CD4-positivt små/medium T-celle lymfom"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-03-10T00:00:00+01:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 * #M97283 "Precursor B-lymfoblastisk lymfom" "Precursor B-lymfoblastisk lymfom"
 * #M98013 "akut udifferentieret leukæmi" "akut udifferentieret leukæmi"
 * #M98053 "akut leukæmi af ubestemmelig celletype" "akut leukæmi af ubestemmelig celletype"

@@ -1,4 +1,5 @@
-CodeSystem: Intubation
+CodeSystem: IntubationCS
+Id: Intubation
 Title: "Intubation"
 Description: "Resultat af luftvejshåndtering vha. intubation"
 

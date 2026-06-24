@@ -7,6 +7,6 @@ Description: "Undersøgelsestype (DUGA)"
 * ^publisher = "RKKP"
 * ^date = "2024-03-06T00:00:00+02:00"
 
-* UndersoegelsesTypeDUGA#urin_inkontinens "Urin inkontinens"
-* UndersoegelsesTypeDUGA#genital_prolaps "Genital prolaps"
+* UndersoegelsesTypeDUGACS#urin_inkontinens "Urin inkontinens"
+* UndersoegelsesTypeDUGACS#genital_prolaps "Genital prolaps"
 //* GenericValues#all "Begge" (fjernet 06/05/24 GW)

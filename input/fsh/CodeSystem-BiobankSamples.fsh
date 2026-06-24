@@ -1,4 +1,5 @@
-CodeSystem: BiobankSamples
+CodeSystem: BiobankSamplesCS
+Id: BiobankSamples
 Title: "Danish National Biobank - Samples/materials"
 Description: "Danish National Biobank - Samples/materials"
 

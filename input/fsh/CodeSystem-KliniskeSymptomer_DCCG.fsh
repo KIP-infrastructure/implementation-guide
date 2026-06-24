@@ -1,4 +1,5 @@
-CodeSystem: KliniskeSymptomerDCCG
+CodeSystem: KliniskeSymptomerDCCGCS
+Id: KliniskeSymptomerDCCG
 Title: "Kliniske symptomer (DCCG)"
 Description: "Kliniske symptomer (DCCG)"
 

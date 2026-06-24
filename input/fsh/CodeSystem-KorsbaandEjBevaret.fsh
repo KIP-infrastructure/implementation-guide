@@ -1,4 +1,5 @@
-CodeSystem: KorsbaandEjBevaret
+CodeSystem: KorsbaandEjBevaretCS
+Id: KorsbaandEjBevaret
 Title: "Korsbånd ikke bevaret"
 Description: "Korsbånd ikke bevaret efter operation"
 

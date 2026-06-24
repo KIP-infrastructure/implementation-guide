@@ -1,4 +1,5 @@
-CodeSystem: DHDeksklusionskriterie
+CodeSystem: DHDeksklusionskriterieCS
+Id: DHDeksklusionskriterie
 Title: "DHD eksklusionskriterier"
 Description: "Patienten skal ikke indberettes til DHD, fordi patienten opfylder et af følgende eksklusionskriterier."
 
