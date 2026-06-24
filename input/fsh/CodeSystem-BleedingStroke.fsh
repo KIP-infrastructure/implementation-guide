@@ -36,3 +36,29 @@ Description: "Bleeding - Stroke"
 * #ph_2 "PH 2" "PH 2"
 * #phr_1 "PHr 1" "PHr 1"
 * #phr_2 "PHr 2" "PHr 2"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+* #sah "SAH" "SAH"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+* #benhanloeb "Behandlingskrævende blødning ved indstikssted" "Behandlingskrævende blødning ved indstikssted"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
