@@ -11,6 +11,26 @@ Description: "Modified treatment in cerebral ischemia (mTICI) score; Link: https
 * ^count = 7
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #grade0 "Grade 0" "Grade 0: No perfusion"
 * #grade1 "Grade 1" "Grade 1: Antegrade reperfusion past the initial occlusion, but limited distal branch filling with little or slow distal reperfusion"
 * #grade2 "Grade 2" "Grade 2"
