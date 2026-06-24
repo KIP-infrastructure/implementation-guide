@@ -1,4 +1,5 @@
-CodeSystem: HaandProblemer
+CodeSystem: HaandProblemerCS
+Id: HaandProblemer
 Title: "Taget hånd om problemer"
 Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 
@@ -10,8 +11,8 @@ Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 * ^content = #complete
 * ^count = 5
 
-* #IngenProblemer "Der er taget hånd om problemerne / Ingen problemer" "Der er taget hånd om problemerne / Ingen problemer"
-* #HaandProblemer "Der er for det meste taget hånd om problemerne" "Der er for det meste taget hånd om problemerne"
-* #DelvistProblemer "Der er delvist taget hånd om problemerne" "Der er delvist taget hånd om problemerne"
-* #StortHaandProblemer "Der er stort set ikke taget hånd om problemerne" "Der er stort set ikke taget hånd om problemerne"
-* #IkkeHaandProblemer "Der er ikke taget hånd om problemerne" "Der er ikke taget hånd om problemerne"
+* #ingenProblemer "Der er taget hånd om problemerne / Ingen problemer" "Der er taget hånd om problemerne / Ingen problemer"
+* #haandProblemer "Der er for det meste taget hånd om problemerne" "Der er for det meste taget hånd om problemerne"
+* #delvistProblemer "Der er delvist taget hånd om problemerne" "Der er delvist taget hånd om problemerne"
+* #stortHaandProblemer "Der er stort set ikke taget hånd om problemerne" "Der er stort set ikke taget hånd om problemerne"
+* #ikkeHaandProblemer "Der er ikke taget hånd om problemerne" "Der er ikke taget hånd om problemerne"

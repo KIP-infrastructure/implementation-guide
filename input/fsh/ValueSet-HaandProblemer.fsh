@@ -1,4 +1,5 @@
-ValueSet: HaandProblemer
+ValueSet: HaandProblemerVS
+Id: HandProblemer
 Title: "Taget hånd om problemer"
 Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 
@@ -9,8 +10,8 @@ Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 
 
-* HaandProblemer#IngenProblemer "Der er taget hånd om problemerne/ Ingen problemer"
-* HaandProblemer#HaandProblemer "Der er for det meste taget hånd om problemerne"
-* HaandProblemer#DelvistProblemer "Der er delvist taget hånd om problemerne" 
-* HaandProblemer#StortHaandProblemer "Der er stort set ikke taget hånd om problemerne"
-* HaandProblemer#IkkeHaandProblemer "Der er ikke taget hånd om problemerne"
+* HaandProblemerCS#ingenProblemer
+* HaandProblemerCS#haandProblemer
+* HaandProblemerCS#delvistProblemer
+* HaandProblemerCS#stortHaandProblemer
+* HaandProblemerCS#ikkeHaandProblemer
