@@ -75,6 +75,14 @@ Description: "Mesh type"
 * #proceed_ventral "Proceed Ventral Patch, Ethicon" "Proceed Ventral Patch, Ethicon"
 * #progrip "Progrip" "Progrip"
 * #progrip_polypropylene "Progrip polypropylene" "Progrip polypropylene"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 * #prolene "Prolene" "Prolene"
 * #prolite "Prolite" "Prolite"
 * #softmesh_bard "SoftMesh, BARD" "SoftMesh, BARD"
