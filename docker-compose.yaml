@@ -7,7 +7,7 @@ services:
       dockerfile: Dockerfile
       args:
         # https://github.com/FHIR/sushi/releases
-        FSH_SUSHI_VERSION: 3.19.0
+        FSH_SUSHI_VERSION: 3.20.0
     volumes:
       - ./output:/src/output:rw
       - ./input-cache:/src/input-cache:rw
