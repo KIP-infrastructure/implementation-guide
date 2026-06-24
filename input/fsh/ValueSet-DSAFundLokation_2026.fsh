@@ -5,7 +5,7 @@ Description: "Lokation for tromber, fundet vha. digital subtraktionsangiografi (
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2022-06-28T00:00:00+02:00"
+* ^date = "2026-06-24T00:00:00+02:00"
  
 * DSAFindingsLocation#Extracranial "Extracranial (CCA, ICA)"
 * DSAFindingsLocation#Large_vessel_occlusion "Large vessel occlusion, LVO (ICA, M1, Proksimal M2)"
