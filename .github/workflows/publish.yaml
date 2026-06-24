@@ -27,10 +27,10 @@ jobs:
 
     steps:
       # Checkout the repos needed
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: IG transpile check
-        uses: trifork/ig-publisher/.github/actions/ig-transpile@cd2aa8a11ec63d7a95231c9a552152221b5af242 # v2.1.2
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@4bf83d716abe5ce95f3fa5faaef1df08a893d7e2 # v2.2.9
 
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
@@ -42,12 +42,12 @@ jobs:
 
     steps:
       # Checkout the repos needed
-      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
         with:
           path: ig
 
       - name: Set Sushi config release YAML properties
-        uses: fjogeleit/yaml-update-action@04ff6ec06568fd21197db746472e36cc425de850 # v0.16.1
+        uses: fjogeleit/yaml-update-action@dffe9a5223d84653c13374032382f6bb5de8e5ef # v0.17.0
         with:
           valueFile: ig/sushi-config.yaml
           commitChange: false
@@ -75,15 +75,15 @@ jobs:
 
       - name: Generate app token
         id: token
-        uses: actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859 # v3.0.0
+        uses: actions/create-github-app-token@bcd2ba49218906704ab6c1aa796996da409d3eb1 # v3.2.0
         with:
-          app-id: ${{ vars.APP_ID }}
+          client-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
 
       - name: Publish the implementation guide
-        uses: trifork/ig-publisher/.github/actions/ig-publish@cd2aa8a11ec63d7a95231c9a552152221b5af242 # v2.1.2
+        uses: trifork/ig-publisher/.github/actions/ig-publish@4bf83d716abe5ce95f3fa5faaef1df08a893d7e2 # v2.2.9
         # uses: ../../trifork/ig-publisher/.github/actions/ig-publish # Test local action
         with:
           app-token: ${{ steps.token.outputs.token }}

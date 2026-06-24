@@ -10,6 +10,26 @@ Description: "Fisher grading scale; Link: https://radiopaedia.org/articles/fishe
 * ^content = #complete
 * ^count = 4
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #grade1 "Grade 1" "Grade 1: No SAH detected"
 * #grade2 "Grade 2" "Grade 2: Diffuse or vertical layer of subarachnoid blood < 1mm thick"
 * #grade3 "Grade 3" "Grade 3: Localized clot and/or vertical layer within the subarachnoid space > 1mm thick"
