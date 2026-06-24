@@ -27,7 +27,7 @@ docker compose start ig-server
 docker build --no-cache
 ```
 
-The Docker setup uses SUSHI 3.18.0 and the FHIR IG Publisher. The `ig-server` container transpiles FSH and runs the IG Publisher; the `ig-nginx` container serves the output at `http://localhost:4000`.
+The Docker setup uses SUSHI 3.20.0 and the FHIR IG Publisher. The `ig-server` container transpiles FSH and runs the IG Publisher; the `ig-nginx` container serves the output at `http://localhost:4000`.
 
 **CI**: PRs to `main` run `check-transpile` (validates FSH transpilation). Tagged pushes trigger the full release pipeline.
 

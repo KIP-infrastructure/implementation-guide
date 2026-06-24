@@ -10,6 +10,26 @@ Description: "Medical fixation and closing"
 * ^content = #fragment
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #suture "Suture" "Suture / Sutur / SNODMED-CT: 408099007"
   * #not_self_locking "Not self-locking" "Not self-locking / Ikke selvlåsende"
   * #self_locking "Self-locking" "Self-locking / Selvlåsende"
@@ -54,3 +74,12 @@ Description: "Medical fixation and closing"
   * #tack_sutur "Tack + suture" "Tack + sutur"
   * #glue_sutur "Glue + suture" "Lim + sutur"
   * #glue_tack_clip "Glue + tack/clip" "Lim + Tack/clips"
+  * #Suturmesh "Suturmesh (eks. Duramesh)" "Suturmesh (eks. Duramesh)"
+    * ^property[0].code = #comment
+    * ^property[=].valueString = "Added"
+    * ^property[+].code = #effectiveDate
+    * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+    * ^property[+].code = #status
+    * ^property[=].valueCode = #active
+    * ^property[+].code = #inactive
+    * ^property[=].valueBoolean = false

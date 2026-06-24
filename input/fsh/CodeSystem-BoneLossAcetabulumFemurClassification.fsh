@@ -10,6 +10,26 @@ Description: "Walch classification; Link: https://radiopaedia.org/articles/walch
 * ^content = #complete
 * ^caseSensitive = false
 
+* ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
+* ^property[=].type = #string
+* ^property[=].description = "A string that provides additional detail pertinent to the use or understanding of the concept"
+* ^property[=].code = #comment
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#effectiveDate"
+* ^property[=].type = #dateTime
+* ^property[=].description = "The date at which the concept status was last changed"
+* ^property[=].code = #effectiveDate
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].type = #code
+* ^property[=].description = "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired"
+* ^property[=].code = #status
+
+* ^property[+].uri = "http://hl7.org/fhir/concept-properties#inactive"
+* ^property[=].type = #boolean
+* ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
+* ^property[=].code = #inactive
+
 * #acetabulum_type_1 "Type I: Intet væsentligt knogletab" "Type I: Intet væsentligt knogletab"
 * #acetabulum_type_2 "Type II: Contained knogletab (intakt rim)" "Type II: Contained knogletab (intakt rim)"
 * #acetabulum_type_3 "Type III: Ikke contained segmentel knogletab" "Type III: Ikke contained segmentel knogletab"
