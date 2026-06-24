@@ -3,9 +3,9 @@ Title: "Ventral hernie type (DHDB) 2026"
 Description: "Ventral hernie type (DHDB)"
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^publisher = "RKKP"
-* ^date = "2022-07-20T00:00:00+02:00"
+* ^date = "2026-06-24T00:00:00+02:00"
 
 * DiseasesUnspecified#umbilical "Umbilicalt"
 * DiseasesUnspecified#incisional "Incisionelt"
