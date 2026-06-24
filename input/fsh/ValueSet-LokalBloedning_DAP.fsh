@@ -11,3 +11,5 @@ Description: "Lokal blødning fundet i forbindelse med billeddiagnostisk unders�
 * BleedingStroke#hi_2 "HI 2"
 * BleedingStroke#ph_1 "PH 1"
 * BleedingStroke#ph_2 "PH 2"
+* BleedingStroke#sah "SAH"
+* BleedingStroke#benhanloeb "Behandlingskrævende blødning ved indstikssted"
