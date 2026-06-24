@@ -9,7 +9,7 @@ Description: "Dele følelser"
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 
 
-* DeleFoelelser#HeleTiden "Hele tiden" 
+* DeleFoelelser#HeleTiden
 * DeleFoelelser#ForDetMeste "For det meste"
 * DeleFoelelser#NogleGange "Nogle gange"
 * DeleFoelelser#Sjaeldent "Sjældent"

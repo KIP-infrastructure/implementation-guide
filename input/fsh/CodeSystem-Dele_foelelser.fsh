@@ -10,7 +10,7 @@ Description: "Dele følelser"
 * ^content = #complete
 * ^count = 5
 
-* #HeleTiden "Hele tiden" "Hele tident"
+* #HeleTiden "Hele tiden" "Hele tiden"
 * #ForDetMeste "For det meste" "For det meste"
 * #NogleGange "Nogle gange" "Nogle gange"
 * #Sjaeldent "Sjældent" "Sjældent"

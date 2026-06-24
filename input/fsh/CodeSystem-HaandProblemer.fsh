@@ -10,7 +10,7 @@ Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 * ^content = #complete
 * ^count = 5
 
-* #IngenProblemer "Der er taget hånd om problemerne/ Ingen problemer" "Der er taget hånd om problemerne/ Ingen problemer"
+* #IngenProblemer "Der er taget hånd om problemerne / Ingen problemer" "Der er taget hånd om problemerne / Ingen problemer"
 * #HaandProblemer "Der er for det meste taget hånd om problemerne" "Der er for det meste taget hånd om problemerne"
 * #DelvistProblemer "Der er delvist taget hånd om problemerne" "Der er delvist taget hånd om problemerne"
 * #StortHaandProblemer "Der er stort set ikke taget hånd om problemerne" "Der er stort set ikke taget hånd om problemerne"

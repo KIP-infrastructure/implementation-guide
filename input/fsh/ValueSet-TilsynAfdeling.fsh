@@ -1,4 +1,5 @@
-ValueSet: TilsynAfdeling
+ValueSet: TilsynAfdelingVS
+Id: TilsynAfdeling
 Title: "TilsynAfdeling - DPD"
 Description: "TilsynAfdeling - DPD"
 
