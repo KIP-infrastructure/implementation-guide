@@ -5,7 +5,7 @@ Description: "Sted for første kontakt 2026"
 * ^status = #active
 * ^experimental = true
 * ^publisher = "RKKP"
-* ^date = "2022-09-06T00:00:00+02:00"
+* ^date = "2026-06-24T00:00:00+02:00"
 
 * ContactPlace#outpatient_clinic "Fremmøde i ambulatorium"
 * ContactPlace#home_visit "Hjemmebesøg"

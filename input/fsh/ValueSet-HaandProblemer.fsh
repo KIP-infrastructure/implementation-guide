@@ -9,7 +9,6 @@ Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 
-
 * HaandProblemerCS#ingenProblemer
 * HaandProblemerCS#haandProblemer
 * HaandProblemerCS#delvistProblemer
