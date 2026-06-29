@@ -5,7 +5,7 @@ Description: "Perfusion opnået under trombektomi"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2023-05-16T00:00:00+02:00"
+* ^date = "2026-06-29T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -31,6 +31,22 @@ Description: "Perfusion opnået under trombektomi"
 * ^property[=].code = #inactive
 
 * #med_reperfusion "Hel/delvis reperfusion" "Trombektomi med efterfølgende helt eller delvist opnået reperfusion"
-* #uden_reperfusion "Uden efterflg. reperfusion" "Trombektomi uden efterfølgende reperfusion"
+* #uden_reperfusion "Uden efterflg. reperfusion" "Trombektomi uden efterfølgende reperfusion / procedure opgivet"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Modified"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-29T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
 * #spontan_reperfusion "Spontan reperfusion" "Spontan reperfusion"
-* #hypoperfusion "Hypoperfusion uden trombektomi" "Stenosebetinget hypoperfusion uden trombektomi behandlet"
+* #hypoperfusion "Hypoperfusion uden trombektomi" "Stenosebetinget hypoperfusion uden trombektomi"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Modified"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-29T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
