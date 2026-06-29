@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
       - name: IG transpile check
-        uses: trifork/ig-publisher/.github/actions/ig-transpile@4bf83d716abe5ce95f3fa5faaef1df08a893d7e2 # v2.2.9
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@2a3d7ed4bc8c542d5622d7f142e14cfa5feb7b77 # v2.2.10
 
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
