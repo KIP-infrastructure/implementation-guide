@@ -8,8 +8,8 @@ Description: "Dele følelser"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 
-* Frekvens#heleTiden
-* Frekvens#forDetMeste
-* Frekvens#nogleGange
-* Frekvens#sjaeldent
-* Frekvens#aldrig "Slet ikke" 
+* Frekvens#heleTiden "Hele tiden"
+* Frekvens#forDetMeste "For det meste"
+* Frekvens#nogleGange "Nogle gange"
+* Frekvens#sjaeldent "Sjældent"
+* Frekvens#aldrig "Slet ikke"
