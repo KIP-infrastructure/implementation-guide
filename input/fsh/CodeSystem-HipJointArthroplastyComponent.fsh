@@ -105,7 +105,7 @@ Description: "Hip joint arthroplasty - components"
   * ^property[=].valueBoolean = false
 
 * #depuy_corail_revision_stem "DePuy: Corail Revision Stem - KAR" "DePuy: Corail Revision Stem - KAR"
-* #corail_cemented_stem "DePuy Synthes Corail Cemented Hip Stem" "Hovedkomponenten for den cementerede Corail hoftestamme."
+* #depuy_corail_cemented_stem "DePuy Synthes Corail Cemented Hip Stem" "Hovedkomponenten for den cementerede Corail hoftestamme."
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
@@ -115,7 +115,7 @@ Description: "Hip joint arthroplasty - components"
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
 
-* #corail_cemented_standard "Corail Cemented Standard Offset" "Corail cementeret stamme med standard offset (med eller uden krave/collar)."
+* #depuy_corail_cemented_standard "Corail Cemented Standard Offset" "Corail cementeret stamme med standard offset (med eller uden krave/collar)."
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
@@ -125,7 +125,7 @@ Description: "Hip joint arthroplasty - components"
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
   
-* #corail_cemented_kx "Corail Cemented KX Offset" "Corail cementeret stamme med højt offset (KX-konfiguration) for øget lateralisation."
+* #depuy_corail_cemented_kx "Corail Cemented KX Offset" "Corail cementeret stamme med højt offset (KX-konfiguration) for øget lateralisation."
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
