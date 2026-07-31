@@ -3,9 +3,9 @@ Title: "Komponent - femur (DHR)"
 Description: "Komponent - femur (DHR)"
 
 * ^status = #active
-* ^experimental = true
+* ^experimental = false
 * ^publisher = "RKKP"
-* ^date = "2022-11-16T00:00:00+02:00"
+* ^date = "2026-07-31T00:00:00+02:00"
 
 * HipJointArthroplastyComponent#depuy_corail_collar "DePuy: Corail m/krave"
 * HipJointArthroplastyComponent#depuy_corail_without_collar "DePuy: Corail u/krave"

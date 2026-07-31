@@ -4,7 +4,7 @@ Description: "Hip joint arthroplasty - components"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-11-16T00:00:00+02:00"
+* ^date = "2026-07-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
