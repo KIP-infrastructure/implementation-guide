@@ -1,0 +1,39 @@
+name: Check FSH dates
+description: >
+  Verifies that every .fsh file changed in a pull request has its
+  "* ^date = ..." metadata updated. Modified files must have the ^date line
+  touched by the PR diff; added files must be dated today.
+
+inputs:
+  base-sha:
+    description: Commit SHA of the pull request base, used as the diff starting point.
+    required: true
+  head-ref:
+    description: Git revision holding the PR changes to check. Defaults to the checked out HEAD.
+    required: false
+    default: HEAD
+  path-glob:
+    description: Git pathspec limiting which files are checked.
+    required: false
+    default: "*.fsh"
+  timezone:
+    description: Timezone used to resolve "today".
+    required: false
+    default: Europe/Copenhagen
+  utc-offset:
+    description: UTC offset written into the suggested ^date value, matching the IG convention.
+    required: false
+    default: "+02:00"
+
+runs:
+  using: composite
+  steps:
+    - name: Verify ^date is bumped on changed FSH files
+      shell: bash
+      env:
+        BASE_SHA: ${{ inputs.base-sha }}
+        HEAD_REF: ${{ inputs.head-ref }}
+        PATH_GLOB: ${{ inputs.path-glob }}
+        TIMEZONE: ${{ inputs.timezone }}
+        UTC_OFFSET: ${{ inputs.utc-offset }}
+      run: bash "${{ github.action_path }}/check-fsh-dates.sh"
