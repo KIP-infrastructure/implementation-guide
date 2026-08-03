@@ -17,6 +17,10 @@ env:
   WEB_REPO: kip-ig-website
   WEB_APP_LOCATION: "web/"
 
+# No GITHUB_TOKEN permissions by default, every job grants itself what it needs.
+# Publishing to the other repositories runs on the app token, not GITHUB_TOKEN.
+permissions: {}
+
 jobs:
   # Check if the IG transpiles without errors
   check-transpile:
@@ -24,6 +28,8 @@ jobs:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     container: ghcr.io/trifork/ig-publisher:latest
+    permissions:
+      contents: read
 
     steps:
       # Checkout the repos needed
@@ -61,6 +67,8 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
     container: ghcr.io/trifork/ig-publisher:latest
+    permissions:
+      contents: read
 
     steps:
       # Checkout the repos needed

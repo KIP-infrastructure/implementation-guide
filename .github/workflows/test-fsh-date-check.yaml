@@ -12,6 +12,9 @@ on:
       - '.github/actions/check-fsh-dates/**'
       - '.github/workflows/test-fsh-date-check.yaml'
 
+# No GITHUB_TOKEN permissions by default, every job grants itself what it needs
+permissions: {}
+
 jobs:
   # Exercise the check logic against purpose-built throwaway repositories
   unit:
