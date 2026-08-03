@@ -16,6 +16,11 @@ CHECK="${SCRIPT_DIR}/../check-fsh-dates.sh"
 TIMEZONE="Europe/Copenhagen"
 TODAY="$(TZ="$TIMEZONE" date +%F)"
 STALE="2020-01-01"
+# Relative so the cases keep meaning as time passes: the config sits in the
+# past, one date falls just before it and one between it and today.
+CONFIG_DATE="$(TZ="$TIMEZONE" date -d '90 days ago' +%F)"
+BEFORE_CONFIG="$(TZ="$TIMEZONE" date -d '91 days ago' +%F)"
+AFTER_CONFIG="$(TZ="$TIMEZONE" date -d '30 days ago' +%F)"
 
 passed=0
 failed=0
@@ -47,6 +52,16 @@ new_repo() {
 }
 
 commit() { git add -A; git commit -q -m "$1"; }
+
+# Commits with a fixed committer date, so the sushi-config.yaml date the check
+# reads is deterministic.
+commit_at() { # $1 = YYYY-MM-DD, $2 = message
+  git add -A
+  GIT_AUTHOR_DATE="${1}T12:00:00" GIT_COMMITTER_DATE="${1}T12:00:00" \
+    git commit -q -m "$2"
+}
+
+sushi_config() { printf 'id: dk.kip.rkkp.fhir.ig.core\nversion: %s\n' "$1" > sushi-config.yaml; }
 
 # Runs the check and asserts exit code, then that every remaining argument
 # appears in the output.
@@ -126,7 +141,7 @@ test_added_dated_today() {
   fsh_file input/fsh/CodeSystem-New.fsh "$TODAY"
   commit "add new file dated today"
   expect "added file dated today passes" 0 \
-    "OK input/fsh/CodeSystem-New.fsh: new file dated today"
+    "OK input/fsh/CodeSystem-New.fsh: new file dated ${TODAY}"
 }
 
 test_added_dated_stale() {
@@ -138,7 +153,7 @@ test_added_dated_stale() {
   commit "add new file with a stale date"
   expect "added file with stale date warns" 0 \
     "::warning file=input/fsh/CodeSystem-New.fsh,line=6::" \
-    "must be dated today"
+    "must be dated ${TODAY} or newer"
 }
 
 test_added_with_several_date_lines() {
@@ -154,7 +169,7 @@ test_added_with_several_date_lines() {
   commit "add a file carrying several ^date lines"
   expect "file with several ^date lines is handled, not aborted" 0 \
     "::warning file=input/fsh/StructureDefinition-Multi.fsh,line=6::" \
-    "must be dated today"
+    "must be dated ${TODAY} or newer"
 }
 
 test_file_without_date_field() {
@@ -280,6 +295,77 @@ test_findings_never_block() {
     "This is a warning only, it does not block the pull request."
 }
 
+
+test_added_dated_as_sushi_config() {
+  new_repo
+  sushi_config 1.0.0
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit_at "$CONFIG_DATE" "base with a config dated in the past"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-New.fsh "$CONFIG_DATE"
+  commit "add a file dated exactly as sushi-config.yaml"
+  expect "added file dated as sushi-config.yaml passes" 0 \
+    "Added files must be dated ${CONFIG_DATE} or newer" \
+    "OK input/fsh/CodeSystem-New.fsh: new file dated ${CONFIG_DATE}"
+}
+
+test_added_dated_after_sushi_config() {
+  new_repo
+  sushi_config 1.0.0
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit_at "$CONFIG_DATE" "base with a config dated in the past"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-New.fsh "$AFTER_CONFIG"
+  commit "add a file dated between the config and today"
+  # This is the case that used to warn: not today, but not older than the
+  # config either, so an ageing pull request is no longer nagged.
+  expect "added file newer than sushi-config.yaml but not today passes" 0 \
+    "OK input/fsh/CodeSystem-New.fsh: new file dated ${AFTER_CONFIG}"
+}
+
+test_added_dated_before_sushi_config() {
+  new_repo
+  sushi_config 1.0.0
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit_at "$CONFIG_DATE" "base with a config dated in the past"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-New.fsh "$BEFORE_CONFIG"
+  commit "add a file dated the day before the config"
+  expect "added file predating sushi-config.yaml by one day warns" 0 \
+    "::warning file=input/fsh/CodeSystem-New.fsh,line=6::" \
+    "must be dated ${CONFIG_DATE} or newer"
+}
+
+test_sushi_config_bumped_in_the_pr() {
+  new_repo
+  sushi_config 1.0.0
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit_at "$CONFIG_DATE" "base with a config dated in the past"
+  BASE="$(git rev-parse HEAD)"
+  sushi_config 1.1.0
+  fsh_file input/fsh/CodeSystem-New.fsh "$AFTER_CONFIG"
+  commit "bump the config and add a file dated before today"
+  # Bumping the config in the PR moves its date to the PR's own date, which
+  # raises the floor accordingly.
+  expect "bumping sushi-config.yaml in the PR raises the floor to the PR date" 0 \
+    "Added files must be dated ${TODAY} or newer" \
+    "::warning file=input/fsh/CodeSystem-New.fsh" \
+    "must be dated ${TODAY} or newer"
+}
+
+test_missing_sushi_config_falls_back_to_today() {
+  new_repo
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit_at "$CONFIG_DATE" "base without any config"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-New.fsh "$AFTER_CONFIG"
+  commit "add a file dated before today"
+  expect "a missing sushi-config.yaml falls back to today" 0 \
+    "sushi-config.yaml: unknown" \
+    "Added files must be dated ${TODAY} or newer" \
+    "::warning file=input/fsh/CodeSystem-New.fsh"
+}
+
 # --- run ---------------------------------------------------------------------
 
 echo "Testing ${CHECK}"
@@ -291,6 +377,11 @@ test_modified_without_date_bump
 test_modified_to_deliberate_older_date
 test_added_dated_today
 test_added_dated_stale
+test_added_dated_as_sushi_config
+test_added_dated_after_sushi_config
+test_added_dated_before_sushi_config
+test_sushi_config_bumped_in_the_pr
+test_missing_sushi_config_falls_back_to_today
 test_added_with_several_date_lines
 test_file_without_date_field
 test_renamed_without_date_bump

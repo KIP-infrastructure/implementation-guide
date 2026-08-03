@@ -2,8 +2,8 @@ name: Check FSH dates
 description: >
   Warns when a .fsh file changed in a pull request has not had its
   "* ^date = ..." metadata updated. Modified files should have the ^date line
-  touched by the PR diff; added files should be dated today. Advisory only:
-  findings are warning annotations and never fail the job.
+  touched by the PR diff; added files should not predate sushi-config.yaml.
+  Advisory only: findings are warning annotations and never fail the job.
 
 inputs:
   base-sha:
@@ -25,6 +25,11 @@ inputs:
     description: UTC offset written into the suggested ^date value, matching the IG convention.
     required: false
     default: "+02:00"
+  sushi-config:
+    description: >
+      Config whose last-changed date is the oldest date an added file may carry.
+    required: false
+    default: sushi-config.yaml
 
 runs:
   using: composite
@@ -37,4 +42,5 @@ runs:
         PATH_GLOB: ${{ inputs.path-glob }}
         TIMEZONE: ${{ inputs.timezone }}
         UTC_OFFSET: ${{ inputs.utc-offset }}
+        SUSHI_CONFIG: ${{ inputs.sushi-config }}
       run: bash "${{ github.action_path }}/check-fsh-dates.sh"
