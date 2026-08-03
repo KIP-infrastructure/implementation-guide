@@ -17,6 +17,10 @@ env:
   WEB_REPO: kip-ig-website
   WEB_APP_LOCATION: "web/"
 
+# No GITHUB_TOKEN permissions by default, every job grants itself what it needs.
+# Publishing to the other repositories runs on the app token, not GITHUB_TOKEN.
+permissions: {}
+
 jobs:
   # Check if the IG transpiles without errors
   check-transpile:
@@ -24,6 +28,8 @@ jobs:
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
     container: ghcr.io/trifork/ig-publisher:latest
+    permissions:
+      contents: read
 
     steps:
       # Checkout the repos needed
@@ -32,6 +38,28 @@ jobs:
       - name: IG transpile check
         uses: trifork/ig-publisher/.github/actions/ig-transpile@d2228e67ac377e81faca1da82d3e30253c387b8e # v2.2.11
 
+  # Warn when a changed .fsh file has not had its "* ^date = ..." updated in the
+  # PR. Advisory only, this job does not block the pull request.
+  check-fsh-dates:
+    name: Check FSH dates
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          # Full history so the PR base commit is available for diffing, and
+          # check out the PR head itself so the working tree holds the authored files.
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Warn if ^date was not bumped on changed FSH files
+        uses: ./.github/actions/check-fsh-dates
+        with:
+          base-sha: ${{ github.event.pull_request.base.sha }}
+
   # Transpile and publish the IG, if it was pushed to main with a tag
   release:
     name: Transpile and publish to the IG release
@@ -39,6 +67,8 @@ jobs:
     if: ${{ github.event_name == 'push' && github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
     container: ghcr.io/trifork/ig-publisher:latest
+    permissions:
+      contents: read
 
     steps:
       # Checkout the repos needed
