@@ -1,0 +1,110 @@
+name: Test FSH date check
+
+# Run locally with act:
+#   act workflow_dispatch -W .github/workflows/test-fsh-date-check.yaml \
+#     -P ubuntu-latest=node:24-bookworm
+
+on:
+  workflow_dispatch: # Enable manual run, and local runs via `act`
+  pull_request:
+    branches: [ main ]
+    paths:
+      - '.github/actions/check-fsh-dates/**'
+      - '.github/workflows/test-fsh-date-check.yaml'
+
+# No GITHUB_TOKEN permissions by default, every job grants itself what it needs
+permissions: {}
+
+jobs:
+  # Exercise the check logic against purpose-built throwaway repositories
+  unit:
+    name: Unit tests
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - name: Run check-fsh-dates tests
+        run: bash .github/actions/check-fsh-dates/tests/test-check-fsh-dates.sh
+
+  # Exercise the composite action itself against this repository's own files
+  integration:
+    name: Action wiring
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Commit an FSH change that forgets the ^date bump
+        id: fixture
+        run: |
+          set -euo pipefail
+          git config user.email "test@example.com"
+          git config user.name "Test"
+          echo "base=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+          # No "| head -1" pipe here: it would SIGPIPE git under pipefail
+          mapfile -t candidates < <(git ls-files 'input/fsh/CodeSystem-*.fsh')
+          file="${candidates[0]}"
+          echo "file=${file}" >> "$GITHUB_OUTPUT"
+          printf '* #zz-fixture "ZZ" "Fixture code"\n' >> "$file"
+          git commit -q -am "fixture: change an FSH file without bumping ^date"
+
+      # The action is advisory, so this step is expected to succeed. It proves
+      # the wiring works and surfaces the annotation in the job log.
+      - name: Action annotates the missing ^date bump without failing
+        uses: ./.github/actions/check-fsh-dates
+        with:
+          base-sha: ${{ steps.fixture.outputs.base }}
+
+      # A passing step alone cannot tell an emitted warning from no output at
+      # all, so assert on what the check actually printed.
+      - name: Assert a warning was emitted and the check still passed
+        env:
+          BASE_SHA: ${{ steps.fixture.outputs.base }}
+          FILE: ${{ steps.fixture.outputs.file }}
+        run: |
+          set -euo pipefail
+          out="$(bash .github/actions/check-fsh-dates/check-fsh-dates.sh)"
+          echo "$out"
+
+          grep -qF "::warning file=${FILE}" <<<"$out" \
+            || { echo "Expected a warning annotation for ${FILE}"; exit 1; }
+          grep -qF "does not block the pull request" <<<"$out" \
+            || { echo "Expected the advisory notice in the summary"; exit 1; }
+          echo "Action warned about the stale change without failing."
+
+      - name: Commit the ^date bump
+        env:
+          FILE: ${{ steps.fixture.outputs.file }}
+        run: |
+          set -euo pipefail
+          today="$(TZ=Europe/Copenhagen date +%F)"
+          sed -i -E "s|^\* \^date = \".*\"|* ^date = \"${today}T00:00:00+02:00\"|" "$FILE"
+          git diff --stat -- "$FILE"
+          git commit -q -am "fixture: bump ^date"
+
+      - name: Action accepts the bumped ^date
+        uses: ./.github/actions/check-fsh-dates
+        with:
+          base-sha: ${{ steps.fixture.outputs.base }}
+
+      - name: Assert no warning remains
+        env:
+          BASE_SHA: ${{ steps.fixture.outputs.base }}
+        run: |
+          set -euo pipefail
+          out="$(bash .github/actions/check-fsh-dates/check-fsh-dates.sh)"
+          echo "$out"
+
+          if grep -qF '::warning' <<<"$out"; then
+            echo "Expected no warnings once the ^date was bumped"
+            exit 1
+          fi
+          grep -qF "All changed .fsh files have an up-to-date ^date." <<<"$out"
