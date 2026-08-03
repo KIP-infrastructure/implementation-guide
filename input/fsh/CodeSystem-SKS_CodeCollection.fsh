@@ -1,9 +1,7 @@
 CodeSystem: SKSCodeCollection
-Title: "Sundhedsvæsenets klassifikationssystem (SKS) - Samlinger af koder"
-Description: "Sundhedsvæsenets klassifikationssystem (SKS) - Udvalgte samlinger af koder i RKKP. Link: urn:oid:1.2.208.176.2.4"
+Title: "Diagnosegrupper i RKKP (samlinger af SKS-intervaller)"
+Description: "Diagnosegrupper anvendt i RKKP - samlinger af SKS/ICD-10-diagnoseintervaller. BEMÆRK: Koderne i dette CodeSystem er RKKP-lokale grupperingskoder og er IKKE SKS-koder. Hver kode betegner et interval af SKS-diagnosekoder, som fremgår af kodens tekst (fx colon_rectum = DC18-DC20). SKS indeholder ingen tilsvarende aggregerede koder, og grupperne anvendes som enkeltstående svarmuligheder - ikke som grupperinger, der kan udfoldes til medlemskoder. Dette CodeSystem angav tidligere SKS' OID urn:oid:1.2.208.176.2.4; den er fjernet, da koderne ikke tilhører SKS."
 
-* ^identifier[0].system = "urn:ietf:rfc:3986"
-* ^identifier[0].value = "urn:oid:1.2.208.176.2.4"
 * ^status = #active
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"

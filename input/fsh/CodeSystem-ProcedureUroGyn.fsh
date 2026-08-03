@@ -1,8 +1,8 @@
 CodeSystem: ProcedureUrogyn
 Title: "Procedurekoder - Urogynækologi (DUGA)"
-Description: "Procedurekoder - Urogynækolog (DUGA)"
+Description: "Procedurekoder - Urogynækolog (DUGA). UDFASET: Alle 80 koder er verificerede SKS-koder og er overført til SKS CodeSystem (https://kip.rkkp.dk/fhir/CodeSystem/SKS). Anvend SKS i stedet. Ingen ValueSets i denne IG refererer længere til dette CodeSystem."
 
-* ^status = #active
+* ^status = #retired
 * ^publisher = "RKKP"
 * ^date = "2024-02-14T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

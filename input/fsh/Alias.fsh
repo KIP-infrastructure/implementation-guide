@@ -17,7 +17,7 @@ Alias: $ncit = http://purl.obolibrary.org/obo/ncit.owl
 Alias: $loinc = http://loinc.org
 Alias: $yesno = http://terminology.hl7.org/CodeSystem/v2-0532
 Alias: $sidebody = http://terminology.hl7.org/CodeSystem/v2-0894
-Alias: $gender = http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender
+Alias: $gender = http://hl7.org/fhir/administrative-gender
 
 // ValueSet
 Alias: $loinc-answer-codes = http://fhir.ncpi-project-forge.io/ValueSet/loinc-answers
