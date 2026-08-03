@@ -1,6 +1,6 @@
 CodeSystem: ATCMixedCodes
-Title: "WHO ATC; Mixed codes"
-Description: "WHO ATC code system; Mixed codes. Link: http://www.whocc.no/atc"
+Title: "TKI grouping code (RKKP)"
+Description: "RKKP-local grouping code for tyrosine kinase inhibitor treatment. BEMÆRK: Dette CodeSystem definerer IKKE ATC-koder. Koden 'tki' er en lokal opsamlingskategori, der betyder 'anden TKI-behandling end de TKI'er, der er listet individuelt i den pågældende ValueSet' - se ValueSet BehandlingCML, hvor de seks enkelte TKI'er (L01EA01-L01EA06) angives med rigtige ATC-koder og 'tki' dækker resten. Den kan derfor ikke erstattes af ATC L01E (proteinkinasehæmmere), som netop OMFATTER de individuelt listede stoffer, og den kan ikke flyttes ind i CodeSystem ATC, da det er et fragment af WHO ATC og kun må indeholde WHO's egne koder. Dette CodeSystem indeholdt tidligere også ATC-koderne L01EA, L01EB, L01EH, L01EK og L01EN, som var dubletter af de samme koder i CodeSystem ATC og ikke blev refereret af nogen ValueSet; de er fjernet, så hver ATC-kode nu kun er defineret ét sted."
 
 * ^status = #active
 * ^publisher = "RKKP"
@@ -30,19 +30,11 @@ Description: "WHO ATC code system; Mixed codes. Link: http://www.whocc.no/atc"
 * ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
 * ^property[=].code = #inactive
 
+// Den eneste kode i dette CodeSystem. ATC-koderne, der tidligere stod som underkoder
+// her, er fjernet: de var dubletter af CodeSystem ATC og blev ikke refereret nogen steder.
+//
+// Til dokumentation dækker "TKI" de ATC-klasser, der ligger under L01E
+// (proteinkinasehæmmere) - fx L01EA (BCR-ABL), L01EB (EGFR), L01EH (HER2),
+// L01EK (VEGFR) og L01EN (FGFR). Disse klasser slås op i CodeSystem ATC eller hos
+// WHO (http://www.whocc.no/atc); de defineres ikke her.
 * #tki "TKI (Tyrosine kinase inhibitors)" "TKI (Tyrosine kinase inhibitors)"
-  * #L01EA "BCR-ABL tyrosine kinase inhibitors"
-  * #L01EB "Epidermal growth factor receptor (EGFR) tyrosine kinase inhibitors"
-  //* #L01EC "B-Raf serine-threonine kinase (BRAF) inhibitors"
-  //* #L01ED "Anaplastic lymphoma kinase (ALK) inhibitors"
-  //* #L01EE "Mitogen-activated protein kinase (MEK) inhibitors"
-  //* #L01EF "Cyclin-dependent kinase (CDK) inhibitors"
-  //* #L01EG "Mammalian target of rapamycin (mTOR) kinase inhibitors"
-  * #L01EH "Human epidermal growth factor receptor 2 (HER2) tyrosine kinase inhibitors"
-  //* #L01EJ "Janus-associated kinase (JAK) inhibitors"
-  * #L01EK "Vascular endothelial growth factor receptor (VEGFR) tyrosine kinase inhibitors"
-  //* #L01EL "Bruton's tyrosine kinase (BTK) inhibitors"
-  //* #L01EM "Phosphatidylinositol-3-kinase (Pi3K) inhibitors"
-  * #L01EN "Fibroblast growth factor receptor (FGFR) tyrosine kinase inhibitors"
-  //* #L01EX "Other protein kinase inhibitors"
-  //* #L01XX "Other antineoplastic agents"
