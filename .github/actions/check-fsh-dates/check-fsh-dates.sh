@@ -8,7 +8,8 @@
 #   - added file            -> its ^date must be today
 #   - file without a ^date  -> skipped (e.g. Alias.fsh)
 #
-# Findings are emitted as GitHub error annotations and the script exits 1.
+# Findings are emitted as GitHub warning annotations. The check is advisory:
+# it never fails, so a pull request is reported on but not blocked.
 #
 # Environment:
 #   BASE_SHA    commit the pull request branches off (required)
@@ -29,15 +30,15 @@ TODAY="$(TZ="$TIMEZONE" date +%F)"
 SUGGESTION="${TODAY}T00:00:00${UTC_OFFSET}"
 DIFF_RANGE="${BASE_SHA}...${HEAD_REF}"
 
-failed=0
+warnings=0
 
-report() {
+warn() {
   local file="$1" message="$2" line
   # grep -m1 rather than a "| head -1" pipe: under `set -o pipefail` the early
   # pipe close would kill grep with SIGPIPE and abort the whole check.
   line="$(grep -n -m1 '\^date' "$file" | cut -d: -f1 || true)"
-  echo "::error file=${file}${line:+,line=${line}}::${message}"
-  failed=1
+  echo "::warning file=${file}${line:+,line=${line}}::${message}"
+  warnings=$((warnings + 1))
 }
 
 while IFS=$'\t' read -r status path_a path_b; do
@@ -61,22 +62,22 @@ while IFS=$'\t' read -r status path_a path_b; do
         echo "OK ${file}: new file dated today"
         ;;
       *)
-        report "$file" "New FSH file has ^date = \"${current}\" but must be dated today. Set: * ^date = \"${SUGGESTION}\""
+        warn "$file" "New FSH file has ^date = \"${current}\" but must be dated today. Set: * ^date = \"${SUGGESTION}\""
         ;;
     esac
   else
     if git diff -U0 "$DIFF_RANGE" -- "${paths[@]}" | grep -qE '^\+[^+].*\^date'; then
       echo "OK ${file}: ^date updated in this PR"
     else
-      report "$file" "FSH file changed but ^date was not updated in this PR. Set: * ^date = \"${SUGGESTION}\""
+      warn "$file" "FSH file changed but ^date was not updated in this PR. Set: * ^date = \"${SUGGESTION}\""
     fi
   fi
 done < <(git diff --name-status --diff-filter=AMR "$DIFF_RANGE" -- "$PATH_GLOB")
 
-if [ "$failed" -ne 0 ]; then
-  echo ""
-  echo "One or more changed .fsh files are missing a ^date update. Today is ${TODAY} (${TIMEZONE})."
-  exit 1
+echo ""
+if [ "$warnings" -ne 0 ]; then
+  echo "${warnings} changed .fsh file(s) missing a ^date update. Today is ${TODAY} (${TIMEZONE})."
+  echo "This is a warning only, it does not block the pull request."
+else
+  echo "All changed .fsh files have an up-to-date ^date."
 fi
-
-echo "All changed .fsh files have an up-to-date ^date."

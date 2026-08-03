@@ -32,7 +32,8 @@ jobs:
       - name: IG transpile check
         uses: trifork/ig-publisher/.github/actions/ig-transpile@d2228e67ac377e81faca1da82d3e30253c387b8e # v2.2.11
 
-  # Check that every changed .fsh file has its "* ^date = ..." updated in the PR
+  # Warn when a changed .fsh file has not had its "* ^date = ..." updated in the
+  # PR. Advisory only, this job does not block the pull request.
   check-fsh-dates:
     name: Check FSH dates
     if: ${{ github.event_name == 'pull_request' }}
@@ -48,7 +49,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.event.pull_request.head.sha }}
 
-      - name: Verify ^date is bumped on changed FSH files
+      - name: Warn if ^date was not bumped on changed FSH files
         uses: ./.github/actions/check-fsh-dates
         with:
           base-sha: ${{ github.event.pull_request.base.sha }}

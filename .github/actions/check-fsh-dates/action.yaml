@@ -1,8 +1,9 @@
 name: Check FSH dates
 description: >
-  Verifies that every .fsh file changed in a pull request has its
-  "* ^date = ..." metadata updated. Modified files must have the ^date line
-  touched by the PR diff; added files must be dated today.
+  Warns when a .fsh file changed in a pull request has not had its
+  "* ^date = ..." metadata updated. Modified files should have the ^date line
+  touched by the PR diff; added files should be dated today. Advisory only:
+  findings are warning annotations and never fail the job.
 
 inputs:
   base-sha:
@@ -28,7 +29,7 @@ inputs:
 runs:
   using: composite
   steps:
-    - name: Verify ^date is bumped on changed FSH files
+    - name: Warn if ^date was not bumped on changed FSH files
       shell: bash
       env:
         BASE_SHA: ${{ inputs.base-sha }}

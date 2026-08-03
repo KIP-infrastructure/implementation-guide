@@ -4,7 +4,8 @@
 #
 # Each case builds a throwaway git repository, replays a pull request as a
 # base commit plus a head commit, runs the check against it and asserts the
-# exit code and the emitted annotations.
+# exit code and the emitted annotations. The check is advisory, so every case
+# expects exit code 0 and asserts on the warning annotations instead.
 #
 # Run locally:  bash .github/actions/check-fsh-dates/tests/test-check-fsh-dates.sh
 
@@ -100,8 +101,8 @@ test_modified_without_date_bump() {
   BASE="$(git rev-parse HEAD)"
   fsh_file input/fsh/CodeSystem-A.fsh "$STALE" '* #b "B" "Second"'
   commit "edit without date bump"
-  expect "modified file without ^date bump fails" 1 \
-    "::error file=input/fsh/CodeSystem-A.fsh,line=6::" \
+  expect "modified file without ^date bump warns" 0 \
+    "::warning file=input/fsh/CodeSystem-A.fsh,line=6::" \
     "^date was not updated in this PR" \
     "${TODAY}T00:00:00+02:00"
 }
@@ -135,8 +136,8 @@ test_added_dated_stale() {
   BASE="$(git rev-parse HEAD)"
   fsh_file input/fsh/CodeSystem-New.fsh "$STALE"
   commit "add new file with a stale date"
-  expect "added file with stale date fails" 1 \
-    "::error file=input/fsh/CodeSystem-New.fsh,line=6::" \
+  expect "added file with stale date warns" 0 \
+    "::warning file=input/fsh/CodeSystem-New.fsh,line=6::" \
     "must be dated today"
 }
 
@@ -151,8 +152,8 @@ test_added_with_several_date_lines() {
     "* ^date = \"${STALE}T00:00:00+02:00\"
 * value[x] ^date = \"${STALE}T00:00:00+02:00\""
   commit "add a file carrying several ^date lines"
-  expect "file with several ^date lines is handled, not aborted" 1 \
-    "::error file=input/fsh/StructureDefinition-Multi.fsh,line=6::" \
+  expect "file with several ^date lines is handled, not aborted" 0 \
+    "::warning file=input/fsh/StructureDefinition-Multi.fsh,line=6::" \
     "must be dated today"
 }
 
@@ -176,8 +177,8 @@ test_renamed_without_date_bump() {
   git mv input/fsh/ValueSet-Old.fsh input/fsh/ValueSet-New.fsh
   printf '* #c "C" "Third"\n' >> input/fsh/ValueSet-New.fsh
   commit "rename without date bump"
-  expect "renamed file without ^date bump fails on the new path" 1 \
-    "::error file=input/fsh/ValueSet-New.fsh" \
+  expect "renamed file without ^date bump warns on the new path" 0 \
+    "::warning file=input/fsh/ValueSet-New.fsh" \
     "^date was not updated in this PR"
 }
 
@@ -202,8 +203,8 @@ test_pure_rename() {
   commit "rename only, content untouched"
   # A rename changes the resource's identity, so it is treated as a change
   # that needs a ^date bump.
-  expect "pure rename with no content change still requires a ^date bump" 1 \
-    "::error file=input/fsh/ValueSet-New.fsh" \
+  expect "pure rename with no content change still warns about the ^date" 0 \
+    "::warning file=input/fsh/ValueSet-New.fsh" \
     "^date was not updated in this PR"
 }
 
@@ -230,9 +231,10 @@ test_multiple_failures_reported() {
   fsh_file input/fsh/CodeSystem-A.fsh "$STALE" '* #b "B" "Second"'
   fsh_file input/fsh/CodeSystem-B.fsh "$STALE" '* #b "B" "Second"'
   commit "edit two files without date bumps"
-  expect "every offending file is annotated, not just the first" 1 \
-    "::error file=input/fsh/CodeSystem-A.fsh" \
-    "::error file=input/fsh/CodeSystem-B.fsh"
+  expect "every offending file is annotated, not just the first" 0 \
+    "::warning file=input/fsh/CodeSystem-A.fsh" \
+    "::warning file=input/fsh/CodeSystem-B.fsh" \
+    "2 changed .fsh file(s) missing a ^date update"
 }
 
 test_no_changes() {
@@ -265,6 +267,19 @@ test_ignores_base_branch_commits() {
     "OK input/fsh/CodeSystem-A.fsh: ^date updated in this PR"
 }
 
+test_findings_never_block() {
+  new_repo
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
+  commit "base"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE" '* #b "B" "Second"'
+  commit "edit without date bump"
+  # The check reports but must never fail the pull request.
+  expect "findings are advisory and never fail the check" 0 \
+    "1 changed .fsh file(s) missing a ^date update" \
+    "This is a warning only, it does not block the pull request."
+}
+
 # --- run ---------------------------------------------------------------------
 
 echo "Testing ${CHECK}"
@@ -285,6 +300,7 @@ test_deleted_and_non_fsh_ignored
 test_multiple_failures_reported
 test_no_changes
 test_ignores_base_branch_commits
+test_findings_never_block
 
 echo
 echo "${passed} passed, ${failed} failed"
