@@ -9,11 +9,9 @@ Description: "Komponent - femur (DHR)"
 
 * HipJointArthroplastyComponent#depuy_corail_collar "DePuy: Corail m/krave"
 * HipJointArthroplastyComponent#depuy_corail_without_collar "DePuy: Corail u/krave"
-* HipJointArthroplastyComponent#depuy_actis_collared_stem "DePuy Synthes Actis Collared Hip Stem"
+* HipJointArthroplastyComponent#depuy_actis_collared
 * HipJointArthroplastyComponent#depuy_corail_revision_stem "DePuy: Corail Revision Stem - KAR"
-* HipJointArthroplastyComponent#depuy_corail_cemented_stem "DePuy Synthes Corail Cemented Hip Stem"
-* HipJointArthroplastyComponent#depuy_corail_cemented_standard "Corail Cemented Standard Offset"
-* HipJointArthroplastyComponent#depuy_corail_cemented_kx "Corail Cemented KX Offset"
+* HipJointArthroplastyComponent#depuy_corail_cemented
 * HipJointArthroplastyComponent#depuy_c_stem_amt "DePuy: C-stem AMT"
 * HipJointArthroplastyComponent#depuy_summit "DePuy: Summit"
 * HipJointArthroplastyComponent#implantcast_mutars_proximal_femoral_replacement "Implantcast: Mutars proksimal femoral replacement"
