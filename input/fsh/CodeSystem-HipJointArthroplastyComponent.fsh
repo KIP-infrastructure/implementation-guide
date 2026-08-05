@@ -4,7 +4,7 @@ Description: "Hip joint arthroplasty - components"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-11-16T00:00:00+02:00"
+* ^date = "2026-07-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -88,13 +88,31 @@ Description: "Hip joint arthroplasty - components"
 * #zimmer_biomet_zca "Zimmer Biomet: ZCA" "Zimmer Biomet: ZCA"
 // Zimmer
 
-
-
 // Femur komponenter er de næste som kommer i dette kodesystem
 // Depuy
 * #depuy_corail_collar "DePuy: Corail m/krave" "DePuy: Corail m/krave"
 * #depuy_corail_without_collar "DePuy: Corail u/krave" "DePuy: Corail u/krave"
+* #depuy_actis_collared "DePuy: Actis Collared" "DePuy: Actis Collared"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-07-31T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+
 * #depuy_corail_revision_stem "DePuy: Corail Revision Stem - KAR" "DePuy: Corail Revision Stem - KAR"
+* #depuy_corail_cemented "DePuy: Corail cementeret" "DePuy: Corail cementeret"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-07-31T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+
 * #depuy_c_stem_amt "DePuy: C-stem AMT" "DePuy: C-stem AMT"
 * #depuy_summit "DePuy: Summit" "DePuy: Summit"
 // Implantcast
