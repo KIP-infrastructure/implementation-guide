@@ -1,7 +1,8 @@
 CodeSystem: ATC
 Title: "WHO ATC"
-Description: "WHO ATC code system. Link: http://www.whocc.no/atc"
+Description: "Fragment of the WHO ATC code system - the subset of ATC codes used in RKKP. Link: http://www.whocc.no/atc. INTENT: this resource is a curated fragment (content = fragment), not a definition of ATC. The code system is owned and maintained by the WHO Collaborating Centre for Drug Statistics Methodology; RKKP only republishes the subset it needs, and the codes and their English names are WHO's. BOUNDS: 108 concepts, drawn mainly from ATC main group L (antineoplastic and immunomodulating agents, 76 codes), plus B (13), J (10), M (3), V (3), C, H and S (1 each). ATC levels 2 to 5 are mixed, dominated by level 5 substances. CONSEQUENCES: the fragment is deliberately incomplete, so it MUST NOT be used to validate arbitrary ATC codes or to expand ATC as a whole - the absence of a code here says nothing about whether it is valid in ATC. Note that ATC is revised annually; codes are added and withdrawn each January, so a code present here may since have been reassigned in ATC."
 
+* ^identifier[0].system = "urn:ietf:rfc:3986"
 * ^identifier[0].value = "urn:oid:2.16.840.1.113883.6.73"
 * ^status = #active
 * ^publisher = "RKKP"

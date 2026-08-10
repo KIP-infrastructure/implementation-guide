@@ -1,10 +1,7 @@
 #!/bin/bash
-publisher=./input-cache/publisher.jar
-
-# Download publisher-file
-./_downloadPublisher.sh
-
-echo "Checking internet connection for tx.fhir.org ..."
+publisher_jar=publisher.jar
+input_cache_path=./input-cache/
+echo Checking internet connection...
 curl -sSf tx.fhir.org > /dev/null
 
 if [ $? -eq 0 ]; then
@@ -17,12 +14,17 @@ fi
 
 echo "$txoption"
 
+export JAVA_TOOL_OPTIONS="$JAVA_TOOL_OPTIONS -Dfile.encoding=UTF-8"
+
+publisher=$input_cache_path/$publisher_jar
 if test -f "$publisher"; then
-	java -jar $publisher -ig ig.ini $txoption $* 
-	# https://confluence.hl7.org/spaces/FHIR/pages/175618322/IG+Publisher+CLI#IGPublisherCLI--no-narrative{resource1,resource2,...}
-	# To get faster build times, you can use the following command instead, beware it doesn't generate the output website
-	# java -jar $publisher -ig ig.ini $txoption $* -generation-off -no-narrative .
+	java -jar $publisher -ig . $txoption $*
+
 else
-	echo "IG Publisher NOT FOUND in input-cache or parent folder. Please run _downloadPublisher again. Aborting..."
-	exit 1;
+	publisher=../$publisher_jar
+	if test -f "$publisher"; then
+		java -jar $publisher -ig . $txoption $*
+	else
+		echo IG Publisher NOT FOUND in input-cache or parent folder.  Please run _updatePublisher.  Aborting...
+	fi
 fi

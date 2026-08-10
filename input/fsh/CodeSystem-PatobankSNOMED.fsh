@@ -1,6 +1,6 @@
 CodeSystem: PatobankSNOMED
 Title: "Den Danske SNOMED for Patologi"
-Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: https://www.patobank.dk/snomed/"
+Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: https://www.patobank.dk/snomed/. BEMÆRK: Dette er SNOMED II/3.5 (patologiens historiske SNOMED), ikke SNOMED CT - M-koderne er morfologikoder på ICD-O-form (M95903 = 9590/3) og findes IKKE i SNOMED CT. BEMÆRK ENDVIDERE: De 20 AEF-koder er ikke morfologikoder, men pTNM-stadier, og bør formentlig erstattes af SKS AZCE-koderne - se kommentar ved koderne nedenfor."
 
 * ^status = #active
 * ^publisher = "RKKP"
@@ -144,6 +144,22 @@ Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: http
 * #M99863 "MDS med isoleret del(5q) kromosomafvigelse" "MDS med isoleret del(5q) kromosomafvigelse"
 * #M99893 "myelodysplastisk syndrom" "myelodysplastisk syndrom"
 
+// pTNM-stadier - ikke morfologikoder. "AEF" er en ASCII-omskrivning af Patobank-aksen "Æ"
+// (jf. definitionsteksterne nedenfor, der staver "ÆF...").
+//
+// Disse 20 koder bør formentlig erstattes af SKS' pTNM-familie AZCE, som dækker samme
+// begreber og nummereres parallelt med cTNM-familien AZCD (allerede i SKS CodeSystem):
+//
+//   AEF1810 pTis -> AZCE12     AEF1860 pT4  -> AZCE16     AEF1920 pN2  -> AZCE32
+//   AEF1820 pT0  -> AZCE10     AEF1861 pT4a -> AZCE16A    AEF1930 pN3  -> AZCE33
+//   AEF1830 pT1  -> AZCE13     AEF1862 pT4b -> AZCE16B    AEF1931 pN3a -> AZCE33A
+//   AEF1831 pT1a -> AZCE13A    AEF1870 pTx  -> AZCE19     AEF1932 pN3b -> AZCE33B
+//   AEF1832 pT1b -> AZCE13B    AEF1900 pN0  -> AZCE30     AEF1950 pNx  -> AZCE39
+//   AEF1840 pT2  -> AZCE14     AEF1910 pN1  -> AZCE31     AEF2010 pM1  -> AZCE41
+//   AEF1850 pT3  -> AZCE15
+//
+// AEF2000 (pM0) har bevidst ingen AZCE-modsvarighed: pM0 er ikke en gyldig pTNM-kategori,
+// da fravær af fjernmetastaser kun kan vurderes klinisk. Brug SKS AZCD40 (cM0) i stedet.
 * #AEF1810 "pTis" "ÆF1810 - pTis"
 * #AEF1820 "pT0" "ÆF1820 - pT0"
 * #AEF1830 "pT1" "ÆF1830 - pT1"
