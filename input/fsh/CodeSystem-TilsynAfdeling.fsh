@@ -1,6 +1,7 @@
-CodeSystem: Frekvens
-Title: "Frekvens"
-Description: "Frekvens for hvor ofte en given hændelse optræder"
+CodeSystem: TilsynAfdelingCS
+Id: TilsynAfdeling
+Title: "TilsynAfdeling - DPD"
+Description: "TilsynAfdeling - DPD"
 
 * ^status = #active
 * ^publisher = "RKKP"
@@ -8,7 +9,7 @@ Description: "Frekvens for hvor ofte en given hændelse optræder"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
-* ^caseSensitive = false
+* ^count = 2
 
 * ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
 * ^property[=].type = #string
@@ -30,37 +31,7 @@ Description: "Frekvens for hvor ofte en given hændelse optræder"
 * ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
 * ^property[=].code = #inactive
 
-//Generel
-* #aldrig "Aldrig" "Aldrig / Slet ikke"
-* #forDetMeste "For det meste" "For det meste"
-  * ^property[0].code = #comment
-  * ^property[=].valueString = "Added"
-  * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
-  * ^property[+].code = #status
-  * ^property[=].valueCode = #active
-  * ^property[+].code = #inactive
-  * ^property[=].valueBoolean = false
-* #heleTiden "Hele tiden" "Hele tiden"
-  * ^property[0].code = #comment
-  * ^property[=].valueString = "Added"
-  * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
-  * ^property[+].code = #status
-  * ^property[=].valueCode = #active
-  * ^property[+].code = #inactive
-  * ^property[=].valueBoolean = false
-* #konstant "Konstant" "Hele tiden"
-* #nogleGange "Nogle gange" "Nogle gange"
-  * ^property[0].code = #comment
-  * ^property[=].valueString = "Added"
-  * ^property[+].code = #effectiveDate
-  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
-  * ^property[+].code = #status
-  * ^property[=].valueCode = #active
-  * ^property[+].code = #inactive
-  * ^property[=].valueBoolean = false
-* #sjaeldent "Sjældent" "Sjældent"
+* #TilSyn "Patienten blev set på et tilsyn på anden afdeling uden at patienten er blevet tilknyttet det palliative team" "Patienten blev set på et tilsyn på anden afdeling uden at patienten er blevet tilknyttet det palliative team"
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
@@ -70,16 +41,12 @@ Description: "Frekvens for hvor ofte en given hændelse optræder"
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
 
-//Daglig
-* #dgl-lt1 "Mindre end 1 gang om dagen" "Mindre end 1 gang om dagen"
-* #dgl-1 "1 gang om dagen" "1 gang om dagen"
-* #dgl-ge1 "1 eller flere gange om dagen" "1 eller flere gange om dagen"
-
-//Ugentlig
-* #ugl-le1 "1 gang om ugen eller mindre" "1 gang om ugen eller mindre"
-* #ugl-ge1 "1 gang om ugen eller mere" "1 gang om ugen eller mere"
-* #ugl-2-3 "2-3 gange om ugen" "2-3 gange om ugen"
-
-//Månedlig
-* #mdl-lt1 "Mindre end 1 gang om måneden" "Mindre end 1 gang om måneden" 
-* #mdl-1-4 "1-4 gange om måneden" "1-4 gange om måneden"
+* #AldrigSet "Patienten blev aldrig set" "Patienten blev aldrig set"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
