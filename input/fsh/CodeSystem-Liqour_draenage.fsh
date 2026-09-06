@@ -1,5 +1,5 @@
-CodeSystem: LiqourDraenage
-Title: "Liqour drænage"
+CodeSystem: LiquorDrain
+Title: "Liquor drain"
 Description: "Liqour drænage"
 
 * ^status = #active
@@ -30,6 +30,6 @@ Description: "Liqour drænage"
 * ^property[=].description = "True if the concept is not considered active - e.g. not a valid concept any more. Property type is boolean, default value is false. Note that the status property may also be used to indicate that a concept is inactive"
 * ^property[=].code = #inactive
 
-* #VentrikulaerDraen "Ventrikulært dræn" "Ventrikulært dræn"
-* #PermanentDraen "Permanent dræn" "Permanent dræn"
-* #LumbaltDraen "Lumbalt dræn" "Lumbalt dræn"
+* #VentricularDrain "Ventricular Drain" "Ventricular Drain"
+* #PermanentShun "Permanent shunt" "Permanent shunt"
+* #LumbarDrain "Lumbar Drain" "Lumbar Drain"

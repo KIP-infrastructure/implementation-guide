@@ -7,8 +7,8 @@ Description: "Liqour drænage"
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 
-* LiqourDraenage#VentrikulaerDraen "Ventrikulært dræn"
-* LiqourDraenage#PermanentDraen "Permanent dræn"
-* LiqourDraenage#LumbaltDraen "Lumbalt dræn"
+* LiquorDrain#VentricularDrain "Ventrikulært dræn"
+* LiquorDrain#PermanentShun "Permanent dræn"
+* LiquorDrain#LumbarDrain "Lumbalt dræn"
 
 
