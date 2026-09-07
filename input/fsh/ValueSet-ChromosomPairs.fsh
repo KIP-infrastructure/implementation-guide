@@ -5,7 +5,6 @@ Description: "Kromosom par"
 //Description_eng: "Chromosom Pairs"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "EDTA koder Hæmodialyse (DNSL)"
 Description: "EDTA koder Hæmodialyse (DNSL)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-01-31T00:00:00+02:00"
 

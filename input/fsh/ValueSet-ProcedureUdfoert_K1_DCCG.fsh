@@ -3,7 +3,6 @@ Title: "Udført procedure K1 (DCCG)"
 Description: "Udført procedure K1 (DCCG)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-03-02T00:00:00+02:00"
 

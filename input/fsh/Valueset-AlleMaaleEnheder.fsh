@@ -3,7 +3,6 @@ Title: "Alle Måleenheder"
 Description: "Alle måleenheder"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-08-04T00:00:00+02:00"
 

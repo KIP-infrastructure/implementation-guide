@@ -3,7 +3,6 @@ Title: "EORTC Grad 1-7 (DPD)"
 Description: "EORTC Grad 1-7 - Livskvalitetssvurdering (DPD)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-28T00:00:00+02:00"
 

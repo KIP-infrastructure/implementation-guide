@@ -3,7 +3,6 @@ Title: "Anæstesiform (DUGA)"
 Description: "Anæstesiform (DUGA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-02-15T00:00:00+02:00"
 

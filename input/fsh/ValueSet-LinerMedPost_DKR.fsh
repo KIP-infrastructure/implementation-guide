@@ -3,7 +3,6 @@ Title: "Liner komponent med Post (DKR)"
 Description: "Liner komponent med Post (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-12-18T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Trombolyseprofylakse (DHR)"
 Description: "Trombolyseprofylakse (DHR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-11-18T00:00:00+02:00"
 

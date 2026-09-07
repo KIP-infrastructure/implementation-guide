@@ -3,7 +3,6 @@ Title: "EORTC Grad 1-4 (DPD)"
 Description: "EORTC Grad 1-4 - Helbredsvurdering (DPD)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-28T00:00:00+02:00"
 

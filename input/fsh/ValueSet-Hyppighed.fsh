@@ -3,7 +3,6 @@ Title: "Hyppighed"
 Description: "Opfølgning efter 2 eller 5 år"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-09-05T00:00:00+02:00"
 

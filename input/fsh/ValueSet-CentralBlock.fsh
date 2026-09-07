@@ -3,7 +3,6 @@ Title: "Tidspunkt for central blokade"
 Description: "Tidspunkt for central blokade"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 

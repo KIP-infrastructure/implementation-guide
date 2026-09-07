@@ -4,7 +4,6 @@ Title: "Varighed PostOP trombolyseprofylakse (DKR)3"
 Description: "Planlagt varighed Postoperativ trombolyseprofylakse (DKR)3"
 
 * ^status = #retired
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-05-13T00:00:00+02:00"
 

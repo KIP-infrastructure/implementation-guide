@@ -5,7 +5,6 @@ Description: "U-M komponent type [DAMYDA]"
 //Description_eng: "U-M component type [DAMYDA]"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

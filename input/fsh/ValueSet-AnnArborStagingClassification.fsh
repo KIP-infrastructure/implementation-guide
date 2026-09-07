@@ -5,7 +5,6 @@ Description: "Ann Arbor er en gradering klassifikation til Hodgkins desease"
 //Description: "Ann Arbor is a staging classification for Hodgkin's disease"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-12T00:00:00+02:00"
 

@@ -5,7 +5,6 @@ Description: "Cytogenetiske fund / risiko vudering"
 //Description: "Cytogenetic result and risk assesment"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-12T00:00:00+02:00"
 

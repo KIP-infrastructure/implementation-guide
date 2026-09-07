@@ -3,7 +3,6 @@ Title: "Komplikationer pga. infektion eller erosion - Procedurekoder (DUGA)"
 Description: "Komplikationer pga. infektion eller erosion - Procedurekoder (DUGA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 * ProcedureUrogyn#BPH     "BPH: Systemisk antibiotikabehandling af infektionssygdomme"

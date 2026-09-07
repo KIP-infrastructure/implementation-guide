@@ -3,7 +3,6 @@ Title: "Diagnose (CLL)"
 Description: "Diagnose (CLL)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-04-06T00:00:00+02:00"
 

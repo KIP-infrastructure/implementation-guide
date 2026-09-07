@@ -3,7 +3,6 @@ Title: "NIHSS - 10. Dysartri"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 10. Dysartri (bed patienten læse forskellige ord)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

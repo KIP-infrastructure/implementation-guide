@@ -3,7 +3,6 @@ Title: "Kemoterapiregime"
 Description: "Kemoterapiregime (blanding af ATC, SKS og uspecifikke koder)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-18T00:00:00+02:00"
 

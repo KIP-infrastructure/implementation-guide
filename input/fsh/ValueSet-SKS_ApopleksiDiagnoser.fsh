@@ -3,7 +3,6 @@ Title: "SKS: Apopleksi diagnoser"
 Description: "SKS koderne relevante Apopleksi databasen (DAP)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-21T00:00:00+02:00"
 

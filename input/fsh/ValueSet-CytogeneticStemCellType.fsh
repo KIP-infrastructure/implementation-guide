@@ -5,7 +5,6 @@ Description: "Hvor kommer stamcellerne fra"
 //Description_eng: "Kind of stem cell type"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

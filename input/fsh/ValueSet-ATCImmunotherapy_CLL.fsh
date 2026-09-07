@@ -3,7 +3,6 @@ Title: "ATC_CLL_immunterapi"
 Description: "ATC koder immunterapi - [CLL]"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

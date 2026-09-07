@@ -3,7 +3,6 @@ Title: "Mors Diagnosekode - Lever (DNSL)"
 Description: "Mors Diagnosekode - Leverlidelser (DNSL)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-01-10T00:00:00+02:00"
 

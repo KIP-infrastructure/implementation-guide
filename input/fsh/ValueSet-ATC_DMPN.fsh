@@ -3,7 +3,6 @@ Title: "ATC DMPN"
 Description: "ATC koder DMPN behandling. Erstattet af nyt VS fra okt. 2024"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

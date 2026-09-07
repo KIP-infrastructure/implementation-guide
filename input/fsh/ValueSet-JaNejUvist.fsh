@@ -3,7 +3,6 @@ Title: "Ja / Nej / Uvist"
 Description: "Giver mulighed for et 'måske'-svar"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-05-16T00:00:00+02:00"
 

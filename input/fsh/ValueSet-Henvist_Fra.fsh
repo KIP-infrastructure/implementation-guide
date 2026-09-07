@@ -3,7 +3,6 @@ Title: "Henvist fra"
 Description: "Hvor er patienten blevet henvist fra"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-06T00:00:00+02:00"
 
