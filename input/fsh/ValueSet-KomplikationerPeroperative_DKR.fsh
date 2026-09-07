@@ -3,7 +3,6 @@ Title: "Komplikationer, peroperative (DKR)"
 Description: "Komplikationer, peroperative (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-14T00:00:00+02:00"
 

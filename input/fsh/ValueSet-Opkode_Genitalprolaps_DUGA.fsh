@@ -3,7 +3,6 @@ Title: "Operationskode - Genital prolaps (DUGA)"
 Description: "Operationskode - Genital prolaps (DUGA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-02-14T00:00:00+02:00"
 

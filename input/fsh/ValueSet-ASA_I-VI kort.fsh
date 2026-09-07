@@ -3,7 +3,6 @@ Title: "ASA klassifikation I-VI Kort"
 Description: "ASA klassifikation I-VI i kort version"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-19T00:00:00+02:00"
 

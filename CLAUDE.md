@@ -53,7 +53,6 @@ CodeSystems define codes inline with `#code "Display" "Description"` syntax. Val
 * ^date = "YYYY-MM-DDTHH:MM:SS+02:00"
 ```
 
-ValueSets additionally include `* ^experimental = true`.
 
 ## Release Process
 

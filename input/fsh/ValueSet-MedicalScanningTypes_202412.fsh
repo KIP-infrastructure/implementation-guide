@@ -7,7 +7,6 @@ Description: "Forskellige skannings metoder"
 // Dette valueset erstatter "MedicalScanningTypes". Sættes i drift 2024 dec.
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

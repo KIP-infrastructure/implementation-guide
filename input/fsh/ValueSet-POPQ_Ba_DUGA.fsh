@@ -3,7 +3,6 @@ Title: "POP-Q undersøgelse Ba (DUGA)"
 Description: "Nedsynkning - POP-Q undersøgelse Ba (DUGA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 

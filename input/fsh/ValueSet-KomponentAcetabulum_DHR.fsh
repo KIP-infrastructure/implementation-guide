@@ -3,7 +3,6 @@ Title: "Komponent - acetabulum (DHR)"
 Description: "Komponent - acetabulum (DHR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-11-16T00:00:00+02:00"
 

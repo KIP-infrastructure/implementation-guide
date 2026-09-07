@@ -3,7 +3,6 @@ Title: "Grundlidelse [DHR]"
 Description: "Grundlidelse [DHR]"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-04T00:00:00+02:00"
 

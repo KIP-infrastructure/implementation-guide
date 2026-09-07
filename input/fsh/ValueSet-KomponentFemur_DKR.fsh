@@ -3,7 +3,6 @@ Title: "Komponent - femur (DKR)"
 Description: "Komponent - femur (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 

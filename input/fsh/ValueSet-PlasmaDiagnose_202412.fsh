@@ -6,7 +6,6 @@ Description: "Plasma analyse - kræft diagnose kriterier [DAMYDA]"
 // Nyt valueset der erstatter "PlasmaDiagnose.fsh". I drift 2024 dec. 
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-11-29T00:00:00+02:00"
 

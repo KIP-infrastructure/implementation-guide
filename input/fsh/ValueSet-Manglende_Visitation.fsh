@@ -3,7 +3,6 @@ Title: "Visitationskriterier uopfyldt"
 Description: "Hvilke visitationskriterier var ikke opfyldt"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-06T00:00:00+02:00"
 

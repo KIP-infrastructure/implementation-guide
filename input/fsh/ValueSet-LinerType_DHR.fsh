@@ -3,7 +3,6 @@ Title: "Linertype - (DHR)"
 Description: "Linertype - (DHR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-11-02T00:00:00+02:00"
 

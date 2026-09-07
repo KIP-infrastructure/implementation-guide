@@ -5,7 +5,6 @@ Description: "Kode til en klinisk protokolleret undersøgelse"
 //Description_eng: "Patient joined a clinical protocol"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

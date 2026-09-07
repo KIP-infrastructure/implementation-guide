@@ -3,7 +3,6 @@ Title: "NIHSS - 4. Facialisparese"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 4. Facialisparese (bed patienten om at vise tænder/løfte øjenbryn og lukke øjnene fast i)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

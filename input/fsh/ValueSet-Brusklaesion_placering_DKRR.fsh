@@ -3,7 +3,6 @@ Title: "Placering af brusklæsioner (DKRR)"
 Description: "Placering af brusklæsioner (DKRR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-03-23T00:00:00+02:00"
 

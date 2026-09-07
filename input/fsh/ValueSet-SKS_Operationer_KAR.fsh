@@ -3,7 +3,6 @@ Title: "SKS: Operationer (KAR)"
 Description: "SKS: Operationer (KAR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-27T00:00:00+02:00"
 

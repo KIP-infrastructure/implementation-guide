@@ -3,7 +3,6 @@ Title: "Anvendte FISH prober 202502"
 Description: "Anvendte FISH prober 202502 - Fjernet udgået udfald og tilføjet nye"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-02-21T00:00:00+02:00"
 

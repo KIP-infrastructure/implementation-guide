@@ -5,7 +5,6 @@ Description: "Cytogenetiske forandringer"
 //Description: "Cytogenetic changes"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-15T00:00:00+02:00"
 

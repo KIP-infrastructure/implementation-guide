@@ -3,7 +3,6 @@ Title: "DHD eksklusionskriterie"
 Description: "Patienten skal ikke indberettes til DHD, fordi patienten opfylder et af følgende eksklusionskriterier"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-22T00:00:00+02:00"
 
