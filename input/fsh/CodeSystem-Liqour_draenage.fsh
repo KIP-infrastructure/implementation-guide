@@ -39,7 +39,7 @@ Description: "Liqour drænage"
   * ^property[=].valueCode = #active
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
-* #PermanentShun "Permanent shunt" "Permanent shunt"
+* #PermanentShunt "Permanent shunt" "Permanent shunt"
   * ^property[0].code = #comment
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate

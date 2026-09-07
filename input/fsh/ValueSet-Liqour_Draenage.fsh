@@ -7,7 +7,7 @@ Description: "Liqour drænage"
 * ^date = "2026-09-07T00:00:00+02:00"
 
 * LiquorDrain#VentricularDrain "Ventrikulært dræn"
-* LiquorDrain#PermanentShun "Permanent dræn"
+* LiquorDrain#PermanentShunt "Permanent dræn"
 * LiquorDrain#LumbarDrain "Lumbalt dræn"
 
 
