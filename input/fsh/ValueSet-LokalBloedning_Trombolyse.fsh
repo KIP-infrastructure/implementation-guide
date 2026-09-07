@@ -1,5 +1,5 @@
-ValueSet: LokalBloedningDAP
-Title: "Lokal blødning (DAP)"
+ValueSet: LokalBloedningTrombolyse
+Title: "Lokal blødning Trombolyse"
 Description: "Lokal blødning fundet i forbindelse med billeddiagnostisk undersøgelse (DAP)"
 
 * ^status = #active
@@ -11,4 +11,3 @@ Description: "Lokal blødning fundet i forbindelse med billeddiagnostisk unders�
 * BleedingStroke#hi_2 "HI 2"
 * BleedingStroke#ph_1 "PH 1"
 * BleedingStroke#ph_2 "PH 2"
-* 
