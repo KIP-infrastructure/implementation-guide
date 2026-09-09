@@ -88,13 +88,19 @@ jobs:
               "releaseLabel": "release"
             }
 
-      - name: Update publicaction-request.json with the release version
+      - name: Update publication-request.json with the release version
+        shell: bash
         run: |
-          echo "$(jq '
-            .version = env.GITHUB_REF_NAME |
-            .path |= sub("/[0-9\\.]+$"; "/" + env.GITHUB_REF_NAME) |
-            .desc |= sub(" [0-9\\.]+$"; " " + env.GITHUB_REF_NAME)
-          ' ig/publication-request.json)" > ig/publication-request.json
+          # Write via a temp file rather than `echo "$(jq ...)" > file`: command
+          # substitution failures do not trip `set -e`, so that idiom silently
+          # truncates the file to an empty line and lets the release continue.
+          set -euo pipefail
+          jq --arg v "$GITHUB_REF_NAME" '
+            .version = $v |
+            .path = "https://kip.rkkp.dk/fhir/" + $v |
+            .desc = "KIP Infrastructure version " + $v
+          ' ig/publication-request.json > ig/publication-request.json.tmp
+          mv ig/publication-request.json.tmp ig/publication-request.json
 
       - name: Print edited config files
         run: |
@@ -110,7 +116,7 @@ jobs:
           client-id: ${{ vars.APP_ID }}
           private-key: ${{ secrets.APP_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
-          repositories: ${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
+          repositories: ${{ env.IG_REPO }},${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
 
       - name: Publish the implementation guide
         uses: trifork/ig-publisher/.github/actions/ig-publish@576011684bac9bd331150f4c78a1e2bed28c02fe # v2.3.3
@@ -122,3 +128,52 @@ jobs:
           registry-repo: ${{ github.repository_owner }}/${{ env.REGISTRY_REPO }}
           web-repo: ${{ github.repository_owner }}/${{ env.WEB_REPO }}
           web-source: ${{ env.WEB_APP_LOCATION }}
+
+      # The tag is cut before the version is bumped, so main still carries the
+      # previous version at this point. Now that the publication succeeded,
+      # write the released version back to main.
+      #
+      # This uses a fresh checkout of main rather than the `ig` tree above: that
+      # one is a detached checkout of the tag, it has releaseLabel flipped to
+      # "release" (main must keep "ci-build"), and it is full of publisher build
+      # output.
+      - name: Check out main for the version bump
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          path: main
+          token: ${{ steps.token.outputs.token }}
+
+      - name: Commit the released version to main
+        working-directory: main
+        shell: bash
+        env:
+          V: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+
+          # Only the version, deliberately not releaseLabel. A line-level edit
+          # rather than `yq -i`, which rewrites the whole document and strips
+          # the file's blank-line grouping. `^version:` is unique here
+          # (fhirVersion has a capital V); the grep fails the job loudly if that
+          # ever stops being true rather than releasing an unbumped main.
+          sed -i -E "s|^version: .*|version: ${V}|" sushi-config.yaml
+          grep -qx "version: ${V}" sushi-config.yaml
+
+          jq --arg v "$V" '
+            .version = $v |
+            .path = "https://kip.rkkp.dk/fhir/" + $v |
+            .desc = "KIP Infrastructure version " + $v
+          ' publication-request.json > publication-request.json.tmp
+          mv publication-request.json.tmp publication-request.json
+
+          if git diff --quiet -- sushi-config.yaml publication-request.json; then
+            echo "main is already at $V, nothing to commit"
+            exit 0
+          fi
+
+          git config user.name "$APP_AUTHOR_NAME"
+          git config user.email "$APP_AUTHOR_EMAIL"
+          git add sushi-config.yaml publication-request.json
+          git commit -m "chore(release): 🔖 bump version to $V"
+          git push origin HEAD:main
