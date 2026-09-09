@@ -91,9 +91,7 @@ jobs:
       - name: Update publication-request.json with the release version
         shell: bash
         run: |
-          # Write via a temp file rather than `echo "$(jq ...)" > file`: command
-          # substitution failures do not trip `set -e`, so that idiom silently
-          # truncates the file to an empty line and lets the release continue.
+          # Create a temp file to output publication-request.json
           set -euo pipefail
           jq --arg v "$GITHUB_REF_NAME" '
             .version = $v |
