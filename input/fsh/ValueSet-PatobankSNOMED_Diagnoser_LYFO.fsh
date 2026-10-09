@@ -1,5 +1,5 @@
 ValueSet: PatobankSNOMEDDiagnoserLYFO
-Title: "PatobankSNOMED - Diagnoser (LYFO) (retired)"
+Title: "PatobankSNOMED - Diagnoser (LYFO)"
 Description: "PatobankSNOMED - Diagnoser (LYFO)"
 
 * ^status = #active // Should have status 'retired', but the ValueSet is in use in production
