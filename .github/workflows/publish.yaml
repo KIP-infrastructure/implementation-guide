@@ -27,7 +27,7 @@ jobs:
     name: Transpile IG
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
-    container: ghcr.io/trifork/ig-publisher@sha256:24e3f224b868f345f88247cf27e11c972d0a1e8ebd4f283c128614e2b2e1f798 # 2.3.5
+    container: ghcr.io/trifork/ig-publisher@sha256:08512ad8b5eb825fc3014e157479e96da5dd396ec098d915c77da82b7f6a10a7 # 3.0.0
     permissions:
       contents: read
 
@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: IG transpile check
-        uses: trifork/ig-publisher/.github/actions/ig-transpile@2cbdf3db0563c1d668e196b9f546775bbace14d1 # 2.3.5
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@c3b78a6aeab76459d9a572342d73cedbd4c7fd5f # 3.0.0
 
   # Warn when a changed .fsh file has not had its "* ^date = ..." updated in the
   # PR. Advisory only, this job does not block the pull request.
@@ -66,7 +66,7 @@ jobs:
     # A release is defined as a tag pushed to main
     if: ${{ github.event_name == 'push' && github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
-    container: ghcr.io/trifork/ig-publisher@sha256:24e3f224b868f345f88247cf27e11c972d0a1e8ebd4f283c128614e2b2e1f798 # 2.3.5
+    container: ghcr.io/trifork/ig-publisher@sha256:08512ad8b5eb825fc3014e157479e96da5dd396ec098d915c77da82b7f6a10a7 # 3.0.0
     permissions:
       contents: read
 
@@ -117,7 +117,7 @@ jobs:
           repositories: ${{ env.IG_REPO }},${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
 
       - name: Publish the implementation guide
-        uses: trifork/ig-publisher/.github/actions/ig-publish@2cbdf3db0563c1d668e196b9f546775bbace14d1 # 2.3.5
+        uses: trifork/ig-publisher/.github/actions/ig-publish@c3b78a6aeab76459d9a572342d73cedbd4c7fd5f # 3.0.0
         # uses: ../../trifork/ig-publisher/.github/actions/ig-publish # Test local action
         with:
           app-token: ${{ steps.token.outputs.token }}
