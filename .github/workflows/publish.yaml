@@ -27,7 +27,7 @@ jobs:
     name: Transpile IG
     if: ${{ github.event_name == 'pull_request' }}
     runs-on: ubuntu-latest
-    container: ghcr.io/trifork/ig-publisher@sha256:08512ad8b5eb825fc3014e157479e96da5dd396ec098d915c77da82b7f6a10a7 # 3.0.0
+    container: ghcr.io/trifork/ig-publisher@sha256:728b3e34416fcbd52937b85dd7e8bca61c31f073d8a9c169796892f5262a2491 # 3.0.0
     permissions:
       contents: read
 
@@ -66,7 +66,7 @@ jobs:
     # A release is defined as a tag pushed to main
     if: ${{ github.event_name == 'push' && github.ref_type == 'tag' }}
     runs-on: ubuntu-latest
-    container: ghcr.io/trifork/ig-publisher@sha256:08512ad8b5eb825fc3014e157479e96da5dd396ec098d915c77da82b7f6a10a7 # 3.0.0
+    container: ghcr.io/trifork/ig-publisher@sha256:728b3e34416fcbd52937b85dd7e8bca61c31f073d8a9c169796892f5262a2491 # 3.0.0
     permissions:
       contents: read
 
