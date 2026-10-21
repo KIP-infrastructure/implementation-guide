@@ -4,7 +4,6 @@ Title: "Sygdomslokalisation er kun ekstranodalt, kvinder (LYFO) version 2"
 Description: "Sygdomslokalisation i lymfe områder er kun ekstranodalt, og patienten er en kvinde (LYFO)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-01-09T00:00:00+02:00"
 

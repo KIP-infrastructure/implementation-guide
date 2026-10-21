@@ -3,7 +3,6 @@ Title: "Anastomosetype 3"
 Description: "Anastomosetype 3"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-11T00:00:00+02:00"
 

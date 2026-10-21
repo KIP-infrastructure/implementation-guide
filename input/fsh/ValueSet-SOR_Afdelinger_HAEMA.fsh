@@ -3,7 +3,6 @@ Title: "SOR: Afdelinger (HÆMA)"
 Description: "SOR: Afdelinger (HÆMA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-11-24T00:00:00+02:00"
 

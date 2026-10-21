@@ -5,7 +5,6 @@ Description: "Plasma analyse - kræft diagnose kriterier [DAMYDA]"
 //Description_eng: "Plasma analysis - cancer diagnose criterier [DAMYDA]"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

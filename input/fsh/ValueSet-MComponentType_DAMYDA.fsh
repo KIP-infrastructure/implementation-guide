@@ -5,7 +5,6 @@ Description: "Plasma M komponent (Myeloma protein) type [DAMYDA]"
 //Description_eng: "Plasma M component (Myeloma protein) type [DAMYDA]"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-08T00:00:00+02:00"
 

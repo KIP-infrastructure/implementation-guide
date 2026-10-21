@@ -3,7 +3,6 @@ Title: "NIHSS - 2. Blik"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 2. Blik (kun horisontale øjenbevægelser)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

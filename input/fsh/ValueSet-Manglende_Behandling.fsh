@@ -3,7 +3,6 @@ Title: "Grund til manglende behandling"
 Description: "Årsag til manglende behandling"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-06T00:00:00+02:00"
 

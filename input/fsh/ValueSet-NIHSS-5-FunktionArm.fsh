@@ -3,7 +3,6 @@ Title: "NIHSS - 5. Motorisk funktion i arm"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 5. Motorisk funktion i arm"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

@@ -5,7 +5,6 @@ Description: "Hvilken type af tværsnit behandling blev valg"
 //Description: "Which kind of cross section tretment was choosen"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-12-07T00:00:00+02:00"
 

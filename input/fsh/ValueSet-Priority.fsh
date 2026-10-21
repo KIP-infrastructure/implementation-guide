@@ -3,7 +3,6 @@ Title: "Priority"
 Description: "Vurdering af patientens behov"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-05-31T00:00:00+02:00"
 

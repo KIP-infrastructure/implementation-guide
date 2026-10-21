@@ -5,7 +5,6 @@ Description: "Hvilken art kemoterapi"
 //Description: "Different types of Chemotherapy"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-11T00:00:00+02:00"
 

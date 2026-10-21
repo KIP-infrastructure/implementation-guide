@@ -6,7 +6,6 @@ Description: "Forskellige arter af hjertestop / fejl"
 
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"
 

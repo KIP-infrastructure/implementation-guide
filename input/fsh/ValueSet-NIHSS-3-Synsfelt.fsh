@@ -3,7 +3,6 @@ Title: "NIHSS - 3. Test af synsfelt"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 3. Test af synsfelt"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

@@ -5,7 +5,6 @@ Description: "Familie relation til donor"
 //Description_eng: "Relationship to the donor"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

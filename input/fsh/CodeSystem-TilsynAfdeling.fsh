@@ -5,11 +5,11 @@ Description: "TilsynAfdeling - DPD"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2026-06-24T00:00:00+02:00"
+* ^date = "2026-10-07T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
-* ^count = 2
+* ^count = 3
 
 * ^property[0].uri = "http://hl7.org/fhir/concept-properties#comment"
 * ^property[=].type = #string
@@ -36,6 +36,16 @@ Description: "TilsynAfdeling - DPD"
   * ^property[=].valueString = "Added"
   * ^property[+].code = #effectiveDate
   * ^property[=].valueDateTime = "2026-06-24T00:00:00+02:00"
+  * ^property[+].code = #status
+  * ^property[=].valueCode = #active
+  * ^property[+].code = #inactive
+  * ^property[=].valueBoolean = false
+
+* #Visitation "Patienten blev set på et visitationsbesøg uden at få et efterfølgende forløb i den palliative enhed"
+  * ^property[0].code = #comment
+  * ^property[=].valueString = "Added"
+  * ^property[+].code = #effectiveDate
+  * ^property[=].valueDateTime = "2026-10-07T00:00:00+02:00"
   * ^property[+].code = #status
   * ^property[=].valueCode = #active
   * ^property[+].code = #inactive

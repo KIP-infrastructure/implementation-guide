@@ -3,7 +3,6 @@ Title: "NIHSS - 9. Sprog"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 9. Sprog (bed patienten beskrive billeder, benævne genstande, læse sætninger)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

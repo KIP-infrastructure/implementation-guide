@@ -5,7 +5,6 @@ Description: "Sygdomslokalisation i lymfe områder er kun nodalt (LYFO)"
 //Description: Disease location in Lymphomas area"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-03-15T00:00:00+02:00"
 

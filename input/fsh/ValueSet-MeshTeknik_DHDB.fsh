@@ -3,7 +3,6 @@ Title: "Mesh teknik (DHDB)"
 Description: "Mesh teknik (DHDB)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-21T00:00:00+02:00"
 

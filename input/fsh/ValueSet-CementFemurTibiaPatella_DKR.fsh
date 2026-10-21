@@ -3,7 +3,6 @@ Title: "Cement - femur, tibia og patella (DKR)"
 Description: "Cement - femur, tibia og patella (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-13T00:00:00+02:00"
 

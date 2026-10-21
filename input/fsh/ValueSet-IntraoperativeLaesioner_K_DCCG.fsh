@@ -3,7 +3,6 @@ Title: "Intraoperative læsioner - Kvinder (DCCG)"
 Description: "Intraoperative læsioner - Kvinder (DCCG)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-11-10T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Scandinavian Stroke Scale - Benløft"
 Description: "Scandinavian Stroke Scale - Benløft"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 

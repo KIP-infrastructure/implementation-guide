@@ -3,7 +3,6 @@ Title: "Caput Diameter - (DHR)"
 Description: "Caput Diameter - (DHR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-05-23T00:00:00+02:00"
 

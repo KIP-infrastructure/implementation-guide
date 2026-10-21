@@ -3,7 +3,6 @@ Title: "Intubation"
 Description: "Resultat af luftvejshåndtering vha. intubation"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 

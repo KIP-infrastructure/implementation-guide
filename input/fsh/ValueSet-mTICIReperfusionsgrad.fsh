@@ -3,7 +3,6 @@ Title: "mTICI reperfusionsgrad"
 Description: "Reperfusionsgrad ved brug af Modified treatment in cerebral ischemia (mTICI)."
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Paragraffer (RETSPSYK)"
 Description: "Paragraffer (RETSPSYK)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-28T00:00:00+02:00"
 

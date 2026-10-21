@@ -3,7 +3,6 @@ Title: "VarigRespons"
 Description: "VarigRespons"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-06-25T00:00:00+02:00"
 

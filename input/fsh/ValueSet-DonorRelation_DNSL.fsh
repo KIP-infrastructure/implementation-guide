@@ -5,7 +5,6 @@ Description: "Familie relation til donor (DNSL)"
 //Description_eng: "Relationship to the donor"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-10-01T00:00:00+02:00"
 

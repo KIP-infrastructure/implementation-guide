@@ -3,7 +3,6 @@ Title: "Årsag til anden/aflastende procedure colorectal cancer"
 Description: "Årsag til anden/aflastende procedure colorectal cancer"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-04T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Dom - Ophævelse, årsag (RETSPSYK)"
 Description: "Dom - Ophævelse, årsag (RETSPSYK)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-03T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Varighed PostOP trombolyseprofylakse (DKR)NOAK"
 Description: "Planlagt varighed Postoperativ trombolyseprofylakse (DKR) NOAK"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-05-13T00:00:00+02:00"
 

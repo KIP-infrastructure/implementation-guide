@@ -3,7 +3,6 @@ Title: "Kognitiv test (DANDEM)"
 Description: "Kognitiv test (DANDEM)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-05-09T00:00:00+02:00"
 

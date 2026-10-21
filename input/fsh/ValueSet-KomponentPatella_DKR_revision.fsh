@@ -3,7 +3,6 @@ Title: "Komponent - patella (DKR) revision"
 Description: "Komponent - patella (DKR) revision"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-01-16T00:00:00+02:00"
 

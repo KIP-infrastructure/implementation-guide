@@ -3,7 +3,6 @@ Title: "Foerste kontakt sted"
 Description: "Sted for første kontakt"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-06T00:00:00+02:00"
 

@@ -3,7 +3,6 @@ Title: "Diagnose DMPN opfølgning"
 Description: "Uspecificerede diagnoser - DMPN opfølgning"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-02-03T00:00:00+02:00"
 

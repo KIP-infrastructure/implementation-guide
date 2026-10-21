@@ -3,7 +3,6 @@ Title: "Revision, status (DKR)"
 Description: "Revision, status (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-14T00:00:00+02:00"
 

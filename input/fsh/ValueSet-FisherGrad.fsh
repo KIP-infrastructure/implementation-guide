@@ -3,7 +3,6 @@ Title: "Fisher grad for SAH"
 Description: "Fisher grad for SAH"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 

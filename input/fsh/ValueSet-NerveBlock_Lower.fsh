@@ -3,7 +3,6 @@ Title: "Typer af blokade underekstremiteter"
 Description: "Typer af perifer nerveblokade - underekstremiteter"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 

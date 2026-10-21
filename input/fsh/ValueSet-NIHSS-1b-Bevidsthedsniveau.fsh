@@ -3,7 +3,6 @@ Title: "NIHSS - 1b. Bevidsthedsniveau: spørgsmål"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 1b. Bevidsthedsniveau: spørgsmål"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-06-24T00:00:00+02:00"
 

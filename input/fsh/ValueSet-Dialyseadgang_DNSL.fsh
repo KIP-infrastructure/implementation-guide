@@ -3,7 +3,6 @@ Title: "Dialyseadgang ved første dialyse (DNSL)"
 Description: "Dialyseadgang ved første dialyse"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-01-10T00:00:00+02:00"
 

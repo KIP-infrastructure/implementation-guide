@@ -3,7 +3,6 @@ Title: "Komponent - tibia (DKR)"
 Description: "Komponent - tibia (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 

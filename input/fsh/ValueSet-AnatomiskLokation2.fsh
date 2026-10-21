@@ -3,7 +3,6 @@ Title: "Anatomisk lokation 2"
 Description: "Anatomisk lokation 2"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-10-12T00:00:00+02:00"
 

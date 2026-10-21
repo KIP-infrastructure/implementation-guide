@@ -3,7 +3,6 @@ Title: "Komponent - femur (DKR) 2025"
 Description: "Komponent - femur (DKR) - Rettelser 2025"
 
 * ^status = #retired
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 

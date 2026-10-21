@@ -3,7 +3,6 @@ Title: "SOR: afd_Skema3DUGA (DUGA)"
 Description: "SOR: afd_Skema3DUGA (DUGA)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-05-17T00:00:00+02:00"
 

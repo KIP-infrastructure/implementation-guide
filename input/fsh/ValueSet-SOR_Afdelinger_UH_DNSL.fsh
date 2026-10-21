@@ -3,7 +3,6 @@ Title: "SOR: Afdelinger Universitetshospitaler (DNSL)"
 Description: "SOR: Afdelinger Nyresvigt på nniversitetshospitaler (DNSL)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2024-01-31T00:00:00+02:00"
 

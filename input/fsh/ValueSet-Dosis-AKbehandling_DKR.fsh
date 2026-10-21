@@ -3,7 +3,6 @@ Title: "Dosis AK behandling (DKR)"
 Description: "Døgndosis AK behandling (DKR)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2023-12-19T00:00:00+02:00"
 

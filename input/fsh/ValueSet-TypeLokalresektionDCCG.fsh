@@ -3,7 +3,6 @@ Title: "Type af præoperativ endoskopisk lokalresektion DCCG"
 Description: "Type af præoperativ endoskopisk lokalresektion DCCG"
 
 * ^status = #retired
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-09-07T00:00:00+02:00"
 

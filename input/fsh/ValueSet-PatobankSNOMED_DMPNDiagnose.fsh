@@ -3,7 +3,6 @@ Title: "Patobank SNOMED DMPN Diagnose"
 Description: "DMPN diagnoser (Patobank SNOMED)"
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

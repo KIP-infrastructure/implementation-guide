@@ -6,7 +6,6 @@ Description: "Denne ECOG er specifik udarbejdet til HÆMA specialerne"
 
 
 * ^status = #active
-* ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-08T00:00:00+02:00"
 
