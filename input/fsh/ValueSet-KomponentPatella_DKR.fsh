@@ -3,6 +3,7 @@ Title: "Komponent - patella (DKR)"
 Description: "Komponent - patella (DKR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-01-17T00:00:00+02:00"
 

@@ -3,6 +3,7 @@ Title: "Ja / Nej / Ukendt / Ikke relevant"
 Description: "Giver mulighed for at svare ukendt eller ikke relevant til et spurgt spørgsmål"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-30T00:00:00+02:00"
 

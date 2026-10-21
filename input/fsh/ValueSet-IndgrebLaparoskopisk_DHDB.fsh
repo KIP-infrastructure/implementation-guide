@@ -3,6 +3,7 @@ Title: "Indgreb, laparoskopisk - ingvinalhernie (DHDB)"
 Description: "Indgreb, laparoskopisk - ingvinalhernie (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-20T00:00:00+02:00"
 

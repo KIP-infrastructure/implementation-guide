@@ -3,6 +3,7 @@ Title: "Artrose Placering (DKR)"
 Description: "Artrose Placering (DKR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-12-19T00:00:00+02:00"
 

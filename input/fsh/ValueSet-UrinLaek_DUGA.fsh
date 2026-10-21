@@ -3,6 +3,7 @@ Title: "Urin lækker (DUGA)"
 Description: "Hvornår lækker urin (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 

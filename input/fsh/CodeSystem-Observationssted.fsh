@@ -3,6 +3,7 @@ Title: "Observationssted"
 Description: "Sted hvor anæstesien observeres"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-13T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

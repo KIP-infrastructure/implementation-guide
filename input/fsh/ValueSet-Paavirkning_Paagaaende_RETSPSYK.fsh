@@ -3,6 +3,7 @@ Title: "Påvirkning Pågående (RETSPSYK)"
 Description: "Påvirkning Pågående (RETSPSYK)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-05-11T00:00:00+02:00"
 

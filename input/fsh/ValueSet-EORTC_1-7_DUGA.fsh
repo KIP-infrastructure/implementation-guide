@@ -3,6 +3,7 @@ Title: "EORTC Grad 1-7 (DUGA)"
 Description: "EORTC Grad 1-7 - Livskvalitetssvurdering (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-03-06T00:00:00+02:00"
 

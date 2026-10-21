@@ -3,6 +3,7 @@ Title: "Treatment_Response_Evaluation_LYFO"
 Description: "Indikation for kemoterapi/behandling - LYFO"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-27T00:00:00+02:00"
 

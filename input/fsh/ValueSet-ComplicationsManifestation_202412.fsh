@@ -6,6 +6,7 @@ Description: "Manifeste komplikationer [DAMYDA]"
 // Valueset erstatter "ComplicationsManifestation". Sættes i drift 2024 dec.
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-11-29T00:00:00+02:00"
 

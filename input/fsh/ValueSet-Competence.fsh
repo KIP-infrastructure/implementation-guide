@@ -3,6 +3,7 @@ Title: "FagligtNiveau - DAD"
 Description: "Fagligt niveau for udførende anæstesi personale"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-01T00:00:00+02:00"
 

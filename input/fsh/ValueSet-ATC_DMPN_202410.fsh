@@ -3,6 +3,7 @@ Title: "ATC DMPN 202410"
 Description: "ATC koder DMPN behandling. Valueset erstatter tidligere fra okt. 2024"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-10-02T00:00:00+02:00"
 

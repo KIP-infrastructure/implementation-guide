@@ -3,6 +3,7 @@ Title: "The National Institute of Health Stroke Scale (NIHSS) - 1b. Level of Con
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 1b. Level of Consciousness: Questions; Link: https://www.ninds.nih.gov/stroke-scales-and-related-information"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

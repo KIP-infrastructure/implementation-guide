@@ -3,6 +3,7 @@ Title: "Fiksation, Femur (DKRR) 2025"
 Description: "Fiksation, Femur (DKRR) 2025 rettelse"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-09-21T00:00:00+02:00"
 

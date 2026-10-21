@@ -3,6 +3,7 @@ Title: "Operation - Danmark/Udlandet (DHR)"
 Description: "Operation - Danmark/Udlandet (DHR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-11-07T00:00:00+02:00"
 

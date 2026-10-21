@@ -3,6 +3,7 @@ Title: "Procedure varighed; over/under 15 min."
 Description: "Procedure varighed; over/under 15 min."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-29T00:00:00+02:00"
 

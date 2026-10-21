@@ -4,6 +4,7 @@ Usage: #definition
 * url = "https://kip.rkkp.dk/fhir/SearchParameter/semver"
 * name = "semver"
 * status = #active
+* version = "2.27.0"
 * description = "Composite search parameter representing semantic version (major.minor.patch) extracted from version field."
 * code = #semver
 * base[0] = #StructureDefinition

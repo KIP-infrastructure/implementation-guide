@@ -8,6 +8,9 @@
 #   - added file            -> its ^date must not predate sushi-config.yaml,
 #     i.e. it must be the config's date, the PR's date, or newer
 #   - file without a ^date  -> skipped (e.g. Alias.fsh)
+#   - modified file whose own version rule ("* ^version" / "* version") changed
+#     -> warned about: edits alone keep the version, it is bumped only to
+#     publish a new, independent resource (see docs/artifact-versioning.md)
 #
 # Findings are emitted as GitHub warning annotations. The check is advisory:
 # it never fails, so a pull request is reported on but not blocked.
@@ -50,6 +53,20 @@ echo "Added files must be dated ${MIN_DATE} or newer (${SUSHI_CONFIG}: ${SUSHI_D
 
 warnings=0
 
+# Warns when a modified file's own version rule changed in the PR diff, i.e. a
+# column-0 "* ^version" / "* version" line was both removed and added.
+check_version_change() { # $1 = file, rest = paths for git diff
+  local file="$1"; shift
+  local diff
+  diff="$(git diff -U0 "$DIFF_RANGE" -- "$@")"
+  if grep -qE '^-\* \^?version\b' <<<"$diff" && grep -qE '^\+\* \^?version\b' <<<"$diff"; then
+    local line
+    line="$(grep -n -m1 -E '^\* \^?version\b' "$file" | cut -d: -f1 || true)"
+    echo "::warning file=${file}${line:+,line=${line}}::The resource version changed. Edits alone keep the version; bump it only to publish a new, independent resource that co-exists with the old one."
+    warnings=$((warnings + 1))
+  fi
+}
+
 warn() {
   local file="$1" message="$2" line
   # grep -m1 rather than a "| head -1" pipe: under `set -o pipefail` the early
@@ -86,6 +103,7 @@ while IFS=$'\t' read -r status path_a path_b; do
     else
       warn "$file" "FSH file changed but ^date was not updated in this PR. Set: * ^date = \"${SUGGESTION}\""
     fi
+    check_version_change "$file" "${paths[@]}"
   fi
 done < <(git diff --name-status --diff-filter=AMR "$DIFF_RANGE" -- "$PATH_GLOB")
 

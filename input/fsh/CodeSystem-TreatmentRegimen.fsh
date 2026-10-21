@@ -4,6 +4,7 @@ Title: "Treatment regimen"
 Description: "Treatment regimen"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-12T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Sygdomslokalisation er prim. nodalt, sek. ekstranodalt eller omv, mænd 
 Description: "Sygdomslokalisation i lymfe områder er primært nodalt, sekundært ekstranodalt eller primært ekstranodalt, sekundært nodalt, og patienten er en mand (LYFO)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-03-15T00:00:00+02:00"
 

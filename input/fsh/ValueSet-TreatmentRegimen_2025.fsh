@@ -6,6 +6,7 @@ Description: "Behandlingsplan som beskriver specifikke codsering og planlægning
 //Description_eng: "A treatment plan that specifies the dosage, the schedule, and the duration of treatment."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-10-31T00:00:00+02:00"
 

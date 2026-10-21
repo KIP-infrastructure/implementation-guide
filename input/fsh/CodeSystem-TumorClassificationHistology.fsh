@@ -3,6 +3,7 @@ Title: "Histologisk	klassifikation (fordøjelsessystemet)"
 Description: "Tumor klassificeres histologisk jvf. WHO Classification of Tumours of the Digestive System. Link: https://dccg.dk/wp-content/uploads/2017/08/Tumorklassifikation.pdf"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-05-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

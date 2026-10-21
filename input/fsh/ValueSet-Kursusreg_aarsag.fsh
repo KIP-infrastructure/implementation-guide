@@ -3,6 +3,7 @@ Title: "Kursusregistrering - årsag"
 Description: "Kursusregistrering - årsag til manglende oplysninger"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-10-29T00:00:00+02:00"
 

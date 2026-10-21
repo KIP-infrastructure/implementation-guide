@@ -3,6 +3,7 @@ Title: "Komponent - acetabulum (DHR)"
 Description: "Komponent - acetabulum (DHR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-11-16T00:00:00+02:00"
 

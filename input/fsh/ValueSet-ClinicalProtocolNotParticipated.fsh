@@ -5,6 +5,7 @@ Description: "Hvorfor er patienten ikke involveret"
 //Description: "Reason why the patient didnt get involved"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"
 

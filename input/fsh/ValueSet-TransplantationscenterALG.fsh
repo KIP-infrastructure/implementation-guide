@@ -3,6 +3,7 @@ Title: "Transplantationcenterliste til ALG"
 Description: "Transplantationcenterliste til ALG"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-22T00:00:00+02:00"
 

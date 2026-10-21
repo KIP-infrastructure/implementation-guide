@@ -3,6 +3,7 @@ Title: "Doed lokation"
 Description: "Hvor døde patienten"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-07T00:00:00+02:00"
 

@@ -3,6 +3,7 @@ Title: "Udført procedure K2 (DCCG)"
 Description: "Udført procedure K2 (DCCG)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-03-02T00:00:00+02:00"
 

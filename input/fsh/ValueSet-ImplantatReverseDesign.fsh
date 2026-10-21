@@ -3,6 +3,7 @@ Title: "Implantat - reverse design"
 Description: "Implantat - reverse design"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-10-06T00:00:00+02:00"
 

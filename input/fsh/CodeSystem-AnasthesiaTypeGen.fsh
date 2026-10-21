@@ -4,6 +4,7 @@ Title: "Anæstesi Type Generel"
 Description: "Generel Anæstesiydelse - Tillæg"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-30T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

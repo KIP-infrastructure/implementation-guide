@@ -3,6 +3,7 @@ Title: "Blodsygdomme"
 Description: "Blodsygdomme"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-08T00:00:00+02:00"
 

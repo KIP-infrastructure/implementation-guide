@@ -3,6 +3,7 @@ Title: "ICRS grading system"
 Description: "ICRS grading system; Link: https://www.researchgate.net/figure/The-International-Cartilage-Repair-Society-ICRS-Cartilage-Lesion-Classification-System_fig2_224847959"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-19T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

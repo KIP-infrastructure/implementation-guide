@@ -3,6 +3,7 @@ Title: "ASA Physical Status Classification System"
 Description: "Score udviklet til vurdering af det fysiske helbred. Link: https://www.asahq.org/standards-and-guidelines/asa-physical-status-classification-system"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-05-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

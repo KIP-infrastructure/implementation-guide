@@ -3,6 +3,7 @@ Title: "Komponent - femur, status (DHR)"
 Description: "Komponent - femur, status (DHR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-11-18T00:00:00+02:00"
 

@@ -5,6 +5,7 @@ Description: "Sygdomsudbredelse i lymfe områder"
 //Description: Disease location in Lymphomas area"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-08T00:00:00+02:00"
 

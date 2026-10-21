@@ -3,6 +3,7 @@ Title: "Sutur monofilament type, ventralhernie (DHDB)"
 Description: "Sutur monofilament type, ventralhernie (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-20T00:00:00+02:00"
 

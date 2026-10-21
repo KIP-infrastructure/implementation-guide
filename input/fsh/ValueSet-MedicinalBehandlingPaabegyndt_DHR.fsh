@@ -4,6 +4,7 @@ Title: "Medicinal behandling - Hvornår bliver dette giver i forhold til procedu
 Description: "Medicinal behandling - Hvornår bliver dette giver i forhold til proceduren/operatioen? [DHR]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-07T00:00:00+02:00"
 

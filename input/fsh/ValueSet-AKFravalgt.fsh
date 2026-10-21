@@ -3,6 +3,7 @@ Title: "Fravalg af antikoagulationsbehandling; årsag"
 Description: "Årsagen til hvorfor antikoagulationsbehandling er fravalgt"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 

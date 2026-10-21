@@ -3,6 +3,7 @@ Title: "Suturtype langsom resorberbar monofilament ventralhernie (DHDB)"
 Description: "Suturtype langsom resorberbar monofilament, ventralhernie (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-07-06T00:00:00+02:00"
 

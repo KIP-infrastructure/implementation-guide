@@ -3,6 +3,7 @@ Title: "Sygdomsområder - alle"
 Description: "Alle Sygdomsområder i KIP"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-05-10T00:00:00+02:00"
 

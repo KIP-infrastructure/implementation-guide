@@ -3,6 +3,7 @@ Title: "Liqour drænage"
 Description: "Liqour drænage"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-09-07T00:00:00+02:00"
 

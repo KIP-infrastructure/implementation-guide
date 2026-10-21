@@ -3,6 +3,7 @@ Title: "SKS: hjertesvigt til DHD"
 Description: "SKS koder relevante for DHD"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-21T00:00:00+02:00"
 

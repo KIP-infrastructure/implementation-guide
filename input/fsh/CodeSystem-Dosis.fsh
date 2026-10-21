@@ -3,6 +3,7 @@ Title: "Dosis"
 Description: "Dosis i givne mængder"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-12-19T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

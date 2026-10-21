@@ -3,6 +3,7 @@ Title: "Treatment_Indication_CLL"
 Description: "Indikation for kemoterapi/behandling - CLL"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

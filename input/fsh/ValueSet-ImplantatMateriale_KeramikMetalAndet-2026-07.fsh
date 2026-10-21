@@ -4,6 +4,7 @@ Title: "Implantat - materiale (keramik, metal, andet) 2026-07"
 Description: "Implantat - materiale (keramik, metal, andet)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-07-31T00:00:00+02:00"
 

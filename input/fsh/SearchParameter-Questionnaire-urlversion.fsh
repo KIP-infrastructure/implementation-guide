@@ -5,6 +5,7 @@ Usage: #definition
 * url = "http://kip.sundk.dk/fhir/SearchParameter/SP-Questionnaire-urlversion"
 * name = "urlversion"
 * status = #active
+* version = "2.27.0"
 * description = "SearchParameter to match Questionnaire by both url and version"
 * code = #urlversion
 * base[0] = #Questionnaire

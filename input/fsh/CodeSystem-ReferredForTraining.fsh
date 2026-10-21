@@ -4,6 +4,7 @@ Title: "Specifikation of where the paitent is referred to for physical training"
 Description: "Uddybning af hvor patienten er henvist til fysisk træning"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-03T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
