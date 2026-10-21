@@ -3,6 +3,7 @@ Title: "Komplikationer pga. organperforation - Procedurekoder (DUGA)"
 Description: "Komplikationer pga. organperforation - Procedurekoder (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 * SKS#KKBF00 "KKBF00: Fjernelse af fremmedlegeme i urinleder"

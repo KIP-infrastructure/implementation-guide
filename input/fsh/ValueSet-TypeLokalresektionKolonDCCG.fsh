@@ -3,6 +3,7 @@ Title: "Type af præoperativ endoskopisk lokalresektion (Kolon) DCCG"
 Description: "Type af præoperativ endoskopisk lokalresektion (Kolon) DCCG"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-04-13T00:00:00+02:00"
 

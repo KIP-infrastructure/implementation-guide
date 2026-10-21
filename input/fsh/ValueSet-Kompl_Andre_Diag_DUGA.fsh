@@ -3,6 +3,7 @@ Title: "Komplikationer pga. 'Andre' - Diagnosekoder (DUGA)"
 Description: "Komplikationer pga. 'Andre' - Diagnosekoder (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 * SKS#DN393  "DN393: Stress-inkontinens"

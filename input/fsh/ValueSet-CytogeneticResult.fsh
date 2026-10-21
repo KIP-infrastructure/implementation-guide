@@ -3,6 +3,7 @@ Title: "Cytogenetic resultater"
 Description: "Cytogenetiske positive fund - DMPN. Valueset erstattes af nyt fra Okt. 2024"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

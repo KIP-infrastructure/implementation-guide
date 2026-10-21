@@ -3,6 +3,7 @@ Title: "TKI grouping code (RKKP)"
 Description: "RKKP-local grouping code for tyrosine kinase inhibitor treatment. BEMÆRK: Dette CodeSystem definerer IKKE ATC-koder. Koden 'tki' er en lokal opsamlingskategori, der betyder 'anden TKI-behandling end de TKI'er, der er listet individuelt i den pågældende ValueSet' - se ValueSet BehandlingCML, hvor de seks enkelte TKI'er (L01EA01-L01EA06) angives med rigtige ATC-koder og 'tki' dækker resten. Den kan derfor ikke erstattes af ATC L01E (proteinkinasehæmmere), som netop OMFATTER de individuelt listede stoffer, og den kan ikke flyttes ind i CodeSystem ATC, da det er et fragment af WHO ATC og kun må indeholde WHO's egne koder. Dette CodeSystem indeholdt tidligere også ATC-koderne L01EA, L01EB, L01EH, L01EK og L01EN, som var dubletter af de samme koder i CodeSystem ATC og ikke blev refereret af nogen ValueSet; de er fjernet, så hver ATC-kode nu kun er defineret ét sted."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Symptom skala"
 Description: "Symptom skala"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-04-18T00:00:00+02:00"
 

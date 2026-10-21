@@ -5,6 +5,7 @@ Description: "Sundhedsvæsenets klassifikationssystem (SKS) - Udvalgte koder i R
 * ^identifier[0].system = "urn:ietf:rfc:3986"
 * ^identifier[0].value = "urn:oid:1.2.208.176.2.4"
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-07-10T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

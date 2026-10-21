@@ -3,6 +3,7 @@ Title: "Findings with digital subtraction angiography (DSA); location of clot"
 Description: "Findings with digital subtraction angiography (DSA); location of clot"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

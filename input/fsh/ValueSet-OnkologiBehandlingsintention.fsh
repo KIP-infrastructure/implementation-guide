@@ -3,6 +3,7 @@ Title: "Onkologisk behandlingsintention"
 Description: "Behandlingsintention for onkologiske forløb"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-05-16T00:00:00+02:00"
 

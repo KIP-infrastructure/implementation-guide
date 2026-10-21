@@ -3,6 +3,7 @@ Title: "EHS ventral hernie - midtlinie"
 Description: "EHS ventral hernie - midtlinie"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-20T00:00:00+02:00"
 

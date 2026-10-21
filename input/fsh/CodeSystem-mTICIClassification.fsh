@@ -3,6 +3,7 @@ Title: "Modified treatment in cerebral ischemia (mTICI) score"
 Description: "Modified treatment in cerebral ischemia (mTICI) score; Link: https://radiopaedia.org/articles/modified-treatment-in-cerebral-ischaemia-mtici-score"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

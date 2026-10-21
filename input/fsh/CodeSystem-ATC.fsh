@@ -5,6 +5,7 @@ Description: "Fragment of the WHO ATC code system - the subset of ATC codes used
 * ^identifier[0].system = "urn:ietf:rfc:3986"
 * ^identifier[0].value = "urn:oid:2.16.840.1.113883.6.73"
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-14T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

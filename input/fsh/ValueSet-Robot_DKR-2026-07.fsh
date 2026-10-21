@@ -4,6 +4,7 @@ Title: "Robot (DKR)-2026-07"
 Description: "Robottyper til robot assisteret kirurgi (DKR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-07-31T00:00:00+02:00"
 

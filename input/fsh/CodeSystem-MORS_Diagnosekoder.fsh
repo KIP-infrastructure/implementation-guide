@@ -3,6 +3,7 @@ Title: "Mors Diagnosekoder (DNSL)"
 Description: "Mors Diagnosekoder (DNSL). UDFASET: Alle 47 koder er verificerede SKS-koder og er overført til SKS CodeSystem (https://kip.rkkp.dk/fhir/CodeSystem/SKS). Anvend SKS i stedet. Ingen ValueSets i denne IG refererer længere til dette CodeSystem."
 
 * ^status = #retired
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-01-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

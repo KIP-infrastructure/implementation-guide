@@ -3,6 +3,7 @@ Title: "NIHSS - 8. Sensibilitet"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 8. Sensibilitet (brug pinprick til at teste arme, ben, trunkus og ansigt - sammenlign side for side)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

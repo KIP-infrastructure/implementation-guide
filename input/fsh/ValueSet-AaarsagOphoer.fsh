@@ -3,6 +3,7 @@ Title: "Årsag til ophør (DNSL)"
 Description: "Årsager til interventionsforløb er ophørt"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-01-10T00:00:00+02:00"
 

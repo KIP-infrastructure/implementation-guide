@@ -3,6 +3,7 @@ Title: "Onkologibehandlinger (kurativ)"
 Description: "Dette er alle typer af onkologibehandlinger for kurativ behandlingsintention"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-04-28T00:00:00+02:00"
 

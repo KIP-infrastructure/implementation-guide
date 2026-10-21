@@ -3,6 +3,7 @@ Title: "Mængder"
 Description: "Angivelse af mængder"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-02-13T00:00:00+02:00"
 

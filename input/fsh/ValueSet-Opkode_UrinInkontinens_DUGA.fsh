@@ -3,6 +3,7 @@ Title: "Operationskode - Urin-inkontinens (DUGA)"
 Description: "Operationskode - Urin-inkontinens (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-14T00:00:00+02:00"
 

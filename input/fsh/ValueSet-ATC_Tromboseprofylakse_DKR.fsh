@@ -3,6 +3,7 @@ Title: "ATC - Tromboseprofylakse (DKR)"
 Description: "ATC - Tromboseprofylakse (DKR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-10-14T00:00:00+02:00"
 

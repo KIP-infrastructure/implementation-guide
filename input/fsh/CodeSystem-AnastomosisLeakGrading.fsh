@@ -3,6 +3,7 @@ Title: "Anastomosis leak grading"
 Description: "Anastomosis leak grading"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-08-17T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

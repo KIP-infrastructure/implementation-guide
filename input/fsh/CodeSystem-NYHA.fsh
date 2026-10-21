@@ -4,6 +4,7 @@ Title: "NYHA klasser - hjertesvigt"
 Description: "The New York Heart Association (NYHA) Functional Classification link:https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-21T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

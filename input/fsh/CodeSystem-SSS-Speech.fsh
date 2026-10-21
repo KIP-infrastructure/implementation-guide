@@ -3,6 +3,7 @@ Title: "Scandinavian Stroke Scale (SSS) - Speech"
 Description: "Scandinavian Stroke Scale (SSS) - Speech: Talebesvær på grund af dysartri scorer 10. Kun hvis man er sikker på, at der er sproglige forstyrrelser scores 6, 3 eller 0."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

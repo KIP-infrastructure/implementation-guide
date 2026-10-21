@@ -3,6 +3,7 @@ Title: "Oncology Treatment (curative)"
 Description: "Types of oncology treatments for curative treatment intention"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-04-28T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

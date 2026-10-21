@@ -3,6 +3,7 @@ Title: "Hunt-Hess score"
 Description: "Hunt-Hess score ud fra klassifikationen."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 

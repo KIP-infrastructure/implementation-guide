@@ -5,6 +5,7 @@ Usage: #definition
 * name = "ChemotherapyRegimenToSKS"
 * title = "Chemotherapy regimen to SKS (BWHA)"
 * status = #active
+* version = "2.27.0"
 * experimental = true
 * publisher = "RKKP"
 * date = "2026-08-03T00:00:00+02:00"

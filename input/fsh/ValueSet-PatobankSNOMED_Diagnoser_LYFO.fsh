@@ -3,6 +3,7 @@ Title: "PatobankSNOMED - Diagnoser (LYFO) (retired)"
 Description: "PatobankSNOMED - Diagnoser (LYFO)"
 
 * ^status = #active // Should have status 'retired', but the ValueSet is in use in production
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-18T00:00:00+02:00"
 

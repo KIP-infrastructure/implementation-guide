@@ -5,6 +5,7 @@ Description: "Planlagt eller iværksat behandling"
 //Description: "Scheduled or launched treatmentprocess"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-12-07T00:00:00+02:00"
 

@@ -8,6 +8,7 @@ Description: "Left or right position. UDFASET: Denne ValueSet har samme koder og
 //og OperationssideKAR. v2-0894 (bodysite) er ikke IG'ens konvention for operationsside.
 
 * ^status = #retired
+* ^version = "2.27.0"
 * ^experimental = true
 * ^publisher = "RKKP"
 * ^date = "2022-07-12T00:00:00+02:00"

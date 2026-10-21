@@ -5,6 +5,7 @@ Description: "Hvilken vedligeholdelsesbehandling er der påbegyndt"
 //Description: "Kind of treatment preservation"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-12-07T00:00:00+02:00"
 

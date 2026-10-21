@@ -3,6 +3,7 @@ Title: "POP-Q undersøgelse Kompartment (DUGA)"
 Description: "Nedsynkning - POP-Q undersøgelse Kompartment (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 

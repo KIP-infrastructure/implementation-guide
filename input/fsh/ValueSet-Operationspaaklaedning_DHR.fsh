@@ -3,6 +3,7 @@ Title: "Operationspåklædning [DHR]"
 Description: "Operationspåklædning [DHR]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-06T00:00:00+02:00"
 

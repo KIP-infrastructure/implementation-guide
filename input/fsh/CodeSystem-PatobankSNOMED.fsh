@@ -3,6 +3,7 @@ Title: "Den Danske SNOMED for Patologi"
 Description: "Den Danske SNOMED for Patologi - Udvalgte koder i RKKP. Link: https://www.patobank.dk/snomed/. BEMÆRK: Dette er SNOMED II/3.5 (patologiens historiske SNOMED), ikke SNOMED CT - M-koderne er morfologikoder på ICD-O-form (M95903 = 9590/3) og findes IKKE i SNOMED CT. BEMÆRK ENDVIDERE: De 20 AEF-koder er ikke morfologikoder, men pTNM-stadier, og bør formentlig erstattes af SKS AZCE-koderne - se kommentar ved koderne nedenfor."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

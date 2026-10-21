@@ -3,6 +3,7 @@ Title: "Foerste kontakt sted 2026"
 Description: "Sted for første kontakt 2026"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-06-24T00:00:00+02:00"
 

@@ -4,6 +4,7 @@ Title: "Hunt and Hess scale"
 Description: "Hunt and Hess scale; Link: https://radiopaedia.org/articles/hunt-and-hess-grading-system"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

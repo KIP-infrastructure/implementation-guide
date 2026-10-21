@@ -3,6 +3,7 @@ Title: "Skematype"
 Description: "Indleveringsform for eksterne skemaer"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-06T00:00:00+02:00"
 

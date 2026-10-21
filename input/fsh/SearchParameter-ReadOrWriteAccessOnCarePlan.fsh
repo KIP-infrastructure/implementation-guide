@@ -4,6 +4,7 @@ Usage: #definition
 * url = "https://kip.rkkp.dk/fhir/SearchParameter/CarePlanReadOrWriteAccess"
 * name = "CarePlanReadOrWriteAccess"
 * status = #active
+* version = "2.27.0"
 * description = "Search a CarePlan for readAccess or writeAccess SOR code"
 * code = #access-sor-code
 * base = #CarePlan

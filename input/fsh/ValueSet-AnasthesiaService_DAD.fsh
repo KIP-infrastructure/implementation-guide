@@ -3,6 +3,7 @@ Title: "Anæstesiydelse DAD"
 Description: "Anæstesiydelse"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 

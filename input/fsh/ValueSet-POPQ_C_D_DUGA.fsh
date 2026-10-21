@@ -3,6 +3,7 @@ Title: "POP-Q undersøgelse C+D (DUGA)"
 Description: "Nedsynkning - POP-Q undersøgelse C+D (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 

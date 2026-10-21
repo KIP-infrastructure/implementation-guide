@@ -3,6 +3,7 @@ Title: "EDTA koder Peritonedialyse (DNSL)"
 Description: "EDTA koder Peritonedialyse (DNSL)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-01-31T00:00:00+02:00"
 

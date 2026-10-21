@@ -3,6 +3,7 @@ Title: "Komplikationer pga. 'Andre' - Procedurekoder (DUGA)"
 Description: "Komplikationer pga. 'Andre' - Procedurekoder (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 * SKS#KLWW96  "KLWW96: Anden reoperation efter gynækologisk operation"

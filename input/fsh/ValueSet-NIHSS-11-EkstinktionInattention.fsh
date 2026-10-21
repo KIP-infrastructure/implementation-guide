@@ -3,6 +3,7 @@ Title: "NIHSS - 11. Ekstinktion og inattention"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 11. Ekstinktion og inattention (tidligere ”neglekt”) (brug visuel eller sensorisk dobbeltsidig stimulation)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-27T00:00:00+02:00"
 

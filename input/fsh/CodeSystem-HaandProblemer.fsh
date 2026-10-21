@@ -4,6 +4,7 @@ Title: "Taget hånd om problemer"
 Description: "Taget hånd om problemer, PRO-PAL-skema 1"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-06-24T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

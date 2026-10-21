@@ -3,6 +3,7 @@ Title: "Intervaller eksakte værdier"
 Description: "Intervaller med varierende eksakte værdier"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-13T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Komplikationer pga. organperforation - Diagnosekoder (DUGA)"
 Description: "Komplikationer pga. organperforation - Diagnosekoder (DUGA)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 * SKS#DT812G  "DT812G: Utilsigtet peroperativ punktur eller læsion af gastrointestinalkanalen"

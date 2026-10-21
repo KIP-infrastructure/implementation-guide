@@ -3,6 +3,7 @@ Title: "Preoperativ templating"
 Description: "Preoperativ templating (DHR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-01-03T00:00:00+02:00"
 
