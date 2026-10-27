@@ -4,7 +4,7 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2025-03-04T00:00:00+02:00"
+* ^date = "2026-10-27T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url
 * ^contact[0].telecom[0].value = "https://www.rkkp.dk/"
 * ^content = #complete
@@ -129,7 +129,8 @@ Description: "Fixation for cruciate ligaments (femur and tibia), types of screws
   * ^property[=].valueCode = #active
   * ^property[+].code = #inactive
   * ^property[=].valueBoolean = false
-
+* #stryker_procinch_adjustable "Stryker ProCinch Adjustable Loop" "Stryker ProCinch Adjustable Loop"
+* #stryker_procinch_button "Stryker ProCinch Button" "Stryker ProCinch Button"
 * #stryker_titanium "Stryker titanium skrue" "Stryker titanium skrue [Femur + Tibia]"
 * #stryker_versitomic_g-lok "Stryker VersiTomic G-lok" "Stryker VersiTomic G-lok [Femur]"
 
