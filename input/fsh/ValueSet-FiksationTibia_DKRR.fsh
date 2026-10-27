@@ -4,7 +4,7 @@ Description: "Fiksation, Tibia (DKRR)"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2022-09-21T00:00:00+02:00"
+* ^date = "2026-10-27T00:00:00+02:00"
 
 // Arthrek - Kode stavet forkert, men vises korrekt.
 * FixationCruciateLigaments#arthrek_biotenodesis_plla "Arthrex Biotenodesis PLLA skrue"
@@ -61,6 +61,8 @@ Description: "Fiksation, Tibia (DKRR)"
 * FixationCruciateLigaments#stryker_crossscrew_titanium "Stryker Crossscrew (Titanium)"
 * FixationCruciateLigaments#stryker_plla "Stryker PLLA skrue"
 * FixationCruciateLigaments#stryker_procinch "Stryker ProCinch"
+* FixationCruciateLigaments#stryker_procinch_adjustable "Stryker ProCinch Adjustable Loop" // Tilføjet 26.10.27
+* FixationCruciateLigaments#stryker_procinch_button "Stryker ProCinch Button" // Tilføjet 26.10.27
 * FixationCruciateLigaments#stryker_titanium "Stryker titanium skrue"
 //Other
 * FixationCruciateLigaments#bona_canal "Knoglekanal"
