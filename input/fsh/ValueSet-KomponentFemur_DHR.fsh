@@ -4,13 +4,11 @@ Description: "Komponent - femur (DHR)"
 
 * ^status = #active
 * ^publisher = "RKKP"
-* ^date = "2026-07-31T00:00:00+02:00"
+* ^date = "2026-10-30T00:00:00+01:00"
 
 * HipJointArthroplastyComponent#depuy_corail_collar "DePuy: Corail m/krave"
 * HipJointArthroplastyComponent#depuy_corail_without_collar "DePuy: Corail u/krave"
-* HipJointArthroplastyComponent#depuy_actis_collared
 * HipJointArthroplastyComponent#depuy_corail_revision_stem "DePuy: Corail Revision Stem - KAR"
-* HipJointArthroplastyComponent#depuy_corail_cemented
 * HipJointArthroplastyComponent#depuy_c_stem_amt "DePuy: C-stem AMT"
 * HipJointArthroplastyComponent#depuy_summit "DePuy: Summit"
 * HipJointArthroplastyComponent#implantcast_mutars_proximal_femoral_replacement "Implantcast: Mutars proksimal femoral replacement"
