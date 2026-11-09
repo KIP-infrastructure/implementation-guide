@@ -36,7 +36,7 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
       - name: IG transpile check
-        uses: trifork/ig-publisher/.github/actions/ig-transpile@859f719f7cb8ed09db1dc8841cd4b027d56b4250 # 3.0.1
+        uses: trifork/ig-publisher/.github/actions/ig-transpile@88c472c724b1157ca15deb09afaafff162efdc06 # 3.0.3
 
   # Warn when a changed .fsh file has not had its "* ^date = ..." updated in the
   # PR. Advisory only, this job does not block the pull request.
