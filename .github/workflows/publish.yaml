@@ -117,7 +117,7 @@ jobs:
           repositories: ${{ env.IG_REPO }},${{ env.WEB_REPO }},${{ env.REGISTRY_REPO }}
 
       - name: Publish the implementation guide
-        uses: trifork/ig-publisher/.github/actions/ig-publish@859f719f7cb8ed09db1dc8841cd4b027d56b4250 # 3.0.1
+        uses: trifork/ig-publisher/.github/actions/ig-publish@9a6932cfe4f886992b9f57e3cbca875f12bcbb24 # 3.0.5
         # uses: ../../trifork/ig-publisher/.github/actions/ig-publish # Test local action
         with:
           app-token: ${{ steps.token.outputs.token }}
