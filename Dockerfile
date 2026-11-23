@@ -1,4 +1,4 @@
-FROM ghcr.io/trifork/ig-publisher:3.0.1
+FROM ghcr.io/trifork/ig-publisher:3.0.5
 
 # anticipate source mounted to /src/..
 RUN mkdir -p /src
