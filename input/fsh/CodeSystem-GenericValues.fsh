@@ -3,6 +3,7 @@ Title: "Generic values"
 Description: "Generic values for a multitude of questions. This is meant as an extension to several codesystems, where codes from below might appear."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-06T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

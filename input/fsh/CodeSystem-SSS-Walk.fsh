@@ -3,6 +3,7 @@ Title: "Scandinavian Stroke Scale (SSS) - Walk"
 Description: "Scandinavian Stroke Scale (SSS) - Walk: Hvis patienten ikke kan gå, bedømmes om patienten kan sidde oprejst på sengekanten uden at støtte hænderne (3) eller ikke (0)."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

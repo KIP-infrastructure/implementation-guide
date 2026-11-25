@@ -3,6 +3,7 @@ Title: "Lokation for tromber, fundet vha. DSA 2026"
 Description: "Lokation for tromber, fundet vha. digital subtraktionsangiografi (DSA)."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-06-24T00:00:00+02:00"
  

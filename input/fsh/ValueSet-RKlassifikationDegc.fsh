@@ -3,6 +3,7 @@ Title: "R-klassifikation til DEGC"
 Description: "R-klassifikation (Residual tumor) til DEGC"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-21T00:00:00+02:00"
 

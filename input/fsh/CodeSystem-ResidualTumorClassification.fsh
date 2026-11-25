@@ -3,6 +3,7 @@ Title: "Residual tumor (R) classification"
 Description: "Residual tumor (R) classification. Link: https://acsjournals.onlinelibrary.wiley.com/doi/10.1002/cncr.10492"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

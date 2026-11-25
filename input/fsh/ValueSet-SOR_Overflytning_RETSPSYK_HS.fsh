@@ -3,6 +3,7 @@ Title: "SOR: Overflytning Hovedstaden (RETSPSYK)"
 Description: "SOR: Overflytning Hovedstaden (RETSPSYK)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-03-13T00:00:00+02:00"
 

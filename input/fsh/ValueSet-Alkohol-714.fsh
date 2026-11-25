@@ -3,6 +3,7 @@ Title: "Alkohol - 7/14 genstande per uge"
 Description: "Udfald for alkohol - 7/14 genstande per uge"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-08T00:00:00+02:00"
 

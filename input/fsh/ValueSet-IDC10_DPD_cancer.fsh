@@ -3,6 +3,7 @@ Title: "ICD 10 cancer koder til DPD"
 Description: "ICD 10 cancer koder til DPD"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-08-25T00:00:00+02:00"
 

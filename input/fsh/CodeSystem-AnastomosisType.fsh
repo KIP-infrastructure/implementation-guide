@@ -3,6 +3,7 @@ Title: "Anastomosis type"
 Description: "Anastomosis type"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-08-22T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

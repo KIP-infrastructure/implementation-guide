@@ -3,6 +3,7 @@ Title: "Grundlidelse (DSR)"
 Description: "Grundlidelse (DSR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-10-05T00:00:00+02:00"
 

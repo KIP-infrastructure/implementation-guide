@@ -3,6 +3,7 @@ Title: "EHS - Incisional hernia classification"
 Description: "EHS (European Hernia Society) - Incisional hernia classification; Link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2719726/"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Pivot Shift grading"
 Description: "Pivot Shift grading"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-15T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

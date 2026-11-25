@@ -3,6 +3,7 @@ Title: "Udredning (DANDEM) 2025"
 Description: "Udredning (DANDEM) - Fjernet to udfald og omformuleret no_wish_for_assessment. Erstatter et tidligere VS."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-05-09T00:00:00+02:00"
 

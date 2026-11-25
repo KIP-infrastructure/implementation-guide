@@ -3,6 +3,7 @@ Title: "Ventral hernie cicatrice type (DHDB)"
 Description: "Ventral hernie cicatrice type (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-11-05T00:00:00+01:00"
 

@@ -3,6 +3,7 @@ Title: "Begrundelse for kun endoskopisk lokalresektion"
 Description: "Begrundelse for kun endoskopisk lokalresektion"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-10-13T00:00:00+02:00"
 

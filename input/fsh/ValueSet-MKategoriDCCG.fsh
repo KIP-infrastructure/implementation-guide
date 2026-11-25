@@ -3,6 +3,7 @@ Title: "Klinisk M-kategori DCCG"
 Description: "Klinisk M-kategori DCCG"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-07T00:00:00+02:00"
 

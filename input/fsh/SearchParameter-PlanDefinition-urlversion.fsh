@@ -5,6 +5,7 @@ Usage: #definition
 * url = "http://kip.sundk.dk/fhir/SearchParameter/SP-PlanDefinition-urlversion"
 * name = "urlversion"
 * status = #active
+* version = "2.27.0"
 * description = "SearchParameter to match PlanDefinition by both url and version"
 * code = #urlversion
 * base[0] = #PlanDefinition

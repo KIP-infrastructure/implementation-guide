@@ -3,6 +3,7 @@ Title: "Mesh type - Ventralhernie (DHDB)"
 Description: "Mesh type - Ventralhernie (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-21T00:00:00+02:00"
 

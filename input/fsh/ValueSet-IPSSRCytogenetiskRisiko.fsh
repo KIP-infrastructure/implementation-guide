@@ -3,6 +3,7 @@ Title: "IPSS-R - Cytogenetisk risiko-score"
 Description: "IPSS-R - Cytogenetisk risiko-score"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-09T00:00:00+02:00"
 

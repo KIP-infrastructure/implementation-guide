@@ -3,6 +3,7 @@ Title: "EHS ventral hernie - samlet"
 Description: "EHS ventral hernie - lateral fordelt på højre/venstre og kombineret med midtlinje"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-07-06T00:00:00+02:00"
 

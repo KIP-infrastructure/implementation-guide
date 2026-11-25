@@ -3,6 +3,7 @@ Title: "ATC: Præparater for kemobehandling"
 Description: "ATC koder for præparater for kemobehandling"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-14T00:00:00+02:00"
 

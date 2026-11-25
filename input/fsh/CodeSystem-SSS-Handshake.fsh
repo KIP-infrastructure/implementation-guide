@@ -3,6 +3,7 @@ Title: "Scandinavian Stroke Scale (SSS) - Handshake"
 Description: "Scandinavian Stroke Scale (SSS) - Handshake: Vurderes på begge hænder, men der noteres kun i forhold til siden af en eventuel lammelse"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

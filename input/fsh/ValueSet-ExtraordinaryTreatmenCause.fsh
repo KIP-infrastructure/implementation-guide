@@ -5,6 +5,7 @@ Description: "Årsag for uplanlagt ekstra behandling [DAMYDA]"
 //Description_eng: "Extraordinary cause of treatment [DAMYDA]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

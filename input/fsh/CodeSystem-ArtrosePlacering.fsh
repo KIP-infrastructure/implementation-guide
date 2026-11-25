@@ -3,6 +3,7 @@ Title: "Placering af indikationsgivne artrose"
 Description: "Placering af indikationsgivne artrose"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-12-19T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

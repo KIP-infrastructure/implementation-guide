@@ -4,6 +4,7 @@ Title: "Molecular remission (MR)"
 Description: "Molecular remission (MR)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

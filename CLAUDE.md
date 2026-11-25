@@ -41,11 +41,19 @@ CodeSystems define codes inline with `#code "Display" "Description"` syntax. Val
 ```fsh
 * ^status = #active
 * ^publisher = "RKKP"
+* ^version = "X.Y.Z"
 * ^date = "YYYY-MM-DDTHH:MM:SS+02:00"
 ```
+
+Every resource pins its own `version` (new ones start at the current IG version). `Instance:` definitions
+(SearchParameter, ConceptMap) use the plain form `* version = "X.Y.Z"` instead. Edits keep it; bump
+only to publish a new, independent resource. See `docs/artifact-versioning.md`;
+`scripts/check-artifact-versions.py` enforces it in CI.
 
 ## Releasing
 
 Never bump `version` in `sushi-config.yaml` or `publication-request.json` by hand — the tag is cut
 first and CI writes the bump back, so `main` sits one commit ahead of the tag. `releaseLabel` stays
-`ci-build` on `main`. Full procedure: the `release` skill in `.claude/skills/release/`.
+`ci-build` on `main`. Per-resource versions are bumped by hand in the PR that changes the resource
+(unlike the IG version), and a release is only worth cutting once at least one resource version has been
+bumped or a new resource added. Full procedure: the `release` skill in `.claude/skills/release/`.

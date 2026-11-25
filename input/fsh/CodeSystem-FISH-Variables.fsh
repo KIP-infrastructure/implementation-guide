@@ -3,6 +3,7 @@ Title: "FISH variables; test"
 Description: "FISH variables; test"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-02-21T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

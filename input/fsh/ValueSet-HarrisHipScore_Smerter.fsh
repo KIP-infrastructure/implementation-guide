@@ -3,6 +3,7 @@ Title: "Harris Hip Score - Smerter"
 Description: "Harris Hip Score - Smerter"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-11-15T00:00:00+02:00"
 

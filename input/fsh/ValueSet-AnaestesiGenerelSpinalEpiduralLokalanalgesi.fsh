@@ -3,6 +3,7 @@ Title: "Anæstesi - Generel, lokalanalgesi og spinal/epidural anæstesi"
 Description: "Værdier for generel, lokalanalgesi og spinal/epidural anæstesi."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-01-18T00:00:00+02:00"
 

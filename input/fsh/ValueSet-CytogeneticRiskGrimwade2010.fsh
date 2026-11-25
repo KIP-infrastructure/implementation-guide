@@ -5,6 +5,7 @@ Description: "Cytogenetiske risiko vurdering i henhold til Grimwade 2010 kriteri
 //Description: "Cytogenetic risk assement relative to Grimwade 2010 criteria"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

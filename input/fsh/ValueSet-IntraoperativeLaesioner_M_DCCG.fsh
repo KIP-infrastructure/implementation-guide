@@ -3,6 +3,7 @@ Title: "Intraoperative læsioner - Mænd (DCCG)"
 Description: "Intraoperative læsioner - Mænd (DCCG)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-11-10T00:00:00+02:00"
 

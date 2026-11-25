@@ -3,6 +3,7 @@ Title: "Fixation for cruciate ligaments (femur and tibia); types of screws"
 Description: "Fixation for cruciate ligaments (femur and tibia), types of screws"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

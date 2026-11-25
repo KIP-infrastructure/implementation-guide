@@ -6,6 +6,7 @@ Description: "Plasma analyse - kræft diagnose kriterier [DAMYDA]"
 // Nyt valueset der erstatter "PlasmaDiagnose.fsh". I drift 2024 dec. 
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-11-29T00:00:00+02:00"
 
@@ -15,4 +16,4 @@ Description: "Plasma analyse - kræft diagnose kriterier [DAMYDA]"
 * DiseasesUnspecified#solitary_myelom_osseus "Solitært myelom (ossøst)"
 * DiseasesUnspecified#solitary_myelom_extra_osseus "Solitært myelom (ekstraossøst)"
 * DiseasesUnspecified#plasma_cell_leukemia "Plasmacelleleukæmi"
-* DiseasesUnspecified#ZM973A3 "POEMS"
+* SKS#ZM973A3 "POEMS"

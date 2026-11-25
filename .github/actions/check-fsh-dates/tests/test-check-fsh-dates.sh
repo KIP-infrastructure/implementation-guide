@@ -133,6 +133,29 @@ test_modified_to_deliberate_older_date() {
     "OK input/fsh/CodeSystem-A.fsh: ^date updated in this PR"
 }
 
+test_version_changed() {
+  new_repo
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE" '* ^version = "1.0.0"'
+  commit "base"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-A.fsh "$TODAY" '* ^version = "1.1.0"'
+  commit "bump version"
+  expect "changed version warns" 0 \
+    "The resource version changed"
+}
+
+test_version_unchanged() {
+  new_repo
+  fsh_file input/fsh/CodeSystem-A.fsh "$STALE" '* ^version = "1.0.0"'
+  commit "base"
+  BASE="$(git rev-parse HEAD)"
+  fsh_file input/fsh/CodeSystem-A.fsh "$TODAY" '* ^version = "1.0.0"
+* #b "B" "Second"'
+  commit "edit keeping version"
+  expect "unchanged version does not warn" 0 \
+    "OK input/fsh/CodeSystem-A.fsh: ^date updated in this PR"
+}
+
 test_added_dated_today() {
   new_repo
   fsh_file input/fsh/CodeSystem-A.fsh "$STALE"
@@ -375,6 +398,8 @@ echo
 test_modified_with_date_bump
 test_modified_without_date_bump
 test_modified_to_deliberate_older_date
+test_version_changed
+test_version_unchanged
 test_added_dated_today
 test_added_dated_stale
 test_added_dated_as_sushi_config

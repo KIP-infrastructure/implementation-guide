@@ -4,6 +4,7 @@ Title: "Sygdomslokalisation er kun nodalt (LYFO) version 2"
 Description: "Sygdomslokalisation i lymfe områder er kun nodalt (LYFO)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-09-01T00:00:00+02:00"
 

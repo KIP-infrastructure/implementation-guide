@@ -3,6 +3,7 @@ Title: "Sutur materiale, ingivinalhernie (DHDB)"
 Description: "Sutur materiale, ingivinalhernie (DHDB)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-09-09T00:00:00+02:00"
 

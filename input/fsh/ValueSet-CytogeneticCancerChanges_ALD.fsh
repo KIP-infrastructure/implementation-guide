@@ -5,6 +5,7 @@ Description: "Cytogenetiske WHO specifikke recurrente forandringer i forhold til
 //Description_eng: "WHO - specific rearcuring cancer changes [ALD]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-13T00:00:00+02:00"
 

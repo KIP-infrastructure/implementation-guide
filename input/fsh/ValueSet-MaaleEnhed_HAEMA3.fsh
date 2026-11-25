@@ -3,6 +3,7 @@ Title: "Måleenhed HÆMA-3"
 Description: "Måleenheder HÆMA - udfaldsrum med 3 enheder"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 

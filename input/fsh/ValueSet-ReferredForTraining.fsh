@@ -3,6 +3,7 @@ Title: "Uddybning af hvor patienten er henvist til fysisk træning"
 Description: "Uddybning af hvor patienten er henvist til fysisk træning"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-21T00:00:00+02:00"
 

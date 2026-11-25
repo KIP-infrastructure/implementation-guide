@@ -3,6 +3,7 @@ Title: "Visitation criteria not met; cause"
 Description: "Visitation criteria not met; cause"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-08-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

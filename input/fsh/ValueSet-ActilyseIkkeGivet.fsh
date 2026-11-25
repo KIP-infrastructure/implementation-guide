@@ -3,6 +3,7 @@ Title: "Totaldosis i.v. actilyse er ikke givet; årsag"
 Description: "Årsagen til hvorfor Totaldosis i.v. actilyse ikke er givet"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-28T00:00:00+02:00"
 

@@ -3,6 +3,7 @@ Title: "Varighed PostOP trombolyseprofylakse (DKR) VitK_anta"
 Description: "Planlagt varighed Postoperativ trombolyseprofylakse (DKR)VitK_anta"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-05-13T00:00:00+02:00"
 

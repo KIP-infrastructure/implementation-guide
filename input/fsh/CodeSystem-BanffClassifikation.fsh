@@ -3,6 +3,7 @@ Title: "Banff Classifikation"
 Description: "Banff Classifikation"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-10-01T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

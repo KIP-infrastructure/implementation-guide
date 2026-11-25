@@ -5,6 +5,7 @@ Description: "SNOMED-CT - Codes used in databases. Link: https://browser.ihtsdot
 * ^identifier[0].system = "urn:ietf:rfc:3986"
 * ^identifier[0].value = "urn:oid:2.16.840.1.113883.6.96"
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-07T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

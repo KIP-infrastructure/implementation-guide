@@ -3,6 +3,7 @@ Title: "Alkohol 0-21"
 Description: "0, 1-21 eller flere genstande per uge"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-15T00:00:00+02:00"
 

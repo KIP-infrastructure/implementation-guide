@@ -15,5 +15,10 @@ Do not bump `version` by hand before tagging; the tag is cut first and CI writes
 afterwards, so `main` sits one commit ahead of the tag. `releaseLabel` stays `ci-build` on `main`
 and is flipped to `release` only inside the release job.
 
+CI's bump touches only the IG version. Per-resource versions (`* ^version` / `* version` in
+`input/fsh`) are bumped by hand, in the PR that changes the resource; see
+`docs/artifact-versioning.md`. They are what a release publishes, so don't cut one unless at least
+one resource version has been bumped or a new resource added.
+
 The bot pushes straight to `main`, which the branch ruleset otherwise forbids: the publisher app is
 registered as a bypass actor on that ruleset.

@@ -3,6 +3,7 @@ Title: "Kontakt til patienten"
 Description: "Kontakt til patienten"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2024-02-21T00:00:00+02:00"
 

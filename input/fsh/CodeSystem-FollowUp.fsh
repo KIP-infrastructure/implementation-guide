@@ -3,6 +3,7 @@ Title: "Opfølgning - intervaller"
 Description: "Opfølgningsperiode, dage, uger, måneder, år"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2023-07-03T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

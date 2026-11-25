@@ -4,6 +4,7 @@ Title: "Grundlidelse [DHR] 2026-07"
 Description: "Grundlidelse [DHR]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2026-11-05T00:00:00+01:00"
 

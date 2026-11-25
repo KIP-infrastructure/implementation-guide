@@ -3,6 +3,7 @@ Title: "Surgical attire, during operations"
 Description: "Surgical attire, during operations"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-04T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Cancer investigation"
 Description: "Udredning for cancerpatienter for cancerpatienter."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-05-31T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

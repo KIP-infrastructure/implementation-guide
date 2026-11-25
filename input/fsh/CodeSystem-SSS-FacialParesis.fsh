@@ -3,6 +3,7 @@ Title: "Scandinavian Stroke Scale (SSS) - Facial paresis"
 Description: "Scandinavian Stroke Scale (SSS) - Facial paresis: Kun en sikker facialisparese giver 0. Hvis man er i tvivl gives 2."
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

@@ -3,6 +3,7 @@ Title: "Scandinavian Stroke Scale (SSS) - Consciousness"
 Description: "Scandinavian Stroke Scale (SSS) - Consciousness: Svækket bevidsthed kan være udtryk for komplikationer som eksempelvis blødning eller ødem"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-23T00:00:00+02:00"
 * ^contact[0].telecom[0].system = #url

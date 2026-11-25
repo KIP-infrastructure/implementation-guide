@@ -4,6 +4,7 @@ Usage: #definition
 * url = "https://kip.rkkp.dk/fhir/SearchParameter/QuestionnaireResponseResponsibleOnCarePlan"
 * name = "QuestionnaireResponseResponsibleOnCarePlan"
 * status = #active
+* version = "2.27.0"
 * description = "Search a CarePlan for responsible SOR code on a QuestionnaireResponse"
 * code = #questionnaire-response-responsible-sor
 * base = #CarePlan

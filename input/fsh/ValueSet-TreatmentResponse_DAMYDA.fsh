@@ -5,6 +5,7 @@ Description: "Hvordan reagerer patienten på behandlingen [DAMYDA]"
 //Description_eng: "The patient treatment reaction [DAMYDA]"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

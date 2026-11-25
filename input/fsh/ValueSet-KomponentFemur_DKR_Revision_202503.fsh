@@ -3,6 +3,7 @@ Title: "Komponent - femur (DKR) revision 2025"
 Description: "Komponent - femur (DKR) revision - Rettelser 2025"
 
 * ^status = #retired
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 

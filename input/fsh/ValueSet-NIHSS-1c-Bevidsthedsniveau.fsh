@@ -3,6 +3,7 @@ Title: "NIHSS - 1c. Bevidsthedsniveau: ordrer"
 Description: "The National Institute of Health Stroke Scale (NIHSS) - 1c. Bevidsthedsniveau: ordrer"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-06-24T00:00:00+02:00"
 

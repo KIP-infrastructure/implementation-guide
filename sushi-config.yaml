@@ -25,6 +25,11 @@ parameters:
 
   path-pages:
     - input/includes
+
+  # Each resource pins its own version (see docs/artifact-versioning.md); never
+  # overwrite those with the IG version.
+  apply-version: false
+  default-version: true
     
   show-inherited-invariants: false
   usage-stats-opt-out: true
@@ -35,11 +40,12 @@ parameters:
 menu:
   Home: index.html
   Table of Contents: toc.html
-  Artifacts: 
+  Artifacts:
     Search Parameters: artifacts.html#1
     Extension Definitions: artifacts.html#2
     Value Sets: artifacts.html#3
     Code Systems: artifacts.html#4
+    Retired Artifacts: retired.html
   Support:
     FHIR Spec: http://hl7.org/fhir/R4/index.html
     Downloads: downloads.html

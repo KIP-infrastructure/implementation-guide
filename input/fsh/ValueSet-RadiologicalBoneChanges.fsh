@@ -5,6 +5,7 @@ Description: "Radiologiske knogleforandringer"
 //Description_eng: "Radiological bone changes - Indication of changes in bones"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-07-14T00:00:00+02:00"
 

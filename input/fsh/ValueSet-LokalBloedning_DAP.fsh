@@ -3,6 +3,7 @@ Title: "Lokal blødning (DAP)"
 Description: "Lokal blødning fundet i forbindelse med billeddiagnostisk undersøgelse (DAP)"
 
 * ^status = #active
+* ^version = "2.27.0"
 * ^publisher = "RKKP"
 * ^date = "2022-09-02T00:00:00+02:00"
 
