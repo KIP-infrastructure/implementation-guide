@@ -6,6 +6,9 @@ Description: "Komponent - tibia (DKR) revision"
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 
+// Envios
+* KneeJointArthroplastyComponent#envios_physica_zuk "Envios: Physica ZUK"
+
 // Johnson & Johnson
 * KneeJointArthroplastyComponent#johnson&johnson_attune_fb "Johnson & Johnson: Attune FB"
 * KneeJointArthroplastyComponent#johnson&johnson_attune_fixed_crs "Johnson & Johnson: Attune Fixed CRS (Constrained Revision System)"
@@ -53,6 +56,7 @@ Description: "Komponent - tibia (DKR) revision"
 * KneeJointArthroplastyComponent#stryker_triathlon_universal "Stryker: Triathlon Universal"
 
 // Zimmer Biomet
+* KneeJointArthroplastyComponent#zimmer_biomet_oxford_anatomic "Zimmer Biomet: Oxford Anatomic"
 * KneeJointArthroplastyComponent#biomet_agc_v2 "Zimmer Biomet: AGC V2"
 * KneeJointArthroplastyComponent#biomet_tibia_offset_tray "Zimmer Biomet: Tibia Offset Tray"
 * KneeJointArthroplastyComponent#zimmer_nexgen_cr "Zimmer Biomet: NexGen CR"

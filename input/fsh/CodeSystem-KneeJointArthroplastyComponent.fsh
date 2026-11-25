@@ -71,6 +71,9 @@ Description: "Knee joint arthroplasty - components"
 // Episealer
 * #episealer_condyle_solo "Episurf Medical: Episealer Condyle Solo" "Episurf Medical: Episealer Condyle Solo (Femur)"
 
+// Envios
+* #envios_physica_zuk "Envios: Physica ZUK" "Envios: Physica ZUK (Femur)"
+
 // Howmedica
 * #howmedica_duracon_all_plastic "Howmedica: Duracon All-Plastic" "Howmedica: Duracon All-Plastic (Tibia)"
 * #howmedica_duracon_cruciform "Howmedica: Duracon Cruciform" "Howmedica: Duracon Cruciform (Tibia)"
@@ -256,6 +259,7 @@ Description: "Knee joint arthroplasty - components"
 * #wright_advance_stemmet "Wright: Advance Stemmet" "Wright: Advance Stemmet (Femur)"
 
 // Zimmer
+* #zimmer_biomet_oxford_anatomic "Zimmer Biomet: Oxford Anatomic" "Zimmer Biomet: Oxford Anatomic (Tibia)"
 * #zimmer_biomet_oxford_lateral_fixed_bearing "Zimmer-Biomet: Oxford Lateral Fixed Bearing" "Zimmer-Biomet: Oxford Lateral Fixed Bearing (Tibia)"
 * #zimmer_insall_burstein "Zimmer: Insall-Burstein" "Zimmer: Insall-Burstein (Femur)"
 * #zimmer_miller_galante "Zimmer: Miller Galante" "Zimmer: Miller Galante (Femur + Tibia)"
