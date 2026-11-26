@@ -11,6 +11,9 @@ Description: "Komponent - femur (DKR)"
 * KneeJointArthroplastyComponent#arthrosurface_hemicap_pf "Arthrosurface: Hemicap PF"
 * KneeJointArthroplastyComponent#arthrosurface_unicap "Arthrosurface: Unicap"
 
+// Envios
+* KneeJointArthroplastyComponent#envios_physica_zuk "Envios: Physica ZUK"
+
 // Episurf Medical
 * KneeJointArthroplastyComponent#episealer_condyle_solo "Episurf Medical: Episealer Condyle Solo"
 

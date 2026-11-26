@@ -6,6 +6,9 @@ Description: "Komponent - tibia (DKR)"
 * ^publisher = "RKKP"
 * ^date = "2025-03-04T00:00:00+02:00"
 
+// Envios
+* KneeJointArthroplastyComponent#envios_physica_zuk "Envios: Physica ZUK"
+
 // Johnson & Johnson
 * KneeJointArthroplastyComponent#johnson&johnson_attune_fb "Johnson & Johnson: Attune FB"
 * KneeJointArthroplastyComponent#johnson&johnson_attune_fixed_crs "Johnson & Johnson: Attune Fixed CRS (Constrained Revision System)"
@@ -66,6 +69,7 @@ Description: "Komponent - tibia (DKR)"
 * KneeJointArthroplastyComponent#zimmer_nexgen_lps_monoblock_tmt "Zimmer Biomet: NexGen LPS Monoblok TMT"
 * KneeJointArthroplastyComponent#zimmer_nexgen_rhk "Zimmer Biomet: NexGen RHK"
 * KneeJointArthroplastyComponent#nexgen_zuk "Zimmer Biomet: NexGen Zuk"
+* KneeJointArthroplastyComponent#zimmer_biomet_oxford_anatomic "Zimmer Biomet: Oxford Anatomic"
 * KneeJointArthroplastyComponent#biomet_oxford_domed_lateral_pkr "Zimmer Biomet: Oxford domed lateral PKR"
 * KneeJointArthroplastyComponent#zimmer_biomet_oxford_lateral_fixed_bearing "Zimmer Biomet: Oxford Lateral Fixed Bearing"
 * KneeJointArthroplastyComponent#oxford_phase_iii_alpha "Zimmer Biomet: Oxford Phase III alpha"
